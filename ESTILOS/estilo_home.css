@@ -1,0 +1,268 @@
+/* TYPEKIT_KIT_ID: lxq7gid */
+
+
+/*
+================================================
+CSS theme for inicio_biblio 01
+================================================
+Handcrafted by Mario Guzman
+http://www.mario-guzman.com/
+Last updated on 15.08.2017
+================================================
+01	Sensible Defaults
+02	Typography
+03	Layout
+04	Media Queries
+================================================
+*/
+
+
+/* ----------------------------------------------------------------------------------------------------------
+ANTERIOR-----------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------- *
+/*
+
+* {
+  box-sizing: border-box;
+}
+
+.navigation {}
+
+  main {
+  }
+
+mark {
+  background-color: #0e82e8;
+  color: white;
+}
+
+article {
+  margin: 100px;
+}
+.titulo_principal {
+  margin: 0 auto;
+
+  background-color: #02f9e2;
+  height: 313px;
+  width: 713px;
+}
+
+h1 {
+  margin: 0 auto;
+
+  padding: 90px;
+  color: rgb(228, 124, 228);
+  font-size: 50px;
+}
+
+.titulo_principal:hover {
+  margin: 0 auto;
+  background-image: url("../IMAGENES/intro.jpg");
+}
+
+@import "compass/css3";
+body {
+  background-color: #02f9e2;
+  text-align: center;
+  font-family: 'Arial';
+  font-size: 20px;
+  text-align: center;
+}
+
+ul {
+  text-align: justify;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  color: #0e82e8;
+}
+
+p {
+  text-align: justify;
+  font-style: normal;
+  font-family: sans-serif;
+  font-size: 20px;
+  color: #0e82e8;
+  line-height: 31px;
+
+}
+
+.navigation {
+  list-style: none;
+  margin: 0;
+  background: #0e82e8;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-flow: row wrap;
+  justify-content: flex-end;
+}
+
+.navigation a {
+  text-decoration: none;
+  display: block;
+  padding: 1em;
+  color: white;
+}
+
+a:hover {
+  color: rgb(26, 58, 198);
+}
+
+@media all and (max-width: 800px) {
+  .navigation {
+    justify-content: space-around;
+  }
+}
+
+@media all and (max-width: 600px) {
+  .navigation {
+    -webkit-flex-flow: column wrap;
+    flex-flow: column wrap;
+    padding: 0;
+  }
+
+/* -----------------------------------
+NUEVO CSS
+-------------------------------- *
+*/
+
+
+/* -----------------------------------
+
+GENERALES
+--------------------------------------- *
+*/
+
+* {
+  box-sizing: border-box;
+}
+
+ul {
+  padding: 0;
+}
+
+li {
+  list-style: none;
+  width: 100%;
+}
+
+body {
+  font-family: 'Arial';
+  font-size: 17px;
+  margin: 0;
+  background-color: rgb(159, 231, 68);
+}
+
+.page-wrapper {
+  width: 80%;
+  margin: 0 auto;
+  background-color: rgba(30, 152, 126, .7);
+  overflow: hidden;
+}
+
+
+/* -----------------------------------
+NAVEGACION
+---------------------------------------
+*/
+
+.navigation {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  background-color: rgb(234, 242, 6);
+  height: auto;
+  padding: 6px;
+  margin-left: auto;
+  text-align: right;
+}
+
+.navigation a {
+  background-color: rgb(69,154,56);
+  text-align: right;
+  text-decoration: none;
+  padding: 5px;
+  color: white;
+}
+
+a:hover {
+  color: rgb(26, 58, 198);
+}
+
+.navigation li {
+  list-style: none;
+  background: rgb(196, 255, 29);
+  display: inline;
+  /*para ponerlos en linea*/
+}
+
+.navigation ul {}
+
+
+/* -----------------------------------
+IMAGEN PORTADA
+---------------------------------------
+*/
+
+.imagen-portada img {
+  width: 70%;
+  border-radius: 25px;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 30px;
+}
+
+
+/* -----------------------------------
+CABECERA
+---------------------------------------
+*/
+
+.header {
+  color: rgb(196, 255, 29);
+  font-size: 25px;
+  padding: 5px;
+  text-align: center;
+  margin: 30px;
+}
+
+
+/* -----------------------------------
+CONTENIDO
+-----------------------------------
+*/
+
+article {
+  margin: 0 auto;
+  width: 70%;
+  margin-bottom: 40px;
+}
+
+p {
+  text-align: justify;
+  line-height: 32px;
+  font-size: 18px;
+  color: white;
+}
+
+mark {
+background-color: rgb(54,226,27);
+  padding: 3px;
+  color: white;
+}
+
+
+/* -----------------------------------
+FOOTER
+---------------------------------------
+*/
+
+.footer {
+  color: rgb(26, 58, 198);
+  font-size: 15px;
+  font-style: italic;
+  margin: 30px;
+  text-align: center;
+}

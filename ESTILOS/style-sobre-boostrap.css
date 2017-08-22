@@ -1,0 +1,177 @@
+* {
+  box-sizing: border-box;
+}
+
+.navbar-header {
+  height: 80px;
+}
+
+.navbar-header img {
+  width: 50px;
+}
+
+.navbar-custom {
+    background-color:#229922;
+    color:#ffffff;
+    border-radius:0;
+}
+
+.navbar-custom .navbar-nav > li > a {
+    color:#fff;
+}
+
+.navbar-custom .navbar-nav > .active > a {
+    color: #ffffff;
+    background-color:transparent;
+}
+
+.navbar-custom .navbar-nav > li > a:hover,
+.navbar-custom .navbar-nav > li > a:focus,
+.navbar-custom .navbar-nav > .active > a:hover,
+.navbar-custom .navbar-nav > .active > a:focus,
+.navbar-custom .navbar-nav > .open >a {
+    text-decoration: none;
+    background-color: #33aa33;
+}
+
+.navbar-custom .navbar-brand {
+    color:#eeeeee;
+}
+.navbar-custom .navbar-toggle {
+    background-color:#eeeeee;
+}
+.navbar-custom .icon-bar {
+    background-color:#33aa33;
+}
+
+
+/* for dropdowns only */
+.navbar-custom .navbar-nav .dropdown-menu  {
+  background-color: #33aa33;
+}
+.navbar-custom .navbar-nav .dropdown-menu>li>a  {
+  color: #fff;
+}
+.navbar-custom .navbar-nav .dropdown-menu>li>a:hover,.navbar-custom .navbar-nav .dropdown-menu>li>a:focus  {
+  color: #33aa33;
+}
+
+.uno {
+  background-color: rgb(252, 132, 45);
+  height: 300px;
+}
+
+.dos aside {
+  background-color: rgb(93, 73, 249);
+  color: white;
+  padding: 30px;
+}
+
+.tres {
+  background-color: rgb(10, 147, 114);
+  color: white;
+  height: 300px;
+}
+/*BARRA-------------------------------
+*/
+
+
+/*MBIBLIO MOVIMIENTO--------------------
+*/
+*
+@import url(https://fonts.googleapis.com/css?family=Montserrat);
+
+html, body{
+  height: 100%;
+  font-weight: 800;
+}
+
+
+svg {
+    display: block;
+    font: 10.5em 'Montserrat';
+    width: 100%;
+    height: 500px;
+    margin: 0 auto;
+}
+
+.text-copy {
+    fill: none;
+    stroke: white;
+    stroke-dasharray: 6% 29%;
+    stroke-width: 5px;
+    stroke-dashoffset: 0%;
+    animation: stroke-offset 5.5s infinite linear;
+}
+
+.text-copy:nth-child(1){
+    stroke: #4D163D;
+	animation-delay: -1;
+}
+
+.text-copy:nth-child(2){
+	stroke: #840037;
+	animation-delay: -2s;
+}
+
+.text-copy:nth-child(3){
+	stroke: #BD0034;
+	animation-delay: -3s;
+}
+
+.text-copy:nth-child(4){
+	stroke: #BD0034;
+	animation-delay: -4s;
+}
+
+.text-copy:nth-child(5){
+	stroke: #FDB731;
+	animation-delay: -5s;
+}
+
+@keyframes stroke-offset{
+	100% {stroke-dashoffset: -35%;}
+}
+
+/* BIBLIOMOVIL CON MOVIMIENTO */
+
+.navbar {
+	margin-bottom: 0;
+  background-color: rgb(15,82,152);
+}
+
+.navbar:hover li {
+background-color: rgb(126,153,223);
+}
+
+
+h1,
+h2 {
+	font-weight: bold;
+}
+p {
+	font-size: 16px;
+	color: #cdcdcd;
+}
+
+.jumbotron {
+	background-color: #27A967;
+	color: white;
+	text-align: center;
+}
+.jumbotron p {
+	color: white;
+	font-size: 26px;
+}
+
+.container {
+  width: 100%;
+
+}
+
+body {
+	background-color: #d20d0d;
+
+	color: #f7f7f7;
+	font-family: 'Montserrat', sans-serif;
+}
