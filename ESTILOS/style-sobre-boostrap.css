@@ -11,7 +11,7 @@
 }
 
 .navbar-custom {
-    background-color:#229922;
+    background-color:rgb(15, 82, 152);
     color:#ffffff;
     border-radius:0;
 }
@@ -22,7 +22,7 @@
 
 .navbar-custom .navbar-nav > .active > a {
     color: #ffffff;
-    background-color:transparent;
+    background-color:rgb(15, 82, 152);
 }
 
 .navbar-custom .navbar-nav > li > a:hover,
@@ -31,7 +31,7 @@
 .navbar-custom .navbar-nav > .active > a:focus,
 .navbar-custom .navbar-nav > .open >a {
     text-decoration: none;
-    background-color: #33aa33;
+    background-color: rgb(15, 82, 152);
 }
 
 .navbar-custom .navbar-brand {
@@ -41,24 +41,35 @@
     background-color:#eeeeee;
 }
 .navbar-custom .icon-bar {
-    background-color:#33aa33;
+    background-color:rgb(15, 82, 152);
 }
 
 
 /* for dropdowns only */
 .navbar-custom .navbar-nav .dropdown-menu  {
-  background-color: #33aa33;
+  background-color: rgb(15, 82, 152);
 }
 .navbar-custom .navbar-nav .dropdown-menu>li>a  {
   color: #fff;
 }
 .navbar-custom .navbar-nav .dropdown-menu>li>a:hover,.navbar-custom .navbar-nav .dropdown-menu>li>a:focus  {
-  color: #33aa33;
+  background-color: rgb(15, 82, 152);
 }
+
+.navbar {
+	margin-bottom: 0;
+  background-color: rgb(15,82,152);
+}
+
+.navbar:hover li {
+  background-color: rgb(9, 94, 184);
+}
+
+
 
 .uno {
   background-color: rgb(252, 132, 45);
-  height: 300px;
+  height: 800px;
 }
 
 .dos aside {
@@ -72,8 +83,7 @@
   color: white;
   height: 300px;
 }
-/*BARRA-------------------------------
-*/
+
 
 
 /*MBIBLIO MOVIMIENTO--------------------
@@ -91,7 +101,7 @@ svg {
     display: block;
     font: 10.5em 'Montserrat';
     width: 100%;
-    height: 500px;
+    height: 600px; /*tamaño del texto en movimiento*/
     margin: 0 auto;
 }
 
@@ -135,14 +145,6 @@ svg {
 
 /* BIBLIOMOVIL CON MOVIMIENTO */
 
-.navbar {
-	margin-bottom: 0;
-  background-color: rgb(15,82,152);
-}
-
-.navbar:hover li {
-background-color: rgb(126,153,223);
-}
 
 
 h1,
@@ -164,14 +166,14 @@ p {
 	font-size: 26px;
 }
 
-.container {
-  width: 100%;
-
+.container { /*contanedor de bibliomovil*/
+height: 500px;
+width: 100%;
+background-color: rgb(53, 213, 74);
 }
 
 body {
-	background-color: #d20d0d;
-
 	color: #f7f7f7;
 	font-family: 'Montserrat', sans-serif;
+  background-color: rgb(53, 213, 74);
 }
