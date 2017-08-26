@@ -1,6 +1,21 @@
+/*GENERALES-------------------
+*/
+
+
 * {
   box-sizing: border-box;
 }
+
+*/
+body {
+	color: #f7f7f7;
+	font-family: 'Montserrat', sans-serif;
+  /*background-color: rgb(167, 249, 15);*/
+}
+
+
+/*GENERALES-------------------
+*/
 
 .navbar-header {
   height: 80px;
@@ -65,27 +80,6 @@
   background-color: rgb(9, 94, 184);
 }
 
-
-
-.uno {
-  background-color: rgb(252, 132, 45);
-  height: 800px;
-}
-
-.dos aside {
-  background-color: rgb(93, 73, 249);
-  color: white;
-  padding: 30px;
-}
-
-.tres {
-  background-color: rgb(10, 147, 114);
-  color: white;
-  height: 300px;
-}
-
-
-
 /*MBIBLIO MOVIMIENTO--------------------
 */
 *
@@ -143,18 +137,106 @@ svg {
 	100% {stroke-dashoffset: -35%;}
 }
 
+.container { /*contanedor de bibliomovil*/
+height: 500px;
+width: 100%;
+background-color: rgb(53, 213, 74);
+}
+
 /* BIBLIOMOVIL CON MOVIMIENTO */
 
+/*CONTENEDORES--------------------
+*/
 
-
-h1,
-h2 {
-	font-weight: bold;
+/*¿Que es el Bibliomovil--------------------
+*/
+.uno {
+  background-color: rgb(97, 198, 43);
+  height: 800px;
+  padding: 30px;
 }
+
+.uno img {
+  width: 100%;
+  margin-top: 20px;
+}
+
+h1 {
+background-color: rgb(250, 250, 250);
+text-align: center;
+padding: 20px;
+color: white;
+}
+
 p {
 	font-size: 16px;
-	color: #cdcdcd;
+	color: #fffafa;
+  line-height: 30px;
+  width: 700px;
+  text-align: justify;
+
 }
+
+/*¿Que es el Bibliomovil--------------------
+*/
+
+/*SERVICIOS--------------------
+*/
+
+.dos  {
+  background-color: rgb(93, 73, 249);
+  padding: 30px;
+  color: blue;
+  text-align: justify;
+}
+
+h2 {
+text-align: center;
+padding: 20px;
+color: white;
+}
+
+.dos img {
+  border-radius: 50%;
+  width: 100px;
+  float: left;
+}
+
+.circulos {
+height: 150PX;
+  background-color: rgb(206, 235, 29);
+}
+
+
+.parlamentario {
+  background-color: rgb(40, 16, 231);
+  height: 350px;
+  padding: 30px;
+  margin-top: 25px;
+  overflow:hidden;
+}
+
+p {
+	font-size: 16px;
+	color: #fffafa;
+  line-height: 30px;
+  width: 700px;
+  text-align: justify;
+
+}
+
+/*SERVICIOS--------------------
+*/
+
+
+.tres {
+  background-color: rgb(10, 147, 114);
+  color: white;
+  height: 1000px;
+}
+/*CONTENEDORES--------------------
+*/
+
 
 .jumbotron {
 	background-color: #27A967;
@@ -164,16 +246,4 @@ p {
 .jumbotron p {
 	color: white;
 	font-size: 26px;
-}
-
-.container { /*contanedor de bibliomovil*/
-height: 500px;
-width: 100%;
-background-color: rgb(53, 213, 74);
-}
-
-body {
-	color: #f7f7f7;
-	font-family: 'Montserrat', sans-serif;
-  background-color: rgb(53, 213, 74);
 }
