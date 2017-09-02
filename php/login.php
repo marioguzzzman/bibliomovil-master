@@ -7,7 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="../css/css-registro.css">
 
-  <title>Registro</title>
+  <title>Login</title>
 
   <!-- Bootstrap -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
@@ -25,34 +25,25 @@
 
   <div class="container-fluid">
 
-    <div class="row">
-      <div class="col-xs-6 col-xs-offset-3">
-        <!--<h1>ARTE PACE</h1> /!-->
-        <img class="imagen-header" src="../img/barra.png" alt="Arte Pace">
-      </div>
+    <?php include 'navbar.php'; ?>
+
+
+<div class="container">
+
+
+<!-- La cabecera no hace lo que deberia -->
+  <div class="row">
+    <div class="col-xs-6 col-xs-offset-3">
+      <header>
+      <img class="img-thumbnail" src="../img/logobcnmobile.png" alt="Biblioteca del Congreso">
+      </header>
     </div>
+  </div>
 
     <form action="" method="" class="register-form">
-      <div class="row">
-        <div class="col-xs-8 col-xs-offset-2 col-md-4 col-md-offset-4">
-          <label class="sr-only control-label" for="primer-nombre">Nombre</label>
-          <input name="primer-nombre" class="form-control" type="text" placeholder="Nombre">
-        </div>
-      </div>
 
       <div class="row">
         <div class="col-xs-4 col-xs-offset-4 form-group">
-          <!--form group Para separarlo un poco/!-->
-          <label class="sr-only control-label" for="apellido">Apellido</label>
-          <!--sr-reader para que solo aparezca en algunos dispositivos/!-->
-          <!--poner control-label nos deja aplicar columnas/!-->
-
-          <input name="apellido" class="form-control" type="text" placeholder="Apellido">
-        </div>
-      </div>
-
-      <div class="row">
-        <div class="col-xs-4 col-xs-offset-4">
           <label class="sr-only" for="email">E-mail</label>
           <input name="email" class="form-control" type="email" placeholder="E-mail">
         </div>
@@ -67,17 +58,14 @@
 
       <form class="form-inline" action="" method="post">
         <div class="row form-group">
-          <div class="col-xs-2 col-md-2 col-xs-offset-4">
-            <button class="btn btn-mg btn-block regbutton">Registrate</button>
-          </div>
-
-            <div class="col-xs-2 col-md-2">
+                    <div class="col-xs-4 col-md-4 col-xs-offset-4">
               <button class="btn btn-block btn-mg logbutton">Entrar</button>
             </div>
         </div>
       </form>
     </form>
 
+    </div>
 
     </div>
   <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->

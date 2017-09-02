@@ -14,7 +14,7 @@
   <div class="collapse navbar-collapse" id="navbar-1">
     <ul class="nav navbar-nav navbar-right">
 
-      <li><a href="#">Inicio</a></li>
+      <li><a href="../index.php">Inicio</a></li>
 
       <li><a href="html/preguntas_index.html">Trivias</a></li>
 
@@ -54,7 +54,8 @@
         </ul>
       </li>
 
-      <li><a href="#contacto">Contacto</a></li>
+      <li><a href="php/registro.php">Registro</a></li>
+      <li><a href="php/login.php">Login</a></li>
       </li>
     </ul>
   </div>
