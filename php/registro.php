@@ -28,7 +28,7 @@
   <div class="container">
 
     <div class="row">
-      <div class="col-xs-6 col-xs-offset-4">
+      <div class="col-xs-10 col-xs-offset-1 col-sm-6 col-sm-offset-3 col-lg-4 col-lg-offset-4">
         <header>
           <h1>Registro</h1>
         </header>
@@ -38,28 +38,28 @@
     <form action="login.controller.php" method="POST" class="register-form">
 
       <div class="row">
-        <div class="col-xs-8 col-xs-offset-2 col-md-4 col-md-offset-4 form-group">
+        <div class="col-xs-10 col-xs-offset-1 col-sm-6 col-sm-offset-3 col-lg-4 col-lg-offset-4 form-group">
           <label class="sr-only control-label" for="primer-nombre">Nombre</label>
           <input name="nombre" value="" class="form-control" type="text" placeholder="Nombre">
         </div>
       </div>
 
     <div class="row">
-      <div class="col-xs-4 col-xs-offset-4 form-group">
+      <div class="col-xs-10 col-xs-offset-1 col-sm-6 col-sm-offset-3 col-lg-4 col-lg-offset-4 form-group">
         <label class="sr-only" for="email">E-mail</label>
         <input name="email" value="" class="form-control" type="email" placeholder="E-mail">
       </div>
     </div>
 
     <div class="row">
-      <div class="col-xs-4 col-xs-offset-4 form-group">
+      <div class="col-xs-10 col-xs-offset-1 col-sm-6 col-sm-offset-3 col-lg-4 col-lg-offset-4 form-group">
         <label class="sr-only" for="password">Password</label>
         <input name="password" value="" class="form-control" type="password" placeholder="Password">
       </div>
     </div>
 
       <div class="row">
-        <div class="form-check col-xs-offset-4 form-group">
+        <div class="form-check col-xs-10 col-xs-offset-1 col-sm-6 col-sm-offset-3 col-lg-4 col-lg-offset-4 form-group">
           <label class="form-check-label">
           ¿Qué tipo de actividades te interesan más? <br/>
           <br/>
@@ -75,7 +75,7 @@
         </div>
 
         <div class="row">
-          <div class="form-check form-check-inline col-xs-offset-4 form-group">
+          <div class="form-check form-check-inline col-xs-10 col-xs-offset-1 col-sm-6 col-sm-offset-3 col-lg-4 col-lg-offset-4 form-group">
             <label class="form-check-label"> Sexo
               <br>
               <input class="form-check-input" type="radio" id="inlineCheckbox1" value="option1">
@@ -89,7 +89,7 @@
         </div>
       </div>
 
-      <div class="row col-xs-offset-4 form-group">
+      <div class="row ccol-xs-10 col-xs-offset-1 col-sm-6 col-sm-offset-3 col-lg-4 col-lg-offset-4 form-group">
         <select class="custom-select">
             <option selected>¿Cuántos libros lees por año?</option>
             <option value="1">Uno a cinco</option>
@@ -102,7 +102,7 @@
 
       <form class="form-inline" action="" method="post">
         <div class="row form-group">
-          <div class="col-xs-2 col-md-2 col-xs-offset-4">
+          <div class="col-xs-10 col-xs-offset-1 col-sm-6 col-sm-offset-3 col-lg-4 col-lg-offset-4 form-group">
             <button class="btn btn-mg btn-block regbutton">Registrate</button>
           </div>
         </div>

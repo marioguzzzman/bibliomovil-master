@@ -28,23 +28,23 @@
 
       <?php include 'navbar.php'; ?>
 
-    <!-- La cabecera no hace lo que deberia, le faltan el colore de fondo -->
+    <!-- La cabecera no hace lo que deberia -->
 
 
-<div class="container login-box">
+<div class="login-box col-xs-10 col-xs-offset-4 col-sm-6 col-sm-offset-5 col-lg-4 col-lg-offset-4">
   <!-- LOGIN BOX -->
 
   <div class="login-logo">
     <!-- LOGIN HEADER -->
   <div class="row">
-    <div class="col-xs-10 col-xs-offset-1 col-sm-6 col-sm-offset-3 col-lg-4 col-lg-offset-4">
-      <img class="" src="../img/logobcnmobile.png" alt="Biblioteca del Congreso">
+    <div class="col-xs-10 col-xs-offset-4 col-sm-6 col-sm-offset-5 col-lg-4 col-lg-offset-4">
+      <img class="img-fluid" src="../img/logobcnmobile.png" alt="Biblioteca del Congreso">
     </div>
   </div>
   <!-- LOGIN HEADER -->
 </div>
 
-  <div class="container">
+  <div class="login-box body">
     <!-- LOGIN BODY -->
 
     <form action="login.controller.php" method="POST" class="register-form">

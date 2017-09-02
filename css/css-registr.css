@@ -1,12 +1,37 @@
+/*-------------------------------
+GENERAL
+--------------------------------*/
+
+* {
+  box-sizing: border-box;
+}
+
 body, html {
-  /*background-color: #34515E;*/
+  /*background-color: #34515E;
   background-color: rgb(1, 45, 65);
-  font-family: 'Open Sans Condensed', sans-serif;
+  font-family: 'Open Sans Condensed', sans-serif;*/
+  background-color: rgb(164, 164, 164);
+  background-color: rgb(1, 45, 65);
   font-size: 16px;
 }
 
 .container-fluid {
+  /*background-color: rgb(164, 164, 164);*/
+  background-color: rgb(164, 164, 164);
+  /*padding-top: 75px;*/
   background-color: rgb(1, 45, 65);
+}
+
+/*-------------------------------
+login-box
+--------------------------------*/
+
+.login-box {
+  /*background-color: rgb(1, 45, 65);*/
+  background-color: rgb(1, 45, 65);
+  padding-top: 20px;
+  padding-bottom: 5px;
+  padding: 70px;
 }
 
 header {
@@ -17,19 +42,25 @@ header {
   padding: 0;
 }
 
-.img-thumbnail {
-  margin-bottom: 100px;
+.login-logo {
+  padding: 30px;
+
 }
+
+.login-logo img {
+  /*background-color: white;*/
+  display: block;
+  margin: 0 auto;
+  filter: invert(100%);
+}
+
+
+/*-------------------------------
+FORM
+--------------------------------*/
 
 .register-form {
   font-size: 16px;
-  /*left: 50%;
-  top: 50%;
-  position: absolute;
-  -webkit-transform: translate3d(-50%, -30%, 0);
-  -moz-transform: translate3d(-50%, -30%, 0);
-  transform: translate3d(-50%, -30%, 0);
-*/
 }
 
 .btn-default {
@@ -46,7 +77,6 @@ header {
   border: none !important;
   margin-bottom: 5px;
 }
-
 
 .regbutton:hover {
   color: white;
