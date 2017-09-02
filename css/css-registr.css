@@ -1,0 +1,151 @@
+/*-------------------------------
+GENERAL
+--------------------------------*/
+
+* {
+  box-sizing: border-box;
+}
+
+body, html {
+  /*background-color: #34515E;
+  background-color: rgb(1, 45, 65);
+  font-family: 'Open Sans Condensed', sans-serif;*/
+  background-color: rgb(164, 164, 164);
+  background-color: rgb(1, 45, 65);
+  font-size: 14px;
+}
+
+.container-fluid {
+  /*background-color: rgb(164, 164, 164);*/
+  background-color: rgb(164, 164, 164);
+  /*padding-top: 75px;*/
+  background-color: rgb(1, 45, 65);
+}
+
+
+/*-------------------------------
+LOGIN
+--------------------------------*/
+
+.login-box {
+  /*background-color: rgb(1, 45, 65);*/
+  background-color: rgb(1, 45, 65);
+  padding-top: 20px;
+  padding-bottom: 5px;
+  padding: 70px;
+}
+
+.login-logo {
+  padding: 30px;
+}
+
+.login-logo img {
+  /*background-color: white;*/
+  display: block;
+  margin: 0 auto;
+  filter: invert(100%);
+}
+
+
+/*-------------------------------
+REGISTRO
+--------------------------------*/
+
+header {
+  color: white;
+  margin-bottom: 20px;
+}
+
+h2 {
+  text-align: center;
+  color: white;
+  /*  background-color: rgb(249, 93, 26);*/
+  border-radius: 3px;
+  padding: 5px;
+}
+
+hr { /*no funca el color*/
+  border-color: rgb(249, 93, 26);
+  color: rgb(249, 93, 26);
+  background-color: rgb(249, 93, 26);
+}
+
+
+/*-------------------------------
+FORM OTHER ELEMENTS
+--------------------------------*/
+
+.custom-selec {
+  background-color: rgb(249, 93, 26);
+
+}
+
+.form-check-input {
+
+}
+
+.register-form label {
+  color: aliceblue;
+  font-weight: normal;
+}
+
+.register-form input {
+  margin-bottom: 7px;
+  height: 35px;
+  border-radius: 0px;
+}
+
+
+/*-------------------------------
+FORM BUTTONS
+--------------------------------*/
+
+.register-form {
+  font-size: 14px;
+}
+
+.btn-default {
+  color: #333;
+  border-color: #ccc;
+}
+
+.regbutton {
+  height: 50px;
+  background-color: rgb(249, 93, 26);
+  /*width: 200px;*/
+  border-radius: 0px;
+  color: white;
+  border: none !important;
+  margin-bottom: 5px;
+  margin-top: 10px;
+}
+
+.regbutton:hover {
+  color: white;
+  background-color: #aa422f;
+}
+
+.regbutton:active {
+  color: white;
+  background-color: #aa422f;
+}
+
+.logbutton {
+  height: 50px;
+  /*width: 200px;*/
+  background-color: yellowgreen;
+  border-radius: 0px;
+  color: white;
+  border: none !important;
+  margin-bottom: 5px;
+}
+
+.logbutton:hover {
+  color: white;
+  background-color: darkolivegreen;
+}
+
+.logbutton:active {
+  color: white;
+  background-color: darkolivegreen;
+}

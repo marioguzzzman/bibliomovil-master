@@ -5,8 +5,7 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="../css/css-registro.css
-">
+  <link rel="stylesheet" href="../css/css-registr.css">
 
   <title>Registro</title>
 
@@ -23,94 +22,127 @@
 </head>
 
 <body>
-  <?php include 'navbar.php'; ?>
+  <div class="container-fluid">
 
-  <div class="container">
+    <?php include 'navbar.php'; ?>
+<!-- La cabecera no hace lo que deberia, le faltan el colore de fondo -->
 
-    <div class="row">
-      <div class="col-xs-6 col-xs-offset-4">
-        <header>
-          <h1>Registro</h1>
-        </header>
-      </div>
-    </div>
+    <div class="container register-box">
+    <!-- LOGIN BOX -->
 
-    <form action="login.controller.php" method="POST" class="register-form">
-
-      <div class="row">
-        <div class="col-xs-8 col-xs-offset-2 col-md-4 col-md-offset-4 form-group">
-          <label class="sr-only control-label" for="primer-nombre">Nombre</label>
-          <input name="nombre" value="" class="form-control" type="text" placeholder="Nombre">
+      <div class="register-logo">
+        <!-- LOGIN LOGO -->
+        <div class="container">
+          <div class="row">
+            <div class="col-xs-10 col-xs-offset-1 col-sm-6 col-sm-offset-3 col-lg-4 col-lg-offset-4">
+                <header>
+                  <h2>Registro</h2>
+                </header>
+              </div>
+          </div>
         </div>
+          <!-- /LOGIN LOGO -->
       </div>
 
-    <div class="row">
-      <div class="col-xs-4 col-xs-offset-4 form-group">
-        <label class="sr-only" for="email">E-mail</label>
-        <input name="email" value="" class="form-control" type="email" placeholder="E-mail">
-      </div>
-    </div>
 
-    <div class="row">
-      <div class="col-xs-4 col-xs-offset-4 form-group">
-        <label class="sr-only" for="password">Password</label>
-        <input name="password" value="" class="form-control" type="password" placeholder="Password">
-      </div>
-    </div>
+    <div class="container register-body">
+    <!-- LOGIN BODY -->
 
-      <div class="row">
-        <div class="form-check col-xs-offset-4 form-group">
-          <label class="form-check-label">
-          ¿Qué tipo de actividades te interesan más? <br/>
-          <br/>
-            <input class="form-check-input" name="sitio[internet]" type="checkbox" value="internet">
-              Literatura
-            <input class="form-check-input" name="sitio[amigos]" type="checkbox" value="amigos">
-              Arte
-            <input class="form-check-input" name="sitio[paloma]" type="checkbox" value="paloma">
-              Cine
-            <input class="form-check-input" name="sitio[paloma]" type="checkbox" value="paloma">
-              Narración
-          </label>
-        </div>
+      <form action="login.controller.php" method="POST" class="register-form">
 
+        <!-- NOMBRE -->
         <div class="row">
-          <div class="form-check form-check-inline col-xs-offset-4 form-group">
-            <label class="form-check-label"> Sexo
-              <br>
-              <input class="form-check-input" type="radio" id="inlineCheckbox1" value="option1">
-              Maculino
-              <input class="form-check-input" type="radio" id="inlineCheckbox2" value="option2">
-              Femenino
-              <input class="form-check-input" type="radio" id="inlineCheckbox2" value="option2">
-              Otro
+          <div class="col-xs-10 col-xs-offset-1 col-sm-6 col-sm-offset-3 col-lg-4 col-lg-offset-4 form-group">
+            <label class="sr-only control-label" for="primer-nombre">Nombre y Apellido</label>
+            <input name="nombre" value="" class="form-control" type="text" placeholder="Nombre">
+          </div>
+        </div>
+
+        <!-- MAIL -->
+        <div class="row">
+          <div class="col-xs-10 col-xs-offset-1 col-sm-6 col-sm-offset-3 col-lg-4 col-lg-offset-4 form-group">
+            <label class="sr-only" for="email">E-mail</label>
+            <input name="email" value="" class="form-control" type="email" placeholder="E-mail">
+          </div>
+        </div>
+
+        <!-- PASSWORD -->
+        <div class="row">
+          <div class="col-xs-10 col-xs-offset-1 col-sm-6 col-sm-offset-3 col-lg-4 col-lg-offset-4 form-group">
+            <label class="sr-only" for="password">Password</label>
+            <input name="password" value="" class="form-control" type="password" placeholder="Password">
+          </div>
+        </div>
+
+        <!-- SEXO -->
+        <div class="row">
+            <div class="form-check form-check-inline col-xs-10 col-xs-offset-1 col-sm-6 col-sm-offset-3 col-lg-4 col-lg-offset-4">
+              <label class="form-check-label">
+                Sexo
+                <br>
+                <input class="form-check-input" type="radio" id="inlineCheckbox1" value="masculino">
+                Maculino
+                <input class="form-check-input" type="radio" id="inlineCheckbox2" value="femenino">
+                Femenino
+                <input class="form-check-input" type="radio" id="inlineCheckbox3" value="otro">
+                Otro
+              </label>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-xs-10 col-xs-offset-1 col-sm-6 col-sm-offset-3 col-lg-4 col-lg-offset-4">
+              <hr>
+            </div>
+          </div>
+
+        <!-- ENCUESTA INTERES-->
+        <div class="row">
+          <div class="form-check col-xs-10 col-xs-offset-1 col-sm-6 col-sm-offset-3 col-lg-4 col-lg-offset-4 form-group">
+            <label class="form-check-label">
+            ¿Qué actividades te interesan?
+              <br/>
+              <input class="form-check-input" name="actividad[literatura]" type="checkbox" value="literatura">
+                Literatura
+              <input class="form-chseck-input" name="actividad[arte]" type="checkbox" value="arte">
+                Arte
+              <input class="form-check-input" name="actividad[cine]" type="checkbox" value="cine">
+                Cine
+              <input class="form-check-input" name="actividad[narracion]" type="checkbox" value="narracion">
+                Narración
+              <input class="form-check-input" name="actividad[otro]" type="checkbox" value="otras">
+                Otras
             </label>
           </div>
         </div>
-      </div>
 
-      <div class="row col-xs-offset-4 form-group">
-        <select class="custom-select">
-            <option selected>¿Cuántos libros lees por año?</option>
-            <option value="1">Uno a cinco</option>
-            <option value="2">Cinco a diez</option>
-            <option value="3">Más de diez</option>
-        </select>
-      </div>
-
-
-
-      <form class="form-inline" action="" method="post">
-        <div class="row form-group">
-          <div class="col-xs-2 col-md-2 col-xs-offset-4">
-            <button class="btn btn-mg btn-block regbutton">Registrate</button>
+        <!-- ENCUESTA LIBRO-->
+        <div class="container">
+          <div class="row">
+            <select class="custom-select col-xs-10 col-xs-offset-1 col-sm-6 col-sm-offset-3 col-lg-3 col-lg-offset-4 form-group">
+                <option selected>¿Cuántos libros lees por año?</option>
+                <option value="0">Ninguno</option>
+                <option value="1">Uno a cinco</option>
+                <option value="2">Cinco a diez</option>
+                <option value="3">Más de diez</option>
+            </select>
           </div>
         </div>
+
+        <!-- BOTON -->
+        <form class="form-inline" action="login.controller.php" method="POST">
+          <div class="row form-group">
+            <div class="col-xs-10 col-xs-offset-1 col-sm-6 col-sm-offset-3 col-lg-4 col-lg-offset-4 form-group">
+              <button class="btn btn-mg btn-block regbutton">Registrate</button>
+            </div>
+          </div>
+        </form>
+
       </form>
-
-
-    </form>
-
+      <!-- /LOGIN BODY -->
+    </div>
+    <!-- /LOGIN BOX -->
+  </div>
 
     </div>
   <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
