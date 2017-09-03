@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="../css/css-registro.css">
+  <link rel="stylesheet" href="../css/css-registr.css">
 
   <title>Login</title>
 
@@ -23,48 +23,56 @@
 
 <body>
 
-  <div class="container-fluid">
 
-    <?php include 'navbar.php'; ?>
+    <div class="container-fluid">
+
+      <?php include 'navbar.php'; ?>
+
+    <!-- La cabecera no hace lo que deberia, le faltan el colore de fondo -->
 
 
-<div class="container">
+<div class="container login-box">
+  <!-- LOGIN BOX -->
 
-
-<!-- La cabecera no hace lo que deberia -->
+  <div class="login-logo">
+    <!-- LOGIN LOGO -->
   <div class="row">
-    <div class="col-xs-6 col-xs-offset-3">
-      <header>
-      <img class="img-thumbnail" src="../img/logobcnmobile.png" alt="Biblioteca del Congreso">
-      </header>
+    <div class="col-xs-10 col-xs-offset-1 col-sm-6 col-sm-offset-3 col-lg-4 col-lg-offset-4">
+      <img class="" src="../img/logobcnmobile.png" alt="Biblioteca del Congreso">
     </div>
   </div>
+  <!-- LOGIN HEADER -->
+</div>
 
-    <form action="" method="" class="register-form">
+  <div class="container login-body">
+    <!-- LOGIN BODY -->
 
+    <form action="login.controller.php" method="POST" class="register-form">
       <div class="row">
-        <div class="col-xs-4 col-xs-offset-4 form-group">
+        <div class="col-xs-10 col-xs-offset-1 col-sm-6 col-sm-offset-3 col-lg-4 col-lg-offset-4 form-group">
           <label class="sr-only" for="email">E-mail</label>
-          <input name="email" class="form-control" type="email" placeholder="E-mail">
+          <input name="email" value="" class="form-control" type="email" placeholder="E-mail">
         </div>
       </div>
 
       <div class="row">
-        <div class="col-xs-4 col-xs-offset-4 form-group">
+        <div class="col-xs-10 col-xs-offset-1 col-sm-6 col-sm-offset-3 col-lg-4 col-lg-offset-4 form-group">
           <label class="sr-only" for="password">Password</label>
-          <input name="password" class="form-control" type="password" placeholder="Password">
+          <input name="password" value="" class="form-control" type="password" placeholder="Password">
         </div>
       </div>
 
-      <form class="form-inline" action="" method="post">
+      <form class="form-inline" action="login.controller.php" method="POST">
         <div class="row form-group">
-                    <div class="col-xs-4 col-md-4 col-xs-offset-4">
+                    <div class="col-xs-10 col-xs-offset-1 col-sm-6 col-sm-offset-3 col-lg-4 col-lg-offset-4">
               <button class="btn btn-block btn-mg logbutton">Entrar</button>
             </div>
         </div>
       </form>
     </form>
-
+    <!-- LOGIN BODY -->
+  </div>
+  <!-- LOGIN BOX -->
     </div>
 
     </div>
