@@ -12,7 +12,7 @@ body, html {
   font-family: 'Open Sans Condensed', sans-serif;*/
   background-color: rgb(164, 164, 164);
   background-color: rgb(1, 45, 65);
-  font-size: 16px;
+  font-size: 14px;
 }
 
 .container-fluid {
@@ -22,8 +22,9 @@ body, html {
   background-color: rgb(1, 45, 65);
 }
 
+
 /*-------------------------------
-login-box
+LOGIN
 --------------------------------*/
 
 .login-box {
@@ -34,17 +35,8 @@ login-box
   padding: 70px;
 }
 
-header {
-  text-align: center;
-  background-color: white;
-  color: white;
-  margin: 0;
-  padding: 0;
-}
-
 .login-logo {
   padding: 30px;
-
 }
 
 .login-logo img {
@@ -56,11 +48,58 @@ header {
 
 
 /*-------------------------------
-FORM
+REGISTRO
+--------------------------------*/
+
+header {
+  color: white;
+  margin-bottom: 20px;
+}
+
+h2 {
+  text-align: center;
+  color: white;
+  /*  background-color: rgb(249, 93, 26);*/
+  border-radius: 3px;
+  padding: 5px;
+}
+
+hr { /*no funca el color*/
+  border-color: rgb(249, 93, 26);
+  color: rgb(249, 93, 26);
+  background-color: rgb(249, 93, 26);
+}
+
+
+/*-------------------------------
+FORM OTHER ELEMENTS
+--------------------------------*/
+
+.custom-selec {
+}
+
+.form-check-input {
+
+}
+
+.register-form label {
+  color: aliceblue;
+  font-weight: normal;
+}
+
+.register-form input {
+  margin-bottom: 7px;
+  height: 35px;
+  border-radius: 0px;
+}
+
+
+/*-------------------------------
+FORM BUTTONS
 --------------------------------*/
 
 .register-form {
-  font-size: 16px;
+  font-size: 14px;
 }
 
 .btn-default {
@@ -76,6 +115,7 @@ FORM
   color: white;
   border: none !important;
   margin-bottom: 5px;
+  margin-top: 10px;
 }
 
 .regbutton:hover {
@@ -106,14 +146,4 @@ FORM
 .logbutton:active {
   color: white;
   background-color: darkolivegreen;
-}
-
-.register-form label {
-  color: aliceblue;
-}
-
-.register-form input {
-  margin-bottom: 7px;
-  height: 35px;
-  border-radius: 0px;
 }

@@ -35,11 +35,8 @@
   <!-- LOGIN BOX -->
 
   <div class="login-logo">
-<<<<<<< HEAD
     <!-- LOGIN LOGO -->
-=======
-    <!-- LOGIN HEADER -->
->>>>>>> dc4e7f155b5cd6661d399e27782e4e16be35d195
+
   <div class="row">
     <div class="col-xs-10 col-xs-offset-1 col-sm-6 col-sm-offset-3 col-lg-4 col-lg-offset-4">
       <img class="" src="../img/logobcnmobile.png" alt="Biblioteca del Congreso">
@@ -48,11 +45,8 @@
   <!-- LOGIN HEADER -->
 </div>
 
-<<<<<<< HEAD
   <div class="container login-body">
-=======
-  <div class="container">
->>>>>>> dc4e7f155b5cd6661d399e27782e4e16be35d195
+
     <!-- LOGIN BODY -->
 
     <form action="login.controller.php" method="POST" class="register-form">
