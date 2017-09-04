@@ -64,6 +64,12 @@
         </div>
       </div>
 
+      <div class="form-check col-xs-10 col-xs-offset-1 col-sm-6 col-sm-offset-3 col-lg-4 col-lg-offset-4">
+       <label class="form-check-label">
+         <input class="form-check-input" type="checkbox">Recuerdame
+       </label>
+      </div>
+
       <form class="form-inline" action="login.controller.php" method="POST">
         <div class="row form-group">
                     <div class="col-xs-10 col-xs-offset-1 col-sm-6 col-sm-offset-3 col-lg-4 col-lg-offset-4">
@@ -73,6 +79,7 @@
       </form>
     </form>
     <!-- LOGIN BODY -->
+
   </div>
   <!-- LOGIN BOX -->
     </div>

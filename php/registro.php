@@ -25,7 +25,7 @@
   <div class="container-fluid">
 
     <?php include 'navbar.php'; ?>
-<!-- La cabecera no hace lo que deberia, le faltan el colore de fondo -->
+    <!-- La cabecera no hace lo que deberia, le faltan el colore de fondo -->
 
     <div class="row">
       <div class="col-xs-10 col-xs-offset-1 col-sm-6 col-sm-offset-3 col-lg-4 col-lg-offset-4">
@@ -42,51 +42,51 @@
       <div class="row">
         <div class="col-xs-10 col-xs-offset-1 col-sm-6 col-sm-offset-3 col-lg-4 col-lg-offset-4 form-group">
           <label class="sr-only control-label" for="primer-nombre">Nombre y Apellido</label>
-          <input name="nombre" value="" class="form-control" type="text" placeholder="Nombre">
+          <input name="nombre" value="" class="form-control" type="text" id="nombre" placeholder="Nombre" required>
         </div>
       </div>
 
-    <div class="row">
-      <div class="col-xs-10 col-xs-offset-1 col-sm-6 col-sm-offset-3 col-lg-4 col-lg-offset-4 form-group">
-        <label class="sr-only" for="email">E-mail</label>
-        <input name="email" value="" class="form-control" type="email" placeholder="E-mail">
+      <div class="row">
+        <div class="col-xs-10 col-xs-offset-1 col-sm-6 col-sm-offset-3 col-lg-4 col-lg-offset-4 form-group">
+          <label class="sr-only" for="email">E-mail</label>
+          <input name="email" value="" class="form-control" type="email" placeholder="E-mail">
+        </div>
       </div>
-    </div>
 
-    <div class="row">
-      <div class="col-xs-10 col-xs-offset-1 col-sm-6 col-sm-offset-3 col-lg-4 col-lg-offset-4 form-group">
-        <label class="sr-only" for="password">Password</label>
-        <input name="password" value="" class="form-control" type="password" placeholder="Password">
+      <div class="row">
+        <div class="col-xs-10 col-xs-offset-1 col-sm-6 col-sm-offset-3 col-lg-4 col-lg-offset-4 form-group">
+          <label class="sr-only" for="password">Password</label>
+          <input name="password" value="" class="form-control" type="password" placeholder="Password">
+        </div>
       </div>
-    </div>
-    <!-- /CAMPOS PRINCIPALES-->
+      <!-- /CAMPOS PRINCIPALES-->
 
 
-    <div class="row">
-      <!-- SEXO    /REVISAR FUNCIONAMIENTO-->
-      <div class="form-check form-check-inline col-xs-10 col-xs-offset-1 col-sm-6 col-sm-offset-3 col-lg-4 col-lg-offset-4 form-group">
-        <label class="form-check-label"> Sexo
+      <div class="row">
+        <!-- SEXO    /REVISAR FUNCIONAMIENTO/ tienen que tener id diferente-->
+        <div class="form-check col-xs-10 col-xs-offset-1 col-sm-6 col-sm-offset-3 col-lg-4 col-lg-offset-4 form-group">
+          <label class="form-check-label"> Género
           <br>
-          <input class="form-check-input" type="radio" id="inlineCheckbox1" value="masculino">
+          <input class="form-check-input" type="radio" id="genero" name="genero" value="masculino">
           Maculino
-          <input class="form-check-input" type="radio" id="inlineCheckbox2" value="femenino">
+          <input class="form-check-input" type="radio" id="genero2" name="genero" value="femenino">
           Femenino
-          <input class="form-check-input" type="radio" id="inlineCheckbox2" value="otro">
+          <input class="form-check-input" type="radio" id="genero3" name="genero" value="otro">
           Otro
         </label>
+        </div>
+        <!-- /SEXO-->
       </div>
-      <!-- /SEXO-->
-    </div>
 
-    <div class="row">
-      <div class="form-check col-xs-10 col-xs-offset-1 col-sm-6 col-sm-offset-3 col-lg-4 col-lg-offset-4 form-group">
-        <hr>
+      <div class="row">
+        <div class="form-check col-xs-10 col-xs-offset-1 col-sm-6 col-sm-offset-3 col-lg-4 col-lg-offset-4 form-group">
+          <hr>
+        </div>
       </div>
-    </div>
 
       <div class="row">
         <!-- ACTIVIDADES-->
-        <div class="form-check col-xs-10 col-xs-offset-1 col-sm-6 col-sm-offset-3 col-lg-4 col-lg-offset-4 form-group">
+        <div class="col-xs-10 col-xs-offset-1 col-sm-6 col-sm-offset-3 col-lg-4 col-lg-offset-4 form-group">
           <label class="form-check-label">
           ¿Qué actividades te interesan? <br/>
             <input class="form-check-input" name="actividad[literatura]" type="checkbox" value="literatura">
@@ -108,7 +108,7 @@
       <div class="row">
         <!-- ENCUESTA -->
         <div class="col-xs-10 col-xs-offset-1 col-sm-6 col-sm-offset-3 col-lg-4 col-lg-offset-4 form-group">
-        <select class="custom-select">
+          <select class="custom-select">
             <option selected>¿Cuántos libros lees por año?</option>
             <option value="0">Ninguno</option>
             <option value="1">Uno a cinco</option>
@@ -134,7 +134,7 @@
     </form>
 
 
-    </div>
+  </div>
   <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
   <!-- Include all compiled plugins (below), or include individual files as needed -->
