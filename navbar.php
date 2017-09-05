@@ -14,15 +14,14 @@
   <div class="collapse navbar-collapse" id="navbar-1">
     <ul class="nav navbar-nav navbar-right">
 
-      <li><a href="../index.php">Inicio</a></li>
+      <li><a href="index.php">Inicio</a></li>
 
       <li><a href="html/preguntas_index.html">Trivias</a></li>
-
 
       <li class="dropdown" id="escritura">
         <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Escritura Creativa <span class="caret"></span></a>
         <ul class="dropdown-menu">
-          <li><a href="html/castillo.html">Historias de terror</a></li>
+          <li><a href="castillo.php">Historias de terror</a></li>
           <li><a href="#">La piedra en el estanque</a></li>
           <li><a href="#">PILO</a></li>
           <li role="separator" class="divider"></li>
@@ -32,10 +31,11 @@
         </ul>
       </li>
 
-      <li class="dropdown" id="niños">
+      <li class="dropdown" id="infantil">
         <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Infantil <span class="caret"></span></a>
         <ul class="dropdown-menu">
-          <li><a href="processing_web/Actividad%20texto%20oculto%201/index.html">Palabras escondidas</a></li>
+          <li><a href="processing_web/Actividad%20texto%20oculto%201/index.html">
+            Palabras escondidas</a></li>
           <li><a href="#">Hombre canrejo</a></li>
           <li><a href="#">León acalorado</a></li>
           <li role="separator" class="divider"></li>
@@ -44,18 +44,20 @@
         </ul>
       </li>
 
-      <li class="dropdown">
-        <a href="" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Acerca de <span class="caret"></span></a>
+      <li class="dropdown" id="acercade">
+        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Acerca de <span class="caret"></span></a>
         <ul class="dropdown-menu">
-          <li><a href="#info">¿Qué es el Bibliomóvil?</a></li>
+          <li><a href="index.php">¿Qué es el Bibliomóvil?</a></li>
           <li><a href="#servicios">Serivcios</a></li>
           <li><a href="#historia">Historia</a></li>
           <li><a href="#equipo">Equipo Bibliomóvil</a></li>
+          <li><a href="#faq">Preguntas Frecuentes</a></li>
+
         </ul>
       </li>
 
-      <li><a href="php/registro.php">Registro</a></li>
-      <li><a href="php/login.php">Login</a></li>
+      <li><a href="registro.php">Registro</a></li>
+      <li><a href="login.php">Login</a></li>
       </li>
     </ul>
   </div>

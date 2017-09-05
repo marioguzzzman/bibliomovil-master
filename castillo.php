@@ -2,7 +2,7 @@
 <html>
 
 <head>
-  <link rel="stylesheet" href="../css/estilo_escritura_creativa.css">
+  <link rel="stylesheet" href="css/castillo_css.css">
   <meta charset="utf-8">
   <link href="https://fonts.googleapis.com/css?family=Creepster" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Metamorphous" rel="stylesheet">
