@@ -155,7 +155,7 @@ h2 {
 
 p {
   font-weight: normal;
-  font-size: 14px;
+  font-size: 15px;
   color: #fffafa;
   line-height: 30px;
   text-align: justify;
@@ -168,8 +168,17 @@ INFO
 
 .info {
   background-color: rgb(0, 182, 44);
-  padding: 20px;
+  padding: 30px;
 }
+
+.info article{
+  padding: 50px;
+}
+
+.info img{
+  padding: 30px;
+}
+
 
 /*--------------------------
 SERVICIOS
@@ -186,7 +195,7 @@ SERVICIOS
   font-size: 60px;
 }
 
-article {
+.servicios article {
   text-align: center;
 }
 
@@ -210,6 +219,15 @@ HISTORIA
   position: absolute;
   top: 16px;
   left: 40%;
+}
+
+/*--------------------------
+PREGUNTAS FRECUENTES
+----------------------------*/
+.faq {
+  background-color: rgb(235, 117, 21);
+  padding: 30px;
+  color: black;
 }
 
 

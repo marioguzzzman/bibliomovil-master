@@ -1,16 +1,12 @@
-<?php
-
-?>
-
-
 <!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Confirmación</title>
+    <title>Confirmación </title>
 
+    <link rel="stylesheet" href="css/css-registr.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
 
@@ -20,38 +16,44 @@
     <![endif]-->
   </head>
   <body>
-
-    <div class="container">
+    <div class="container confirmacion">
 
       <div class="row">
 
-      <div class="col-xs-6 col-xs-offset-3">
+        <div class="col-xs-7 col-xs-offset-4">
 
-        <?php if ($_GET): ?>
+          <?php if ($_GET): ?>
 
-          <h1>Gracias por registrarte</h1>
-            <p>
-              <span>
-                <strong><?php echo $_GET['nombre'] ?></strong>, nos has dicho que tienes muchos años.
-                <br>
-                Te hemos registrado con <strong><?php echo $_GET['email'] ?></strong>.
-                <br>
-                Sabemos que te interesa:
-                <br>
-                <strong>
-                  <?php echo implode(", ", $_GET["actividad"]) ?>
-                </strong>
-            <br><h3>¡Espectacular!</h3>
-            </span>
+          <header>
+            <h1>¡Espectacular!</h1>
+          </header>
+
+          <p>
+            <span>
+                  Hola <strong><?php echo $_GET['nombre'] ?></strong>, nos encanta la provincia de <strong>
+                      <?php echo $_GET['provincias'] ?>.
+                    </strong>
+                  <br>
+                  Te hemos registrado con <strong><?php echo $_GET['email'] ?></strong>.
+                  <br>
+                  Sabemos que te interesan las actividades de:
+                  <br>
+                  <strong>
+                    <?php echo implode(", ", $_GET["actividad"]) ?>
+                  </strong>
+              <br><h3>Gracias por registrarte</h3>
+              </span>
 
           </p>
-        <?php endif; ?>
+          <?php endif; ?>
 
-      </div>
+        </div>
 
       </div>
 
     </div>
+
+
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
   </body>

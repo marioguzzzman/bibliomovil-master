@@ -1,8 +1,7 @@
 <?php
 
 $provincias = [
-  'China', 'India','Estados Unidos',
-  'Indonesia', 'Brasil', 'Pakistán', 'Nigeria', 'Bangladés','Finlandia'
+'Buenos Aires','Provincia de Buenos Aires','Catamarca','Chaco','Chubut','Córdoba','Corrientes','Entre Ríos','Formosa','Jujuy','La Pampa','La Rioja','Mendoza','Misiones','Neuquén','Río Negro','Salta','San Juan','San Luis','Santa Cruz','Santa Fe','Santiago del Estero','Tierra del Fuego','Tucumán',
 ];
  ?>
 
@@ -36,7 +35,7 @@ $provincias = [
 
     <?php include 'navbar.php'; ?>
 
-    <!-- La cabecera no hace lo que deberia, le faltan el colore de fondo -->
+
 
     <div class="row">
       <div class="col-xs-10 col-xs-offset-1 col-sm-6 col-sm-offset-3 col-lg-4 col-lg-offset-4">
@@ -46,6 +45,8 @@ $provincias = [
       </div>
     </div>
 
+    <div class="container registro-body">
+
     <form action="php/confirmacion.php" method="GET" class="register-form">
 
       <!--CAMPOS PRINCIPALES-->
@@ -54,13 +55,17 @@ $provincias = [
         <div class="col-xs-10 col-xs-offset-1 col-sm-6 col-sm-offset-3 col-lg-4 col-lg-offset-4 form-group">
           <label class="sr-only control-label" for="primer-nombre">Nombre y Apellido</label>
           <input name="nombre" value="" class="form-control" type="text" id="nombre" placeholder="Nombre" required>
+          <span class="glyphicon glyphicon-user form-control-feedback">
+          </span>
         </div>
       </div>
 
       <div class="row">
         <div class="col-xs-10 col-xs-offset-1 col-sm-6 col-sm-offset-3 col-lg-4 col-lg-offset-4 form-group">
           <label class="sr-only" for="email">E-mail</label>
-          <input name="email" value="" class="form-control" type="email" placeholder="E-mail">
+          <input name="email" value="" class="form-control" type="email" placeholder="E-mail" required>
+          <span class="glyphicon glyphicon-envelope form-control-feedback">
+          </span>
         </div>
       </div>
 
@@ -68,6 +73,8 @@ $provincias = [
         <div class="col-xs-10 col-xs-offset-1 col-sm-6 col-sm-offset-3 col-lg-4 col-lg-offset-4 form-group">
           <label class="sr-only" for="password">Password</label>
           <input name="password" value="" class="form-control" type="password" placeholder="Password">
+          <span class="glyphicon glyphicon-lock form-control-feedback">
+          </span>
         </div>
       </div>
       <!-- /CAMPOS PRINCIPALES-->
@@ -92,11 +99,11 @@ $provincias = [
       <div class="row">
         <div class="form-check col-xs-10 col-xs-offset-1 col-sm-6 col-sm-offset-3 col-lg-4 col-lg-offset-4">
 
-        <select name="paises">
+        <select name="provincias">
           <option selected>¿En que provincia vives?</option>
         <?php
           foreach ($provincias as $key => $value) {?>
-          <option value=<?php echo $key?>>
+          <option value=<?php echo $value?>>
             <?php echo $value?></option>
         <?php
           }
@@ -179,6 +186,9 @@ $provincias = [
 
     </form>
 
+
+
+  </div>
 
   </div>
   <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
