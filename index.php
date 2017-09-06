@@ -64,7 +64,7 @@
 
         <section id="info">
           <!-- INFORMACIÓN GENERAL!-->
-          <div class="row info">
+          <div class="row info main">
 
             <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
               <h2>¿Qué es el Bibliomóvil?</h2>
@@ -78,21 +78,17 @@
               <div class="col-xs-12 col-sm-8 col-md-8">
                 <!-- INFORMACION BIBLIO-->
                 <article class="que-es">
-                  <p>En julio del 2002, se puso en marcha el <b>Bibliomóvil de la BCN</b>, un ómnibus de doble altura acondicionado como biblioteca, que con el apoyo de personal especializado e instrumentos tecnológicos recorre el territorio nacional con el
+                  <p class="">En julio del 2002, se puso en marcha el <b>Bibliomóvil de la BCN</b>, un ómnibus de doble altura acondicionado como biblioteca, que con el apoyo de personal especializado e instrumentos tecnológicos recorre el territorio nacional con el
                     propósito educativo de incentivar la lectura, la escritura, la producción artística y el conocimiento.
                     <br>
                     <br>
-
-                    <p>
                       Al <b>Bibliomóvil</b> lo conforman una sala de lectura y otra de escritura e informática.
-                    </p>
-                    <p>
+                      <br>
                       <b>La Sala de lectura</b> cuenta con más de 5,000 libros, la Biblioteca Federal, la de Pueblos Originarios, la de la Memoria y una de Capacitación Docente, entre otras. Actualmente se encuentra en preparación la Biblioteca Virtual de
                       Antecedentes Parlamentarios sobre las principales leyes nacionales.
-                    </p>
-                    <p>
+                      <br>
                       <b>La Sala de escritura</b> e informática está equipada con diez computadoras provistas de juegos pedagógicos y cuentos digitales.
-                    </p>
+                  </p>
                 </article>
                 <!-- /INFORMACION BIBLIO-->
               </div>
