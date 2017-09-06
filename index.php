@@ -29,7 +29,7 @@
 
         <section id="animacion">
           <!--BIBLIO EN MOVIMIENTO CONTAINER/!-->
-          <div class="row">
+          <div class="row animacion">
             <!--BIBLIO EN MOVIMIENTO/!-->
             <svg viewBox="0 0 960 800">
 
@@ -50,25 +50,33 @@
           <!--/BIBLIO EN MOVIMIENTO/!-->
         </section>
 
+        <div class="row linea">
+        <div class="col-xs-8 col-xs-offset-2">
+          <hr>
+        </div>
+        </div>
+
         <section id="info">
           <!-- INFORMACIÓN GENERAL!-->
           <div class="row info">
 
-            <div class="col-xs-12">
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
               <h2>¿Qué es el Bibliomóvil?</h2>
 
-              <div class="col-xs-4 col-lg-4 ">
+              <div class="col-xs-12 col-sm-4 col-md-4">
                 <!-- MAPA / con img-responsive, la imagen ocupa el espacio jsuto del  de la columna-->
                 <img class="img-responsive" src="http://www.ezilon.com/maps/images/southamerica/physical-map-of-Argentina.gif" alt="Mapa de Argentina">
                 <!-- /MAPA-->
               </div>
 
-              <div class="col-xs-8">
+              <div class="col-xs-12 col-sm-8 col-md-8">
                 <!-- INFORMACION BIBLIO-->
                 <article class="que-es">
                   <p>En julio del 2002, se puso en marcha el <b>Bibliomóvil de la BCN</b>, un ómnibus de doble altura acondicionado como biblioteca, que con el apoyo de personal especializado e instrumentos tecnológicos recorre el territorio nacional con el
                     propósito educativo de incentivar la lectura, la escritura, la producción artística y el conocimiento.
                     <br>
+                    <br>
+
                     <p>
                       Al <b>Bibliomóvil</b> lo conforman una sala de lectura y otra de escritura e informática.
                     </p>
@@ -88,17 +96,23 @@
           <!-- /INFORMACIÓN GENERAL!-->
         </section>
 
+        <div class="row linea">
+        <div class="col-xs-8 col-xs-offset-2">
+          <hr>
+        </div>
+        </div>
+
         <section id="servicios">
           <!--SERVICIOS!-->
           <div class="row servicios">
 
-            <div class="col-xs-12">
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
               <h2>Servicios</h2>
 
               <div class="row">
                 <!--CONTENIDO SERVICIOS!-->
 
-                <article class="col-xs-4">
+                <article class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
                   <span class="glyphicon glyphicon-education  glyphicon-large" aria-hidden="true">
                 </span>
                   <h3>Acercar la Biblioteca al público</h3>
@@ -106,7 +120,7 @@
                   </p>
                 </article>
 
-                <article class="col-xs-4">
+                <article class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
                   <span class="glyphicon glyphicon-pencil glyphicon-large" aria-hidden="true">
                 </span>
                   <h3>Promoción de la lectura y la escritura</h3>
@@ -114,11 +128,11 @@
                   </p>
                 </article>
 
-                <article class="col-xs-4">
+                <article class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
                   <span class="glyphicon glyphicon-film glyphicon-large" aria-hidden="true">
                   </span>
                   <h3>Actividades culturales y artísticas locales</h3>
-                  <p>Destinadas a promover la producción de escritores y artistas locales generando situaciones que, al tiempo de fortalecer la cultura propia de cada lugar, la incluya en el contexto nacional.
+                  <p>Destinadas a promover la producción de escritores y artistas locales generando situaciones que fortalezcan la cultura provincial dentro en el contexto nacional.
                   </p>
                 </article>
 
@@ -130,6 +144,12 @@
           </div>
           <!--SERVICIOS!-->
         </section>
+
+        <div class="row linea">
+        <div class="col-xs-10 col-xs-offset-1">
+          <hr>
+        </div>
+        </div>
 
         <section id="historia">
           <!--HISTORIA!-->
@@ -191,10 +211,16 @@
           <!--/HISTORIA!-->
         </section>
 
+        <div class="row linea">
+        <div class="col-xs-8 col-xs-offset-2">
+          <hr>
+        </div>
+        </div>
+
         <section id="equipo">
           <!-- EQUIPO!-->
           <div class="row">
-            <div class="col-xs-12">
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
               <h2>Equipo</h2>
 
             </div>
@@ -202,10 +228,16 @@
           <!-- /EQUIPO!-->
         </section>
 
+        <div class="row linea">
+        <div class="col-xs-8 col-xs-offset-2">
+          <hr>
+        </div>
+        </div>
+
         <section id="faq">
           <!-- PREGUNTAS FRECUENTES!-->
           <div class="row faq">
-            <div class="col-xs-12">
+            <div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1 col-lg-10 col-lg-offset-1">
               <h2>Preguntas Frecuentes</h2>
               <div class="panel-group" id="accordion">
 

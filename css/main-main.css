@@ -6,12 +6,6 @@ GENERALES
   box-sizing: border-box;
 }
 
-* body {
-  /*background-color: rgb(167, 249, 15);*/
-  /* esto me esta sirviendo para algo?
-  overflow: auto;
-   */
-  }
 
 /*--------------------------
 BARRA NAVEGADORA
@@ -88,7 +82,6 @@ IMAGEN BIBLIO MOVIMIENTO
 html, body {
   height: 100%;
   font-weight: 800;
-
 }
 
 svg {
@@ -145,21 +138,33 @@ svg {
 CONTENEDORES
 +++++++++++++++++++++++++++*/
 
-.container {
-  background-color: rgb(241, 241, 241);
+body {
+  background-color: rgb(219, 230, 236) !important;
 }
 
-.container h2 {
+.container {
+  background-color: #BBDEFB;
+}
+
+hr {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 0;
+    border-top: 2px solid rgb(97, 145, 172) !important;
+}
+
+
+.container h2{
   text-align: center;
   padding: 10px;
-  color: rgb(20, 20, 20);
+  color: rgb(7, 76, 114);
   /* no se porque no se pone en blanco*/
 }
 
 .container p {
   font-weight: normal;
   font-size: 15px;
-  color: rgb(20, 20, 20);
+  color: rgb(7, 76, 114) !important;
   line-height: 30px;
   text-align: justify;
 }
@@ -171,14 +176,13 @@ INFO
 
 .info {
   /*background-color: rgb(76, 209, 108);*/
-  padding: 30px;
 }
 
-.info article{
-  padding: 50px;
+.info article {
+  padding: 40px !important;
 }
 
-.info img{
+.info img {
   padding: 30px;
 }
 
@@ -189,27 +193,36 @@ SERVICIOS
 
 .servicios {
   /*background-color: rgb(103, 92, 180);*/
-  padding: 50px;
-  color: rgb(20, 20, 20);
+  /*color: rgb(20, 20, 20);*/
 }
 
-
-.servicios p{
+.servicios p {
   /*background-color: rgb(103, 92, 180);*/
   padding: 30px;
-  color: rgb(20, 20, 20);
+  /*color: rgb(20, 20, 20);*/
+  margin-bottom: 0;
+
 }
 
+.servicios h3 {
+  text-align: center;
+  padding: 10px;
+color: rgb(7, 76, 114);  /* no se porque no se pone en blanco*/
+}
+
+
 .glyphicon-large {
-  color: rgb(20, 20, 20);
+  /*color: rgb(20, 20, 20);*/
+  color: rgb(2, 148, 228);
   font-size: 50px;
   text-align: center;
-
 }
 
 article {
   text-align: center;
   padding: 70px;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 
@@ -220,7 +233,7 @@ HISTORIA
 .timeline p {
   font-weight: normal;
   font-size: 14px;
-  color: rgb(20, 20, 20);
+  /*color: rgb(20, 20, 20);*/
   line-height: 11px;
   text-align: justify;
 }
@@ -234,18 +247,20 @@ HISTORIA
   left: 40%;
 }
 
+
 /*--------------------------
 PREGUNTAS FRECUENTES
 ----------------------------*/
+
 .faq {
   /*background-color: rgb(235, 117, 21);*/
-  padding: 100px;
   color: rgb(20, 20, 20);
 }
 
-.panel-group{
+.panel-group {
   margin-top: 20px;
 }
+
 
 /*----------------------------------
 TIMELINE
