@@ -30,7 +30,10 @@
         <section id="animacion">
           <!--BIBLIO EN MOVIMIENTO CONTAINER/!-->
           <div class="row animacion">
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+
             <!--BIBLIO EN MOVIMIENTO/!-->
+
             <svg viewBox="0 0 960 800">
 
             <symbol id="s-text">
@@ -46,6 +49,7 @@
             </g>
 
             </svg>
+          </div>
           </div>
           <!--/BIBLIO EN MOVIMIENTO/!-->
         </section>
