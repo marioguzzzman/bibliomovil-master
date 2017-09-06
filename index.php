@@ -7,6 +7,8 @@
     <title>Inicio</title>
 
     <link rel="stylesheet" href="css/main-main.css">
+    <link rel="stylesheet" href="css/navbar.css">
+
 
     <!-- Bootstrap -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
@@ -24,7 +26,7 @@
         <?php include 'navbar.php'; ?>
       </header>
 
-      <div class="container">
+      <div class="container main">
         <!-- CONTAINER GENERAL!-->
 
         <section id="animacion">

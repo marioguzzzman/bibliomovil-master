@@ -10,10 +10,8 @@ body, html {
   /*background-color: #34515E;
   background-color: rgb(1, 45, 65);
   font-family: 'Open Sans Condensed', sans-serif;*/
-  background-color: rgb(164, 164, 164);
-  background-color: rgb(1, 45, 65);
   font-size: 14px;
-  background-color: rgb(1, 45, 65);
+  background-color: rgb(1, 45, 65) !important;
 
 }
 
@@ -60,17 +58,19 @@ header {
 
 h2 {
   text-align: center;
-  color: rgb(249, 93, 26);
+  color: rgb(249, 115, 56) !important;
   /*  background-color: rgb(249, 93, 26);*/
   border-radius: 3px;
   padding: 5px;
 }
 
-hr { /*no funca el color*/
-  border-color: rgb(249, 93, 26);
-  color: rgb(249, 93, 26);
-  background-color: rgb(249, 93, 26);
+hr {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 0;
+    border-top: 1px solid rgb(249, 93, 26) !important;
 }
+
 
 
 /*-------------------------------
