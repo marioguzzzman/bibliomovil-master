@@ -11,9 +11,7 @@ GENERALES
   /* esto me esta sirviendo para algo?
   overflow: auto;
    */
-  background-color: rgb(215, 218, 208);
-}
-
+  }
 
 /*--------------------------
 BARRA NAVEGADORA
@@ -90,6 +88,7 @@ IMAGEN BIBLIO MOVIMIENTO
 html, body {
   height: 100%;
   font-weight: 800;
+
 }
 
 svg {
@@ -146,17 +145,21 @@ svg {
 CONTENEDORES
 +++++++++++++++++++++++++++*/
 
-h2 {
+.container {
+  background-color: rgb(241, 241, 241);
+}
+
+.container h2 {
   text-align: center;
   padding: 10px;
-  color: white;
+  color: rgb(20, 20, 20);
   /* no se porque no se pone en blanco*/
 }
 
-p {
+.container p {
   font-weight: normal;
   font-size: 15px;
-  color: #fffafa;
+  color: rgb(20, 20, 20);
   line-height: 30px;
   text-align: justify;
 }
@@ -167,7 +170,7 @@ INFO
 ----------------------------*/
 
 .info {
-  background-color: rgb(0, 182, 44);
+  /*background-color: rgb(76, 209, 108);*/
   padding: 30px;
 }
 
@@ -185,18 +188,28 @@ SERVICIOS
 ----------------------------*/
 
 .servicios {
-  background-color: rgb(103, 92, 180);
+  /*background-color: rgb(103, 92, 180);*/
+  padding: 50px;
+  color: rgb(20, 20, 20);
+}
+
+
+.servicios p{
+  /*background-color: rgb(103, 92, 180);*/
   padding: 30px;
-  color: white;
+  color: rgb(20, 20, 20);
 }
 
 .glyphicon-large {
-  color: white;
-  font-size: 60px;
+  color: rgb(20, 20, 20);
+  font-size: 50px;
+  text-align: center;
+
 }
 
-.servicios article {
+article {
   text-align: center;
+  padding: 70px;
 }
 
 
@@ -206,9 +219,9 @@ HISTORIA
 
 .timeline p {
   font-weight: normal;
-  font-size: 12px;
-  color: black;
-  line-height: 12px;
+  font-size: 14px;
+  color: rgb(20, 20, 20);
+  line-height: 11px;
   text-align: justify;
 }
 
@@ -225,11 +238,14 @@ HISTORIA
 PREGUNTAS FRECUENTES
 ----------------------------*/
 .faq {
-  background-color: rgb(235, 117, 21);
-  padding: 30px;
-  color: black;
+  /*background-color: rgb(235, 117, 21);*/
+  padding: 100px;
+  color: rgb(20, 20, 20);
 }
 
+.panel-group{
+  margin-top: 20px;
+}
 
 /*----------------------------------
 TIMELINE
