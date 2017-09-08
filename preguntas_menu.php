@@ -12,6 +12,12 @@
   <link rel="stylesheet" href="css/trivias-menu.css">
   <link rel="stylesheet" href="css/navbar.css">
 
+<!-- LICENCIAS DE DISEÑO
+Diseño de imagenes
+<a href="http://www.freepik.com">Designed by makyzz / Freepik</a>
+<a href="http://www.freepik.com">Designed by Bamdewanto / Freepik</a> -->
+
+
   <!-- Bootstrap -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">

@@ -87,13 +87,12 @@ $provincias = [
         <!-- SEXO    /REVISAR FUNCIONAMIENTO/ tienen que tener id diferente-->
         <div class="form-check col-xs-10 col-xs-offset-1 col-sm-6 col-sm-offset-3 col-lg-4 col-lg-offset-4 form-group">
           <label class="form-check-label"> <h4>Género</h4>
-          <input class="form-check-input" type="radio" id="genero" name="genero" value="masculino">
+          <input class="form-check-input" type="radio" id="genero" name="genero" value="otro">
           Otro
           <input class="form-check-input" type="radio" id="genero2" name="genero" value="femenino">
-          Maculino
-          <input class="form-check-input" type="radio" id="genero3" name="genero" value="otro">
           Femenino
-
+          <input class="form-check-input" type="radio" id="genero3" name="genero" value="masculino">
+          Masculino
         </label>
         </div>
         <!-- /SEXO-->
