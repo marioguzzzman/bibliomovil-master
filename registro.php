@@ -41,7 +41,7 @@ $provincias = [
     <div class="row">
       <div class="col-xs-10 col-xs-offset-1 col-sm-6 col-sm-offset-3 col-lg-4 col-lg-offset-4">
         <header>
-          <h2>Registro</h2>
+        <legend><h2>Registro</h2></legend>
         </header>
       </div>
     </div>
@@ -49,6 +49,8 @@ $provincias = [
     <div class="container registro-body">
 
     <form action="php/confirmacion.php" method="GET" class="register-form">
+
+    <!--  <form action="php/confirmacion.php" method="GET" class="register-form">-->
 
       <!--CAMPOS PRINCIPALES-->
 
