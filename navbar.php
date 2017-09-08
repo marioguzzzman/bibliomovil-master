@@ -16,7 +16,7 @@
 
       <li><a href="index.php">Inicio</a></li>
 
-      <li><a href="html/preguntas_index.html">Trivias</a></li>
+      <li><a href="preguntas_menu.php">Trivias</a></li>
 
       <li class="dropdown" id="escritura">
         <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Escritura Creativa <span class="caret"></span></a>
