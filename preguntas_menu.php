@@ -42,7 +42,7 @@ Diseño de imagenes
     <div class="row">
       <!-- ROW PRINCIPAL -->
       <header>
-        <h1 class="display-1">TRIVIAS</h1>
+        <h1 class="display-1">¿Cuánto sabes sobre...?</h1>
       </header>
 
       <section class="imagen-izquierda">
