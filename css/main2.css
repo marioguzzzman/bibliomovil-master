@@ -26,17 +26,8 @@ html, body {
   background-image: url("../img/fondoninios.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  width: 100%;
+  /*width: 100%;*/
   margin-left: -15px !important;
-}
-
-.logo {
-  /*background-image: url("../img/logo_home_1000x1000.png");*/
-  margin: 0 auto;
-  margin-top: 70px;
-  position: absolute;
-  width: 85%;
-  opacity: 0.7;
 }
 
 svg {
@@ -60,11 +51,13 @@ svg {
 
 .text-copy:nth-child(1) {
   stroke: #4D163D;
+  stroke: white;
   animation-delay: -1;
 }
 
 .text-copy:nth-child(2) {
-  stroke: #840037;
+  /*stroke: #840037;*/
+  stroke: white;
   animation-delay: -2s;
 }
 
@@ -132,6 +125,7 @@ INFO
 
 .info {
   /*background-color: rgb(76, 209, 108);*/
+  margin: 57px 0 70px 0;
 }
 
 .info article {
@@ -140,10 +134,26 @@ INFO
 
 .info img {
   width: 100%;
+  margin-top: 120px;
+  padding: 30px;
 }
 
 .info b {
   color: yellowgreen;
+}
+
+.info .logo {
+  /*background-image: url("../img/logo_home_1000x1000.png");*/
+  margin: 0 auto;
+  width: 70%;
+  opacity: 0.7;
+}
+
+.info h2 {
+  text-align: left;
+  padding-left: 35px;
+  color: rgb(236, 230, 230);
+  /* no se porque no se pone en blanco*/
 }
 
 

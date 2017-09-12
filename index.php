@@ -37,16 +37,15 @@
             <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
 
             <!--BIBLIO EN MOVIMIENTO/!-->
-            <img class="img-responsive logo" src="img/logo_home_1000x1000.png" alt="Mapa de Argentina">
 
 
-            <svg viewBox="-400 -400 1160 1000">
-              <!-- <svg viewBox="0 0 960 800"> -->
 
+            <!-- <svg viewBox="-400 -400 1160 900"> -->
+              <svg viewBox="0 0 960 800">
 
             <symbol id="s-text">
-              <!-- <text text-anchor="middle" x="50%" y="50%">BIBLIOMOVIL </text> -->
-              <text text-anchor="middle" x="50%" y="50%">interactivo </text>
+              <text text-anchor="middle" x="50%" y="50%">BIBLIOMOVIL </text>
+              <!-- <text text-anchor="middle" x="50%" y="50%">interactivo </text> -->
             </symbol>
 
             <g class = "g-ants">
@@ -79,7 +78,9 @@
           <div class="row info main">
 
             <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-              <h2>¿Qué es el Bibliomóvil?</h2>
+
+
+              <img class="img-responsive logo" src="img/logo_home_1000x1000.png" alt="Mapa de Argentina">
 
               <div class="col-xs-12 col-sm-4 col-md-4">
                 <!-- MAPA / con img-responsive, la imagen ocupa el espacio jsuto del  de la columna-->
@@ -94,6 +95,9 @@
 
               <div class="col-xs-12 col-sm-8 col-md-8">
                 <!-- INFORMACION BIBLIO-->
+
+                <h2>¿Qué es el Bibliomóvil?</h2>
+
                 <article class="que-es">
                   <p class="">En julio del 2002, se puso en marcha el <b>Bibliomóvil de la BCN</b>, un ómnibus de doble altura acondicionado como biblioteca, que con el apoyo de personal especializado e instrumentos tecnológicos recorre el territorio nacional con el
                     propósito educativo de incentivar la lectura, la escritura, la producción artística y el conocimiento.
