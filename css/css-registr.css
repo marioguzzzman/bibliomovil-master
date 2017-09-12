@@ -40,9 +40,11 @@ LOGIN
 
 .login-logo img {
   /*background-color: white;*/
+  width: 45%;
   display: block;
   margin: 0 auto;
-  filter: invert(100%);
+  opacity: .5;
+  /*filter: invert(100%);*/
 }
 
 
