@@ -32,10 +32,12 @@ $provincias = [
 </head>
 
 <body>
+
+  <?php include 'navbar.php'; ?>
+
+  <br><br><br>
+
   <div class="container-fluid">
-
-    <?php include 'navbar.php'; ?>
-
 
 
     <div class="row">

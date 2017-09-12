@@ -38,6 +38,8 @@ Diseño de imagenes
 
   <div class="container">
     <!-- CONTAINER PRINCIPAL -->
+    <br><br><br><br>
+
 
     <div class="row">
       <!-- ROW PRINCIPAL -->

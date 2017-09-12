@@ -25,9 +25,11 @@
 
 <body>
 
+  <?php include 'navbar.php'; ?>
+
+
   <div class="container-fluid">
 
-    <?php include 'navbar.php'; ?>
 
     <!-- La cabecera no hace lo que deberia, le faltan el colore de fondo -->
 
