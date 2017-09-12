@@ -99,16 +99,14 @@
                 <h2>¿Qué es el Bibliomóvil?</h2>
 
                 <article class="que-es">
-                  <p class="">En julio del 2002, se puso en marcha el <b>Bibliomóvil de la BCN</b>, un ómnibus de doble altura acondicionado como biblioteca, que con el apoyo de personal especializado e instrumentos tecnológicos recorre el territorio nacional con el
-                    propósito educativo de incentivar la lectura, la escritura, la producción artística y el conocimiento.
+                  <p class="">El <b>Bibliomóvil</b> es un proyecto de la <b>Biblioteca del Congreso de la Nación</b> que tiene como propósito incentivar la lectura, la escritura, la producción artística y el conocimiento a través del territorio argentino con el apoyo de un ómnibus de doble altura acondicionado como biblioteca, un grupo de docentes especializados e instrumentos tecnológicos.
                     <br>
                     <br>
-                      Al <b>Bibliomóvil</b> lo conforman una sala de lectura y otra de escritura e informática.
+                      El Bibliomóvil cuenta con:
                       <br>
-                      <b>La Sala de lectura</b> cuenta con más de 5,000 libros, la Biblioteca Federal, la de Pueblos Originarios, la de la Memoria y una de Capacitación Docente, entre otras. Actualmente se encuentra en preparación la Biblioteca Virtual de
-                      Antecedentes Parlamentarios sobre las principales leyes nacionales.
+                      Una <b>sala de lectura</b> con más de 5,000 libros, una Biblioteca Federal, una de Pueblos Originarios, la de la Memoria y una de Capacitación Docente, entre otras.
                       <br>
-                      <b>La Sala de escritura</b> e informática está equipada con diez computadoras provistas de juegos pedagógicos y cuentos digitales.
+                      Una <b>sala de escritura</b> e informática está equipada con diez computadoras provistas de juegos pedagógicos, cuentos interactivos y digitales, así como visitas virtuales al Congreso y muchás otras actividades tecnológicas.
                   </p>
                 </article>
                 <!-- /INFORMACION BIBLIO-->
