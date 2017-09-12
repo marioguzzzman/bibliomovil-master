@@ -17,8 +17,31 @@ html, body {
   font-weight: 800;
 }
 
+.container-fluid {
+  padding-right: 15px !important;
+}
+
+.animacion {
+  height: 700px;
+  background-image: url("../img/fondoninios.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  margin-left: -15px !important;
+}
+
+.logo {
+  /*background-image: url("../img/logo_home_1000x1000.png");*/
+  margin: 0 auto;
+  margin-top: 70px;
+  position: absolute;
+  width: 85%;
+  opacity: 0.7;
+}
+
 svg {
   display: block;
+  position: absolute;
   font: 10.5em 'Montserrat';
   width: 100%;
   height: 600px;
@@ -73,7 +96,7 @@ CONTENEDORES
 
 body {
   /*background-color: rgb(25, 164, 240) !important;*/
-background: linear-gradient(to bottom, rgba(0, 74, 150, 0.95) 0%, #9999ff 100%);
+  background: linear-gradient(to bottom, rgba(0, 74, 150, 0.95) 0%, #9999ff 100%);
 }
 
 .container {
@@ -116,7 +139,6 @@ INFO
 }
 
 .info img {
-  padding: 30px;
   width: 100%;
 }
 

@@ -28,20 +28,25 @@
         <?php include 'navbar.php'; ?>
       </header>
 
-      <div class="container main">
+      <div class="container-fluid">
         <!-- CONTAINER GENERAL!-->
 
-        <section id="animacion">
+        <section class="animacion">
           <!--BIBLIO EN MOVIMIENTO CONTAINER/!-->
           <div class="row animacion">
             <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
 
             <!--BIBLIO EN MOVIMIENTO/!-->
+            <img class="img-responsive logo" src="img/logo_home_1000x1000.png" alt="Mapa de Argentina">
 
-            <svg viewBox="0 0 960 800">
+
+            <svg viewBox="-400 -400 1160 1000">
+              <!-- <svg viewBox="0 0 960 800"> -->
+
 
             <symbol id="s-text">
-              <text text-anchor="middle" x="50%" y="50%">BIBLIOMOVIL </text>
+              <!-- <text text-anchor="middle" x="50%" y="50%">BIBLIOMOVIL </text> -->
+              <text text-anchor="middle" x="50%" y="50%">interactivo </text>
             </symbol>
 
             <g class = "g-ants">
@@ -61,11 +66,11 @@
         <!-- /CONTAINER GENERAL!-->
       </div>
 
-        <div class="row linea">
+        <!-- <div class="row linea">
         <div class="col-xs-8 col-xs-offset-2">
           <hr>
         </div>
-        </div>
+        </div> -->
 
 
       <div class="container">
@@ -78,7 +83,9 @@
 
               <div class="col-xs-12 col-sm-4 col-md-4">
                 <!-- MAPA / con img-responsive, la imagen ocupa el espacio jsuto del  de la columna-->
-                <img class="img-responsive" src="http://www.ezilon.com/maps/images/southamerica/physical-map-of-Argentina.gif" alt="Mapa de Argentina">
+                <!-- <img class="img-responsive" src="http://www.ezilon.com/maps/images/southamerica/physical-map-of-Argentina.gif" alt="Mapa de Argentina"> -->
+
+                <img class="img-responsive" src="img/mapa_ARG-colors.png" alt="Mapa de Argentina">
 
                 <!-- <img class="img-responsive" src="img/mapa_ARG-1000x1000.png" alt="Mapa de Argentina"> -->
 
@@ -109,11 +116,11 @@
         </section>
       </div>
 
-        <div class="row linea">
+        <!-- <div class="row linea">
         <div class="col-xs-8 col-xs-offset-2">
           <hr>
         </div>
-        </div>
+        </div> -->
 
     <div class="container">
       <section id="servicios">
@@ -160,11 +167,11 @@
       </section>
     </div>
 
-        <div class="row linea">
+        <!-- <div class="row linea">
         <div class="col-xs-10 col-xs-offset-1">
           <hr>
         </div>
-        </div>
+        </div> -->
 
         <div class="container">
           <section id="historia">
@@ -176,7 +183,7 @@
 
                 <li class="timeline">
                   <div class="img-responsive">
-                    <img src="img/pond.jpg" alt="">
+                    <!-- <img src="img/pond.jpg" alt=""> -->
                   </div>
                   <div class="timeline-panel">
                     <div class="timeline-heading">
@@ -214,7 +221,7 @@
                   <div class="timeline-badge success"><i class="fa fa-thumbs-o-down"></i></div>
                   <div class="timeline-panel">
                     <div class="timeline-heading">
-                      <h4 class="timeline-title">2017</h4>
+                      <h4 class="timeline-title">2007</h4>
                     </div>
                     <div class="timeline-body">
                       <p> En la actualidad el Bibliomóvil ha recorrido más de 250.000 Kilmétros, desde Ushuaia hasta la Quiaca. Continuamente se realizan actualizaciones. Se crea la página web Bibliomóvil Interactivo, que permite acercar las actividades de manera
@@ -228,11 +235,11 @@
           </section>
         </div>
 
-        <div class="row linea">
+        <!-- <div class="row linea">
         <div class="col-xs-8 col-xs-offset-2">
           <hr>
         </div>
-        </div>
+        </div> -->
 
         <div class="container">
           <section id="equipo">
@@ -247,11 +254,11 @@
           </section>
         </div>
 
-        <div class="row linea">
+        <!-- <div class="row linea">
         <div class="col-xs-8 col-xs-offset-2">
           <hr>
         </div>
-        </div>
+        </div> -->
 
 <div class="container">
   <section id="faq">
