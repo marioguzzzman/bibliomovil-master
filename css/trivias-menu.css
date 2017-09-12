@@ -39,7 +39,7 @@ MENU TRIVIAS
 }
 
 .efecto-wrapper:hover img {
-  opacity: 0.2;
+  opacity: 0.6;
   border-radius: 50%;
   transition: .5s ease;
 }
