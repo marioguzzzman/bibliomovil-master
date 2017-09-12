@@ -57,7 +57,7 @@ header {
 
 h2 {
   text-align: center;
-  color: rgb(249, 115, 56) !important;
+  color: White !important;
   /*  background-color: rgb(249, 93, 26);*/
   border-radius: 3px;
   padding: 5px;
@@ -67,7 +67,7 @@ hr {
     margin-top: 20px;
     margin-bottom: 20px;
     border: 0;
-    border-top: 1px solid rgb(249, 93, 26) !important;
+    border-top: 1px solid White !important;
 }
 
 legend {
@@ -79,7 +79,7 @@ legend {
     /* line-height: inherit; */
     /* color: #333; */
     /* border: 0; */
-    border-bottom: 1px solid rgb(249, 93, 26) !important;
+    border-bottom: 1px solid White !important;
 }
 
 
@@ -133,7 +133,7 @@ FORM BUTTONS
 
 .regbutton {
   height: 50px;
-  background-color: rgb(249, 93, 26);
+  background-color: #56da79;
   /*width: 200px;*/
   border-radius: 0px;
   color: white;
@@ -143,13 +143,13 @@ FORM BUTTONS
 }
 
 .regbutton:hover {
-  color: white;
-  background-color: #aa422f;
+  color: white !important;
+  background-color: #82ddff;
 }
 
 .regbutton:active {
   color: white;
-  background-color: #aa422f;
+  background-color: #82ddff;
 }
 
 .logbutton {
