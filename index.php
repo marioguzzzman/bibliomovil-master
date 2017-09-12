@@ -79,6 +79,9 @@
               <div class="col-xs-12 col-sm-4 col-md-4">
                 <!-- MAPA / con img-responsive, la imagen ocupa el espacio jsuto del  de la columna-->
                 <img class="img-responsive" src="http://www.ezilon.com/maps/images/southamerica/physical-map-of-Argentina.gif" alt="Mapa de Argentina">
+
+                <!-- <img class="img-responsive" src="img/mapa_ARG-1000x1000.png" alt="Mapa de Argentina"> -->
+
                 <!-- /MAPA-->
               </div>
 

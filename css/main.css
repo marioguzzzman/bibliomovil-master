@@ -17,6 +17,10 @@ html, body {
   font-weight: 800;
 }
 
+.main body {
+  background-image: : url("img/logo_home_1000x1000.png");
+}
+
 svg {
   display: block;
   font: 10.5em 'Montserrat';

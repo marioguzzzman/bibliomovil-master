@@ -13,7 +13,7 @@ IMAGEN BIBLIO MOVIMIENTO
 
 @import url(https://fonts.googleapis.com/css?family=Montserrat);
 html, body {
-  height: 100%;
+  /*height: 100%;*/
   font-weight: 800;
 }
 
@@ -72,7 +72,8 @@ CONTENEDORES
 +++++++++++++++++++++++++++*/
 
 body {
-  background-color: rgb(25, 164, 240) !important;
+  /*background-color: rgb(25, 164, 240) !important;*/
+background: linear-gradient(to bottom, rgba(0, 74, 150, 0.95) 0%, #9999ff 100%);
 }
 
 .container {
@@ -116,11 +117,13 @@ INFO
 
 .info img {
   padding: 30px;
+  width: 100%;
 }
 
-.info b{
+.info b {
   color: yellowgreen;
 }
+
 
 /*--------------------------
 SERVICIOS
