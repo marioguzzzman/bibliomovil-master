@@ -11,7 +11,7 @@ body, html {
   background-color: rgb(1, 45, 65);
   font-family: 'Open Sans Condensed', sans-serif;*/
   font-size: 14px;
-  background-color: rgb(1, 45, 65) !important;
+  background: linear-gradient(to top, rgb(0, 109, 222) 0%, #00BCD4 100%);
 
 }
 
@@ -19,7 +19,7 @@ body, html {
   /*background-color: rgb(164, 164, 164);*/
   background-color: rgb(164, 164, 164);
   /*padding-top: 75px;*/
-  background-color: rgb(1, 45, 65);
+  background: linear-gradient(to bottom, rgb(0, 109, 222) 0%, #00BCD4 100%);
 }
 
 
@@ -29,7 +29,6 @@ LOGIN
 
 .login-box {
   /*background-color: rgb(1, 45, 65);*/
-  background-color: rgb(1, 45, 65);
   padding-top: 20px;
   padding-bottom: 5px;
   padding: 70px;
@@ -156,7 +155,7 @@ FORM BUTTONS
 .logbutton {
   height: 50px;
   /*width: 200px;*/
-  background-color: yellowgreen;
+  background-color: #56da79;
   border-radius: 0px;
   color: white;
   border: none !important;
@@ -164,13 +163,13 @@ FORM BUTTONS
 }
 
 .logbutton:hover {
-  color: white;
-  background-color: darkolivegreen;
+  color: white !important;
+  background-color: #82ddff;
 }
 
 .logbutton:active {
   color: white;
-  background-color: darkolivegreen;
+  background-color: #82ddff;
 }
 
 /*-------------------------------
