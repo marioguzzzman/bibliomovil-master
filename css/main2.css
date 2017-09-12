@@ -26,6 +26,7 @@ html, body {
   background-image: url("../img/fondoninios.jpg");
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
   /*width: 100%;*/
   margin-left: -15px !important;
 }
@@ -171,6 +172,8 @@ SERVICIOS
   padding: 30px;
   /*color: rgb(20, 20, 20);*/
   margin-bottom: 0;
+  font-size: 18px;
+
 }
 
 .servicios h3 {
