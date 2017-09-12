@@ -140,7 +140,7 @@ INFO
 }
 
 .info b {
-  color: yellowgreen;
+  color: #87d4fc;
 }
 
 .info .logo {
@@ -184,7 +184,7 @@ SERVICIOS
 
 .glyphicon-large {
   /*color: rgb(20, 20, 20);*/
-  color: yellowgreen;
+  color: #87d4fc;
   font-size: 50px;
   text-align: center;
 }
