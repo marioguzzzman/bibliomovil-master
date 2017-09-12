@@ -17,9 +17,6 @@ html, body {
   font-weight: 800;
 }
 
-.animacion {
-  background-image: url("img/logo_home_1000x1000.png");
-}
 
 svg {
   display: block;
