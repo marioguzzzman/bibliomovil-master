@@ -51,7 +51,7 @@
       <div class="container login-body">
         <!-- LOGIN BODY -->
 
-        <form action="login.controller.php" method="POST" class="register-form">
+        <form action="php/login.controller.php" method="POST" class="register-form">
           <div class="row">
             <div class="col-xs-10 col-xs-offset-1 col-sm-6 col-sm-offset-3 col-lg-4 col-lg-offset-4 form-group">
               <label class="sr-only" for="email">E-mail</label>
@@ -62,7 +62,7 @@
           </div>
 
           <div class="row">
-            <div class="col-xs-10 col-xs-offset-1 col-sm-6 col-sm-offset-3 col-lg-4 col-lg-offset-4 ">
+            <div class="col-xs-10 col-xs-offset-1 col-sm-6 col-sm-offset-3 col-lg-4 col-lg-offset-4">
               <label class="sr-only" for="password">Password</label>
               <input name="password" value="" class="form-control" type="password" placeholder="Password">
               <span class="glyphicon glyphicon-lock form-control-feedback">

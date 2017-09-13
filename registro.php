@@ -1,9 +1,4 @@
-<?php
 
-$provincias = [
-'Buenos Aires','Provincia de Buenos Aires','Catamarca','Chaco','Chubut','Córdoba','Corrientes','Entre Ríos','Formosa','Jujuy','La Pampa','La Rioja','Mendoza','Misiones','Neuquén','Río Negro','Salta','San Juan','San Luis','Santa Cruz','Santa Fe','Santiago del Estero','Tierra del Fuego','Tucumán',
-];
- ?>
 
 <!DOCTYPE html>
 <html lang="en">
@@ -50,16 +45,14 @@ $provincias = [
 
     <div class="container registro-body">
 
-    <form action="php/confirmacion.php" method="GET" class="register-form">
-
-    <!--  <form action="php/confirmacion.php" method="GET" class="register-form">-->
+    <form action="php/registro.controller.php" method="POST" class="register-form">
 
       <!--CAMPOS PRINCIPALES-->
 
       <div class="row">
         <div class="col-xs-10 col-xs-offset-1 col-sm-6 col-sm-offset-3 col-lg-4 col-lg-offset-4 form-group">
-          <label class="sr-only control-label" for="primer-nombre">Nombre y Apellido</label>
-          <input name="nombre" value="" class="form-control" type="text" id="nombre" placeholder="Nombre" required>
+          <label class="sr-only control-label" for="primer-nombre">Nombre</label>
+          <input name="nombre" value="" class="form-control" type="text" id="nombre" placeholder="Nombre">
           <span class="glyphicon glyphicon-user form-control-feedback">
           </span>
         </div>
@@ -68,7 +61,7 @@ $provincias = [
       <div class="row">
         <div class="col-xs-10 col-xs-offset-1 col-sm-6 col-sm-offset-3 col-lg-4 col-lg-offset-4 form-group">
           <label class="sr-only" for="email">E-mail</label>
-          <input name="email" value="" class="form-control" type="email" placeholder="E-mail" required>
+          <input name="email" value="" class="form-control" type="email" placeholder="E-mail">
           <span class="glyphicon glyphicon-envelope form-control-feedback">
           </span>
         </div>
@@ -83,98 +76,6 @@ $provincias = [
         </div>
       </div>
       <!-- /CAMPOS PRINCIPALES-->
-
-
-      <div class="row">
-        <!-- SEXO    /REVISAR FUNCIONAMIENTO/ tienen que tener id diferente-->
-        <div class="form-check col-xs-10 col-xs-offset-1 col-sm-6 col-sm-offset-3 col-lg-4 col-lg-offset-4 form-group">
-          <label class="form-check-label"> <h4>Género</h4>
-          <input class="form-check-input" type="radio" id="genero" name="genero" value="otro">
-          Otro
-          <input class="form-check-input" type="radio" id="genero2" name="genero" value="femenino">
-          Femenino
-          <input class="form-check-input" type="radio" id="genero3" name="genero" value="masculino">
-          Masculino
-        </label>
-        </div>
-        <!-- /SEXO-->
-      </div>
-
-      <div class="row">
-        <div class="form-check col-xs-10 col-xs-offset-1 col-sm-6 col-sm-offset-3 col-lg-4 col-lg-offset-4">
-
-        <select name="provincias">
-          <option selected>¿En que provincia vives?</option>
-        <?php
-          foreach ($provincias as $key => $value) {?>
-          <option value=<?php echo $value?>>
-            <?php echo $value?></option>
-        <?php
-          }
-        ?>
-      </div>
-
-        </select>
-
-      </div>
-
-      <div class="row">
-        <div class="form-check col-xs-10 col-xs-offset-1 col-sm-6 col-sm-offset-3 col-lg-4 col-lg-offset-4 form-group">
-          <hr>
-        </div>
-      </div>
-
-      <div class="row">
-        <!-- ACTIVIDADES-->
-         <!-- for coincide con id input-->
-        <div class="col-xs-10 col-xs-offset-1 col-sm-6 col-sm-offset-3 col-lg-4 col-lg-offset-4 form-group">
-          <label class="form-check-label">
-          <h4>¿Qué actividades te interesan?</h4>
-          </label>
-          <br/>
-            <input class="form-check-input" id="literatura" name="actividad[]" type="checkbox" value="literatura">
-            <label for="literatura" class="form-check-label">         <!-- for coincide con id input-->
-              Literatura
-            </label>
-
-            <input class="form-check-input" id="arte" name="actividad[]" type="checkbox" value="arte">
-            <label for="arte" class="form-check-label">         <!-- for coincide con id input-->
-              Arte
-            </label>
-
-            <input class="form-check-input" id="cine" name="actividad[]" type="checkbox" value="cine">
-            <label for="cine" class="form-check-label">         <!-- for coincide con id input-->
-              Cine
-            </label>
-
-            <input class="form-check-input" id="narracion" name="actividad[]" type="checkbox" value="naraccion">
-            <label for="narracion" class="form-check-label">         <!-- for coincide con id input-->
-              Narración
-            </label>
-
-            <input class="form-check-input" id="otras" name="actividad[]" type="checkbox" value="otras">
-            <label for="otras" class="form-check-label">         <!-- for coincide con id input-->
-              Otras
-            </label>
-
-        </div>
-        <!--/ACTIVIDADES -->
-      </div>
-
-
-      <div class="row">
-        <!-- ENCUESTA -->
-        <div class="col-xs-10 col-xs-offset-1 col-sm-6 col-sm-offset-3 col-lg-4 col-lg-offset-4 form-group">
-          <select class="custom-select">
-            <option selected>¿Cuántos libros lees por año?</option>
-            <option value="0">Ninguno</option>
-            <option value="1">Uno a cinco</option>
-            <option value="2">Cinco a diez</option>
-            <option value="3">Más de diez</option>
-        </select>
-        </div>
-        <!-- /ENCUESTA -->
-      </div>
 
 
       <form class="form-inline" action="" method="post">
