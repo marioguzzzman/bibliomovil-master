@@ -14,7 +14,7 @@
 
 
   <!-- Bootstrap -->
-  <link rel="stylesheet" hr ef="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
 
   <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -26,9 +26,8 @@
 </head>
 
 <body>
-  <header>
-    <?php include 'navbar.php'; ?>
-  </header>
+
+  <?php include 'navbar.php'; ?>
 
   <div class="container-fluid">
     <!-- CONTAINER GENERAL!-->
