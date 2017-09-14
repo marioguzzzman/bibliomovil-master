@@ -1,4 +1,18 @@
+<?php
+session_start();
+//
+// $nombre = $_SESSION['inputsValues']['nombre'] ?? '';
+// $email = $_SESSION['inputsValues']['email'] ?? '';
+// $password = $_SESSION['inputsValues']['password'] ?? '';
 
+// $errores = [
+//
+// ];
+// ?>
+
+<!-- si no hay errores mandame a confirmacion
+header('Location: /confirmacion.php');
+ -->
 
 <!DOCTYPE html>
 <html lang="en">
@@ -32,8 +46,6 @@
 
   <br><br><br><br>
 
-  <div class="container-fluid">
-
 
     <div class="row">
       <div class="col-xs-10 col-xs-offset-1 col-sm-6 col-sm-offset-3 col-lg-4 col-lg-offset-4">
@@ -42,6 +54,18 @@
         </header>
       </div>
     </div>
+
+    <!-- <?php if (!empty($_SESSION['errores'])): ?>
+        <div class="row">
+            <div class="col-md-12">
+                <div class="alert alert-danger">
+                    <?php foreach ($_SESSION['errores'] as $value): ?>
+                        <p><?php echo $value; ?></p>
+                    <?php endforeach ?>
+                </div>
+            </div>
+        </div>
+    <?php endif ?> -->
 
     <div class="container registro-body">
 
@@ -52,7 +76,9 @@
       <div class="row">
         <div class="col-xs-10 col-xs-offset-1 col-sm-6 col-sm-offset-3 col-lg-4 col-lg-offset-4 form-group">
           <label class="sr-only control-label" for="primer-nombre">Nombre</label>
-          <input name="nombre" value="" class="form-control" type="text" id="nombre" placeholder="Nombre">
+          <!-- <input name="nombre" value="" class="form-control" type="text" id="nombre" placeholder="Nombre"> -->
+          <input name="nombre" value ="" class="form-control" type="text" id= 'name' placeholder="Nombre">
+
           <span class="glyphicon glyphicon-user form-control-feedback">
           </span>
         </div>
@@ -62,6 +88,8 @@
         <div class="col-xs-10 col-xs-offset-1 col-sm-6 col-sm-offset-3 col-lg-4 col-lg-offset-4 form-group">
           <label class="sr-only" for="email">E-mail</label>
           <input name="email" value="" class="form-control" type="email" placeholder="E-mail">
+          <!-- <input name="email" value="<?php echo $email ?>" class="form-control" type="email" placeholder="E-mail"> -->
+
           <span class="glyphicon glyphicon-envelope form-control-feedback">
           </span>
         </div>
@@ -71,11 +99,31 @@
         <div class="col-xs-10 col-xs-offset-1 col-sm-6 col-sm-offset-3 col-lg-4 col-lg-offset-4 form-group">
           <label class="sr-only" for="password">Password</label>
           <input name="password" value="" class="form-control" type="password" placeholder="Password">
+          <!-- <input name="password" value="<?php echo $password ?>" class="form-control" type="password" placeholder="Password"> -->
           <span class="glyphicon glyphicon-lock form-control-feedback">
           </span>
         </div>
       </div>
+
+      <div class="row">
+        <div class="col-xs-10 col-xs-offset-1 col-sm-6 col-sm-offset-3 col-lg-4 col-lg-offset-4 form-group">
+          <label class="sr-only" for="password">Password</label>
+          <input name="password_confirm" value="" class="form-control" type="password" placeholder="Confirma tu password">
+          <span class="glyphicon glyphicon-lock form-control-feedback">
+          </span>
+        </div>
+      </div>
+
+
+      <!-- <div class="form-group">
+                <label for="avatar">Avatar: </label><br/>
+                <input type="file" class="form-control" name="avatar" id="avatar" value="" />
+                <span class="help-block"></span>
+            </div> -->
+
       <!-- /CAMPOS PRINCIPALES-->
+
+
 
 
       <form class="form-inline" action="" method="post">
