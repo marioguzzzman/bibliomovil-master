@@ -1,14 +1,15 @@
 <?php
 session_start();
-//
-// $nombre = $_SESSION['inputsValues']['nombre'] ?? '';
-// $email = $_SESSION['inputsValues']['email'] ?? '';
-// $password = $_SESSION['inputsValues']['password'] ?? '';
 
-// $errores = [
-//
-// ];
-// ?>
+//cual es esta forma?, una comparación?
+$name = $_SESSION['inputsValues']['name'] ?? '';
+$email = $_SESSION['inputsValues']['email'] ?? '';
+$password = $_SESSION['inputsValues']['password'] ?? '';
+
+$errores = [
+
+];
+ ?>
 
 <!-- si no hay errores mandame a confirmacion
 header('Location: /confirmacion.php');
@@ -55,9 +56,10 @@ header('Location: /confirmacion.php');
       </div>
     </div>
 
-    <!-- <?php if (!empty($_SESSION['errores'])): ?>
+<!-- RECUPERACION DE ARRAY DE ERRORES DESDE SESSION -->
+    <?php if (!empty($_SESSION['errores'])): ?>
         <div class="row">
-            <div class="col-md-12">
+            <div class="col-xs-10 col-xs-offset-1 col-sm-6 col-sm-offset-3 col-lg-4 col-lg-offset-4">
                 <div class="alert alert-danger">
                     <?php foreach ($_SESSION['errores'] as $value): ?>
                         <p><?php echo $value; ?></p>
@@ -65,7 +67,8 @@ header('Location: /confirmacion.php');
                 </div>
             </div>
         </div>
-    <?php endif ?> -->
+    <?php endif ?>
+<!-- RECUPERACION DE ARRAY DE ERRORES DESDE SESSION -->
 
     <div class="container registro-body">
 
@@ -77,8 +80,9 @@ header('Location: /confirmacion.php');
         <div class="col-xs-10 col-xs-offset-1 col-sm-6 col-sm-offset-3 col-lg-4 col-lg-offset-4 form-group">
           <label class="sr-only control-label" for="primer-nombre">Nombre</label>
           <!-- <input name="nombre" value="" class="form-control" type="text" id="nombre" placeholder="Nombre"> -->
-          <input name="nombre" value ="" class="form-control" type="text" id= 'name' placeholder="Nombre">
-
+<!-- DATO RECUPERADO POR SESSION + POST + ERRORES -->
+            <input name="name" value="<?php echo $name ?>" class="form-control" type="text" placeholder="Nombre">
+<!-- DATO RECUPERADO POR SESSION + POST + ERRORES -->
           <span class="glyphicon glyphicon-user form-control-feedback">
           </span>
         </div>
@@ -87,9 +91,10 @@ header('Location: /confirmacion.php');
       <div class="row">
         <div class="col-xs-10 col-xs-offset-1 col-sm-6 col-sm-offset-3 col-lg-4 col-lg-offset-4 form-group">
           <label class="sr-only" for="email">E-mail</label>
-          <input name="email" value="" class="form-control" type="email" placeholder="E-mail">
-          <!-- <input name="email" value="<?php echo $email ?>" class="form-control" type="email" placeholder="E-mail"> -->
-
+          <!-- <input name="email" value="" class="form-control" type="email" placeholder="E-mail"> -->
+<!-- DATO RECUPERADO POR SESSION + POST + ERRORES -->
+          <input name="email" value="<?php echo $email ?>" class="form-control" type="email" placeholder="E-mail">
+<!-- DATO RECUPERADO POR SESSION + POST + ERRORES -->
           <span class="glyphicon glyphicon-envelope form-control-feedback">
           </span>
         </div>
@@ -98,8 +103,10 @@ header('Location: /confirmacion.php');
       <div class="row">
         <div class="col-xs-10 col-xs-offset-1 col-sm-6 col-sm-offset-3 col-lg-4 col-lg-offset-4 form-group">
           <label class="sr-only" for="password">Password</label>
-          <input name="password" value="" class="form-control" type="password" placeholder="Password">
-          <!-- <input name="password" value="<?php echo $password ?>" class="form-control" type="password" placeholder="Password"> -->
+          <!-- <input name="password" value="" class="form-control" type="password" placeholder="Password"> -->
+<!-- DATO RECUPERADO POR SESSION + POST + ERRORES -->
+          <input name="password" value="<?php echo $password ?>" class="form-control" type="password" placeholder="Password">
+<!-- DATO RECUPERADO POR SESSION + POST + ERRORES -->
           <span class="glyphicon glyphicon-lock form-control-feedback">
           </span>
         </div>
@@ -108,7 +115,10 @@ header('Location: /confirmacion.php');
       <div class="row">
         <div class="col-xs-10 col-xs-offset-1 col-sm-6 col-sm-offset-3 col-lg-4 col-lg-offset-4 form-group">
           <label class="sr-only" for="password">Password</label>
-          <input name="password_confirm" value="" class="form-control" type="password" placeholder="Confirma tu password">
+          <!-- <input name="password_confirm" value="" class="form-control" type="password" placeholder="Confirma tu password"> -->
+<!-- DATO RECUPERADO POR SESSION + POST + ERRORES -->
+          <input name="password_confirm" value="<?php echo $password_confirm ?>" class="form-control" type="password" placeholder="Confirma tu password">
+<!-- DATO RECUPERADO POR SESSION + POST + ERRORES -->
           <span class="glyphicon glyphicon-lock form-control-feedback">
           </span>
         </div>
