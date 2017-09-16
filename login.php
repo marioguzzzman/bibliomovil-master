@@ -1,3 +1,6 @@
+<!-- <?php
+session_start(); ?> -->
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -47,6 +50,23 @@
         </div>
         <!-- LOGIN HEADER -->
       </div>
+
+      <!-- RECUPERACION DE ARRAY DE ERRORES DESDE SESSION -->
+      <!-- si hay data en array de errores, entonces crear row con impresion de los mensajes dentro del array -->
+          <!-- <?php if (!empty($_SESSION['errores'])): ?>
+              <div class="row">
+                  <div class="col-xs-10 col-xs-offset-1 col-sm-6 col-sm-offset-3 col-lg-4 col-lg-offset-4">
+                      <div class="alert alert-danger">
+                          <?php foreach ($_SESSION['errores'] as $mensajesError): ?>
+                              <p><?php echo $mensajesError; ?></p>
+                          <?php endforeach ?>
+                      </div>
+                  </div>
+              </div>
+            <!-- <?php else: ?>
+            <?php $name = $email = $pasword = $password_confirm = ""; ?> -->
+          <?php endif ?> -->
+      <!-- RECUPERACION DE ARRAY DE ERRORES DESDE SESSION -->
 
       <div class="container login-body">
         <!-- LOGIN BODY -->

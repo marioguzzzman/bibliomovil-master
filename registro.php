@@ -2,18 +2,16 @@
 session_start();
 
 //cual es esta forma?, una comparación?
-$name = $_SESSION['inputsValues']['name'] ?? '';
-$email = $_SESSION['inputsValues']['email'] ?? '';
-$password = $_SESSION['inputsValues']['password'] ?? '';
+$name = $_SESSION['backInputValues']['name'] ?? '';
+$email = $_SESSION['backInputValues']['email'] ?? '';
+$password = $_SESSION['backInputValues']['hash'] ?? '';
 
-$errores = [
 
-];
+//es necesario esto aca?
+$errores = [ ];
+
  ?>
 
-<!-- si no hay errores mandame a confirmacion
-header('Location: /confirmacion.php');
- -->
 
 <!DOCTYPE html>
 <html lang="en">
@@ -56,21 +54,39 @@ header('Location: /confirmacion.php');
       </div>
     </div>
 
-<!-- RECUPERACION DE ARRAY DE ERRORES DESDE SESSION -->
-    <?php if (!empty($_SESSION['errores'])): ?>
+
+    <!-- DEBUG DATOS VALIDOS -->
+    <!-- <?php if (isset($_SESSION['validos'])): ?>
         <div class="row">
             <div class="col-xs-10 col-xs-offset-1 col-sm-6 col-sm-offset-3 col-lg-4 col-lg-offset-4">
-                <div class="alert alert-danger">
-                    <?php foreach ($_SESSION['errores'] as $value): ?>
-                        <p><?php echo $value; ?></p>
+                <div class="alert alert-info">
+                    <?php foreach ($_SESSION['validos'] as $datosValidos): ?>
+                        <p><?php echo $datosValidos; ?></p>
                     <?php endforeach ?>
                 </div>
             </div>
         </div>
+    <?php endif ?> -->
+    <!-- DEBUG  DATOS VALIDOS-->
+
+<!-- RECUPERACION DE ARRAY DE ERRORES DESDE SESSION -->
+<!-- si hay data en array de errores, entonces crear row con impresion de los mensajes dentro del array -->
+    <?php if (!empty($_SESSION['errores'])): ?>
+        <div class="row">
+            <div class="col-xs-10 col-xs-offset-1 col-sm-6 col-sm-offset-3 col-lg-4 col-lg-offset-4">
+                <div class="alert alert-danger">
+                    <?php foreach ($_SESSION['errores'] as $mensajesError): ?>
+                        <p><?php echo $mensajesError; ?></p>
+                    <?php endforeach ?>
+                </div>
+            </div>
+        </div>
+      <?php else: ?>
+      <?php $name = $email = $password = ""; ?>
     <?php endif ?>
 <!-- RECUPERACION DE ARRAY DE ERRORES DESDE SESSION -->
 
-    <div class="container registro-body">
+    <div class="container-flui registro-body">
 
     <form action="php/registro.controller.php" method="POST" class="register-form">
 
@@ -105,7 +121,7 @@ header('Location: /confirmacion.php');
           <label class="sr-only" for="password">Password</label>
           <!-- <input name="password" value="" class="form-control" type="password" placeholder="Password"> -->
 <!-- DATO RECUPERADO POR SESSION + POST + ERRORES -->
-          <input name="password" value="<?php echo $password ?>" class="form-control" type="password" placeholder="Password">
+          <input name="password" value="" class="form-control" type="password" placeholder="Password">
 <!-- DATO RECUPERADO POR SESSION + POST + ERRORES -->
           <span class="glyphicon glyphicon-lock form-control-feedback">
           </span>
@@ -117,9 +133,9 @@ header('Location: /confirmacion.php');
           <label class="sr-only" for="password">Password</label>
           <!-- <input name="password_confirm" value="" class="form-control" type="password" placeholder="Confirma tu password"> -->
 <!-- DATO RECUPERADO POR SESSION + POST + ERRORES -->
-          <input name="password_confirm" value="<?php echo $password_confirm ?>" class="form-control" type="password" placeholder="Confirma tu password">
+          <!-- <input name="password_confirm" value="<?php echo $password_confirm ?>" class="form-control" type="password" placeholder="Confirma tu password"> -->
 <!-- DATO RECUPERADO POR SESSION + POST + ERRORES -->
-          <span class="glyphicon glyphicon-lock form-control-feedback">
+          <!-- <span class="glyphicon glyphicon-lock form-control-feedback"> -->
           </span>
         </div>
       </div>
