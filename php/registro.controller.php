@@ -94,7 +94,7 @@ function data_clean($data)
       $json[$key] = json_decode($value, true);// no olvidar el true
 
 //*********** VISTAS DEBUG ***********
-// var_dump($json[$value]);
+//var_dump($json[$value]);
 // echo "<br />";
       }
 
@@ -126,6 +126,7 @@ $usuario = [
 
 //*********** GUARDAR USUARIO ***********
 if (!$errores) {
+//si no hay erores entonces guarda al usuario
 $usuarios = $usuario; //en el array $usuarios, ingresa el $usuario creado
 $json = json_encode($usuarios); //da formato json a $usuarios
 file_put_contents(DB_PATH, $json . PHP_EOL, FILE_APPEND); //escribilo en el archivo json y agrega un enter al final

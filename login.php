@@ -1,5 +1,7 @@
 <!-- <?php
-session_start(); ?> -->
+session_start();
+
+?> -->
 
 
 <!-- falta agregar los mensajes de errore que vienen de POST -->
@@ -68,7 +70,7 @@ session_start(); ?> -->
               </div>
             <!-- <?php else: ?>
             <?php $name = $email = $pasword = $password_confirm = ""; ?> -->
-          <?php endif ?> -->
+        <!--  <?php endif ?> -->
       <!-- RECUPERACION DE ARRAY DE ERRORES DESDE SESSION -->
 
       <div class="container login-body">
