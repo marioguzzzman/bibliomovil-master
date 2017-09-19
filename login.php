@@ -1,6 +1,9 @@
 <!-- <?php
 session_start(); ?> -->
 
+
+<!-- falta agregar los mensajes de errore que vienen de POST -->
+
 <!DOCTYPE html>
 <html lang="en">
 

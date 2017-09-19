@@ -2,9 +2,9 @@
 session_start();
 
 //cual es esta forma?, una comparación?
-$name = $_SESSION['backInputValues']['name'] ?? '';
-$email = $_SESSION['backInputValues']['email'] ?? '';
-$password = $_SESSION['backInputValues']['hash'] ?? '';
+$name = $_SESSION['restoreInputValues']['name'] ?? '';
+$email = $_SESSION['restoreInputValues']['email'] ?? '';
+$password = $_SESSION['restoreInputValues']['hash'] ?? '';
 
 
 //es necesario esto aca?
