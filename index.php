@@ -1,14 +1,10 @@
 <?php
 session_start();
+
+require 'php/helpers.php'; // archivo de funciones
+// $name = $_SESSION['registroExito']['name'];
+
 ?>
-
-
-<!-- <?php
-session_start();
-if (!isset ($_SESSION['login'])) {
-  header('Location: login.php');
-}
-?> -->
 
 <!DOCTYPE html>
 <html lang="en">
@@ -38,7 +34,8 @@ if (!isset ($_SESSION['login'])) {
 
 <body>
 
-  <?php include 'navbar.php'; ?>
+<?php  include 'php/sistema-nav-login.php'; ?>
+
 
   <div class="container-fluid">
     <!-- CONTAINER GENERAL!-->

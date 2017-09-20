@@ -7,6 +7,7 @@ require 'helpers.php'; // archivo de funciones
 
 $usuario = getUserByEmail ($_POST['email'], '../db/usuarios.json'); //funcion de recuperacion de usuario por email
 
+$name = $usuario['name'];
 $email = $usuario['email'];
 $hash = $usuario['hash'];
 
@@ -35,11 +36,11 @@ if($email && password_verify($_POST['password'], $hash)) {
 // *********** SESSION ***********
 
   $_SESSION['login'] = true;
+	$_SESSION['usuario'] = $_POST;
   header('Location: ../index.php');
 	//revisar si esta COOKIE
 } else {
 //volve a login e imprimi los datos ingresados no son correctos
    $_SESSION['backInputValues'] = "";
-   $_SESSION['registroExito'] = $_POST;
   header('Location: ../login.php');
 }

@@ -1,3 +1,10 @@
+<?php
+session_start();
+
+require 'php/helpers.php'; // archivo de funciones
+
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -33,7 +40,8 @@ Diseño de imagenes
 <body>
 
   <!-- NAVEGACION-->
-  <?php include 'navbar.php'; ?>
+  <?php  include 'php/sistema-nav-login.php'; ?>
+
   <!--WRAPPER -->
 
   <div class="container">

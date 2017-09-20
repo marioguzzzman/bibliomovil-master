@@ -1,29 +1,17 @@
 <?php
-include '/php/sesion.iniciada.php';
-include 'php/helpers.php';
+session_start();
 
-include 'navbar.php';
-
-//Recuperar data
-$usuarios = getUsers('../db/usuarios.json');
-
-
-define('DB_PATH', 'db/usuarios.json');
+require 'php/helpers.php'; // archivo de funciones
 
 //Recuperar data
-if (file_exists(DB_PATH)) {
-    $json = file_get_contents(DB_PATH);
-    $usuarios = json_decode($json, true);
-} else {
-    $usuarios = [];
-}
+// $email = $_SESSION['usuario']['email'] ?? '';
 
-for ($i=0;$i<count($usuarios); $i++) {
-    $email = $usuarios[$i]['email'];
-    if ($email == $_GET['email']) {
-        $usuario = $usuarios[$i];
-        break;
-    }
+// $usuario = getUserByEmail ($_POST['email'], 'db/usuarios.json'); //funcion de recuperacion de usuario por email
+//
+// $name = $usuario['name'];
+// $email = $usuario['email'];
+foreach ($_POST as $key => $value) {
+var_dump( $_POST);
 }
 
 ?>
@@ -49,13 +37,16 @@ for ($i=0;$i<count($usuarios); $i++) {
   </head>
   <body>
 
+    <?php  include 'php/sistema-nav-login.php'; ?>
+
+
     <div class="container">
       <div class="row">
         <div class="col-md-12">
           <h1>Perfil de usuario</h1>
 
-          <h2><?php echo $usuario['nombre'] ?></h2>
-        	<p><?php echo $usuario['email'] ?></p>
+          <h2><?php echo $name ?></h2>
+        	<p><?php echo $email ?></p>
         	<p>
         		<!-- <img src="images/<?php echo $usuario['avatar'] ?>"> -->
         </div>

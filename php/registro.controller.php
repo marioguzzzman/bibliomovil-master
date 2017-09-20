@@ -92,7 +92,6 @@ function data_clean($data)
       foreach ($json as $key => $value) {
         //busca todas las claves de la base y haz que los valores sean las claves??
       $json[$key] = json_decode($value, true);// no olvidar el true
-
 //*********** VISTAS DEBUG ***********
 //var_dump($json[$value]);
 // echo "<br />";
@@ -143,7 +142,6 @@ file_put_contents(DB_PATH, $json . PHP_EOL, FILE_APPEND); //escribilo en el arch
 
 // *********** REDIRECCION
 // No funciona si hay algun tipo de impresion en otra parte, porque también es un tipo de header?
-
 
 // *********** SESSION ***********
 

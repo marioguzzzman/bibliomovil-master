@@ -40,8 +40,8 @@ $errores = [ ];
 </head>
 
 <body>
+  <?php  include 'php/sistema-nav-login.php'; ?>
 
-  <?php include 'navbar.php'; ?>
 
   <br><br><br><br>
 
@@ -86,7 +86,7 @@ $errores = [ ];
     <?php endif ?>
 <!-- RECUPERACION DE ARRAY DE ERRORES DESDE SESSION -->
 
-    <div class="container-flui registro-body">
+    <div class="container-fluid registro-body">
 
     <form action="php/registro.controller.php" method="POST" class="register-form">
 

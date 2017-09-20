@@ -1,7 +1,7 @@
-<!-- <?php
+<?php
 session_start();
 
-?> -->
+?>
 
 
 <!-- falta agregar los mensajes de errore que vienen de POST -->
@@ -32,8 +32,8 @@ session_start();
 </head>
 
 <body>
+  <?php  include 'php/sistema-nav-login.php'; ?>
 
-  <?php include 'navbar.php'; ?>
 
 
   <div class="container-fluid">

@@ -8,7 +8,7 @@ $email = $_SESSION['registroExito']['email'];
 
 // $name = $_POST['name'];
 // $email = $_POST['email'];
-
+$_SESSION['registroExito'] = $_POST;
 ?>
 
 
@@ -32,10 +32,6 @@ $email = $_SESSION['registroExito']['email'];
   </head>
 
   <body>
-
-    <!-- <?php if (empty($_SESSION['errores'])):?>
-
-  <?php  endif ?> -->
 
 
     <div class="container-fluid confirmacion">
