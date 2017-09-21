@@ -30,42 +30,194 @@ session_start();
 
 	<!-- <?php  include 'php/sistema-nav-login.php'; ?> -->
 
-	<div class="container arte">
+	<div class="container">
 		<!-- CONTAINER PRINCIPAL -->
-<div class="row">
-	<div class="col-md-8 col-md-offset-3">
-		<header>
-			<h1>Cuánto sabemos sobre Arte?</h1>
-		</header>
-	</div>
+		<section class="arte">
+
+			<div class="row">
+				<!-- ROW -->
+				<div class="col-md-10 col-md-offset-1">
+					<!-- COL -->
+					<header>
+						<h1>¿Cuánto sabemos sobre Arte?</h1>
+					</header>
+
+					<form action="" method="POST" class="register-form">
+						<!-- PREGUNTA  -->
+						<p class="pregunta">1. ¿En qué barrio de la Ciudad de Buenos Aires vivió el pintor autodidacta Benito Quinquela Martín?</p>
+
+
+						<img src="img-arte/01.jpg" alt="Mountain View">
+						<br>
+						<div class="col-md-10 col-md-offset-2 bullet">
+
+							<input type="radio" class="form-check-input" name="uno" value="0" /> Puerto Madryn<br />
+							<input type="radio" lass="form-check-input" name="uno" value="0" /> Coghlan<br />
+							<input type="radio" class="form-check-input" name="uno" value="10" /> La Boca<br />
+							<br>
+						</div>
+
+						<p>
+							<button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#saber1" aria-expanded="false" aria-controls="collapseExample">
+    Para saber más
+  </button>
+						</p>
+						<div class="collapse" id="saber1">
+							<div class="row">
+							  <div class="col-md-10 col-md-offset-1">
+
+							<div class="card card-block saber">
+								<!-- <figcaption> -->
+								Benito Quinquela Martín (Buenos Aires 1890 - 1977), trabajó durante su infancia acarreando bolsas en una carbonearía, experiencia que influenció su visión artística de temática popular.
+								<!-- </figcaption> -->
+								<br>
+							</div>
+						</div>
+					</div>
+				</div>
+<!-- /PREGUNTA  -->
+
+<!-- PREGUNTA  -->
+<br>
+<p class="pregunta">2. ¿Cuál es el nombre de éste famoso personaje creado por Antonio Berni?</p>
+
+<img src="img-arte/2.jpg" alt="Mountain View">
+<br>
+<div class="col-md-10 col-md-offset-2 bullet">
+
+	<input type="radio" name="dos" value="0" /> Javiercito Rodriguez<br />
+	<input type="radio" name="dos" value="10" /> Juanito Laguna<br />
+	<input type="radio" name="dos" value="0" /> Pedrito el Charquito<br />
+	<br>
 </div>
 
+<p>
+	<button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#saber2" aria-expanded="false" aria-controls="collapseExample">
+Para saber más
+</button>
+</p>
+<div class="collapse" id="saber2">
+	<div class="row">
+		<div class="col-md-10 col-md-offset-1">
 
-<form action="" method="POST" class="register-form">
-
-<div class="row">
-	<!--ROW  FORMULARIO PRINCIPAL -->
-	<div class="col-md-8 col-md-offset-3">
-		<p>1. ¿En qué barrio de la Ciudad de Buenos Aires vivió el pintor autodidacta Benito Quinquela Martín?</p>
-
-		<img src="img-arte/01.jpg" alt="Mountain View" style="width:504px;height:328px;">
-		<p></p>
-
-		<input type="radio" name="uno" value="0" /> Puerto Madryn<br />
-		<input type="radio" name="uno" value="0" /> Coghlan<br />
-		<input type="radio" name="uno" value="10" /> La Boca<br />
-
-		<figcaption>Para saber más: Benito Quinquela Martín (Buenos Aires 1890 - 1977), trabajó durante su infancia acarreando bolsas en una carbonearía, experiencia que influenció su visión artística de temática popular. </figcaption>
-
-
-
-
-
+	<div class="card card-block saber">
+		<!-- <figcaption> -->
+		Tip: Antonio Berni (1905 - 1981) creó personajes que representaban a los sectores pobres y olvidados del país
+		<!-- </figcaption> -->
 	</div>
-	<!-- ROW FORMULARIO PRINCIPAL -->
+</div>
+</div>
+</div>
+<!-- /PREGUNTA  -->
+
+<!-- PREGUNTA  -->
+<br>
+<p class="pregunta">3. ¿En qué país nació Joaquín Torres García el creador de la Escuela del Sur?</p>
+
+<img src="img-arte/3.jpg" alt="Mountain View">
+<br>
+<div class="col-md-10 col-md-offset-2 bullet">
+
+	<input type="radio" name="tres" value="0" /> Japón<br />
+	<input type="radio" name="tres" value="0" /> Ecuador<br />
+	<input type="radio" name="tres" value="10" /> Uruguay<br />
+	<br>
 </div>
 
-</form>
+<p>
+	<button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#saber3" aria-expanded="false" aria-controls="collapseExample">
+Para saber más
+</button>
+</p>
+<div class="collapse" id="saber3">
+	<div class="row">
+		<div class="col-md-10 col-md-offset-1">
+
+	<div class="card card-block saber">
+		<!-- <figcaption> -->
+		Joaquín Torres García (1874 - 1949) fue un destacado pintor, profesor, escritor, escultor y teórico, creador del "Universalismo constructivo" uno de los principales movimientos artísticos de su país.
+		<!-- </figcaption> -->
+	</div>
+</div>
+</div>
+</div>
+<!-- /PREGUNTA  -->
+
+<!-- PREGUNTA  -->
+<br>
+<p class="pregunta">4. ¿A qué movimiento pertenece esta pintura realizada en México por la artista española Remedios Varo?</p>
+
+<img src="img-arte/4.jpg" alt="Mountain View">
+<br>
+<div class="col-md-10 col-md-offset-2 bullet">
+
+	<input type="radio" name="cuatro" value="10" /> Surrealismo<br />
+	<input type="radio" name="cuatro" value="0" /> Suprematismo<br />
+	<input type="radio" name="cuatro" value="0" /> Romanticismo<br />
+	<br>
+</div>
+
+<p>
+	<button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#saber4" aria-expanded="false" aria-controls="collapseExample">
+Para saber más
+</button>
+</p>
+<div class="collapse" id="saber4">
+	<div class="row">
+		<div class="col-md-10 col-md-offset-1">
+
+	<div class="card card-block saber">
+		<!-- <figcaption> -->
+		María de los Remedios Alicia Rodriga Varo y Uranga (1908 – 1963), conocida como Remedios Varo, fue una pintora española naturalizada mexicana que emigró a América como refugiada política durante la Segunda Guerra Mundial.
+		<!-- </figcaption> -->
+	</div>
+</div>
+</div>
+</div>
+<!-- /PREGUNTA  -->
+
+<!-- PREGUNTA  -->
+<br>
+<p class="pregunta">5. Esta obra de Arte Callejero títulada "Identidad" representa a dos ciudadanos de un país latinoamericano. ¿Cuál es?</p>
+
+<img src="img-arte/5.jpg" alt="Mountain View">
+<br>
+<div class="col-md-10 col-md-offset-2 bullet">
+
+	<input type="radio" name="cinco" value="0" /> Chile<br />
+	<input type="radio" name="cinco" value="0" /> Brasil<br />
+	<input type="radio" name="cinco" value="10" /> Perú<br />
+	<br>
+</div>
+
+<p>
+	<button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#saber5" aria-expanded="false" aria-controls="collapseExample">
+Para saber más
+</button>
+</p>
+<div class="collapse" id="saber5">
+	<div class="row">
+		<div class="col-md-10 col-md-offset-1">
+
+	<div class="card card-block saber">
+		<!-- <figcaption> -->
+		El arte callejero cuenta con una variedad de técnicas: Graffiti, esténcil, pegatinas, mosaicos. Inclusive hay artistas que trabajan sobre los muros utilizando solo agua.
+		<!-- </figcaption> -->
+	</div>
+</div>
+</div>
+</div>
+<!-- /PREGUNTA  -->
+
+					</form>
+					<!-- COL -->
+				</div>
+				<!-- ROW -->
+			</div>
+
+
+
+		</section>
 
 		<!-- CONTAINER PRINCIPAL -->
 	</div>
