@@ -39,20 +39,21 @@ background-color: blue !important;
 
 }
 
-h1 {
+h1, h4 {
   text-align: center;
   margin: 30px !important;
   font-weight: bold !important;
 }
 
+
 section img {
-  width: 50%;
+  width: 70%;
   display: block;
   margin: 0 auto;
 }
 
 .bullet {
-  margin-left: 22.666667% !important;
+  margin-left:13.666667% !important;
 }
 
 .saber {
