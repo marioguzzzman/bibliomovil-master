@@ -54,21 +54,6 @@ $errores = [ ];
       </div>
     </div>
 
-
-    <!-- DEBUG DATOS VALIDOS -->
-    <!-- <?php if (isset($_SESSION['validos'])): ?>
-        <div class="row">
-            <div class="col-xs-10 col-xs-offset-1 col-sm-6 col-sm-offset-3 col-lg-4 col-lg-offset-4">
-                <div class="alert alert-info">
-                    <?php foreach ($_SESSION['validos'] as $datosValidos): ?>
-                        <p><?php echo $datosValidos; ?></p>
-                    <?php endforeach ?>
-                </div>
-            </div>
-        </div>
-    <?php endif ?> -->
-    <!-- DEBUG  DATOS VALIDOS-->
-
 <!-- RECUPERACION DE ARRAY DE ERRORES DESDE SESSION -->
 <!-- si hay data en array de errores, entonces crear row con impresion de los mensajes dentro del array -->
     <?php if (!empty($_SESSION['errores'])): ?>
@@ -88,7 +73,7 @@ $errores = [ ];
 
     <div class="container-fluid registro-body">
 
-    <form action="php/registro.controller.php" method="POST" class="register-form">
+    <form action="php/registro.controller.php" method="POST" class="register-form"  enctype="multipart/form-data">
 
       <!--CAMPOS PRINCIPALES-->
 
@@ -129,7 +114,7 @@ $errores = [ ];
       </div>
 
       <div class="row">
-        <div class="col-xs-10 col-xs-offset-1 col-sm-6 col-sm-offset-3 col-lg-4 col-lg-offset-4 form-group">
+        <div class="col-xs-10 col-xs-offset-1 col-sm-6 col-sm-offset-3 col-lg-4 col-lg-offset-4">
           <label class="sr-only" for="password">Password</label>
           <!-- <input name="password_confirm" value="" class="form-control" type="password" placeholder="Confirma tu password"> -->
 <!-- DATO RECUPERADO POR SESSION + POST + ERRORES -->
@@ -139,20 +124,19 @@ $errores = [ ];
           </span>
         </div>
       </div>
-
-
-      <!-- <div class="form-group">
-                <label for="avatar">Avatar: </label><br/>
+      <div class="row">
+        <div class=" col-xs-10 col-xs-offset-1 col-sm-6 col-sm-offset-3 col-lg-4 col-lg-offset-4 ">
+                <label for="avatar">Elige una imagen de perfil</label>
                 <input type="file" class="form-control" name="avatar" id="avatar" value="" />
                 <span class="help-block"></span>
-            </div> -->
+          </div>
+       </div>
 
       <!-- /CAMPOS PRINCIPALES-->
 
 
 
 
-      <form class="form-inline" action="" method="post">
         <!-- BOTON -->
         <div class="row form-group">
           <div class="col-xs-10 col-xs-offset-1 col-sm-6 col-sm-offset-3 col-lg-4 col-lg-offset-4 form-group">
@@ -160,7 +144,6 @@ $errores = [ ];
           </div>
         </div>
         <!-- BOTON -->
-      </form>
 
 
     </form>

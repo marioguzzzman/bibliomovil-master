@@ -2,7 +2,6 @@
 session_start();
 
 require 'php/helpers.php'; // archivo de funciones
-// $name = $_SESSION['registroExito']['name'];
 
 ?>
 

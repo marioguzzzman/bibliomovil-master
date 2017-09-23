@@ -27,6 +27,9 @@
           <li role="separator" class="divider"></li>
 
           <li><a href="#">Cuentos Interactivos</a></li>
+          <!-- <li role="separator" class="divider"></li> -->
+          <li><a href="http://www.philome.la/marioguzzman/infinitud-discreta/play">Infinitud Discreta</a></li>
+          <li><a href="http://www.philome.la/marioguzzman/tringulo-de-las-bermudas/play">El triángulo de las Bermudas</a></li>
 
         </ul>
       </li>
@@ -56,8 +59,8 @@
         </ul>
       </li>
 
-      <!-- <li><a href="usuario-dashboard.php"><?php echo $name ?></a></li> -->
-      <li><a href="usuario-dashboard.php">Usuario</a></li>
+      <li><a href="usuario-dashboard.php"><?php echo $usuario['name'] ?></a></li>
+      <!-- <li><a href="usuario-dashboard.php">Usuario</a></li> -->
       <li><a href="php/logout.controller.php">Salir</a></li>
       </li>
     </ul>

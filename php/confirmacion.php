@@ -3,12 +3,9 @@ session_start();
 
 require 'helpers.php'; // funciones
 
-$name = $_SESSION['registroExito']['name'];
-$email = $_SESSION['registroExito']['email'];
+$usuario = $_SESSION['usuario'];
+$_SESSION['login'] = true; //inicia seción
 
-// $name = $_POST['name'];
-// $email = $_POST['email'];
-$_SESSION['registroExito'] = $_POST;
 ?>
 
 
@@ -52,13 +49,13 @@ $_SESSION['registroExito'] = $_POST;
               <section class="texto-registro">
                 <p>
                   <span>
-                  Hola <strong><?php echo $name ?></strong>,
+                  Hola <strong><?php echo $usuario['name']?></strong>,
 
                   <!-- Hola <strong><?php echo $name ?></strong>, nos encanta la provincia de <strong>
                       <?php echo $_POST['provincias'] ?>.
                     </strong>
                   <br> -->
-                  Te hemos registrado con el mail: <strong><?php echo $email ?></strong>.
+                  Te hemos registrado con el mail: <strong><?php echo $usuario['email'] ?></strong>.
                   <br>
                   <!-- Sabemos que te interesan las actividades de:
                   <br>

@@ -108,13 +108,13 @@ session_start();
              </label>
           </div>
 
-          <form class="form-inline" action="login.controller.php" method="POST">
+          <!-- <form class="form-inline" action="login.controller.php" method="POST"> -->
             <div class="row form-group">
               <div class="col-xs-10 col-xs-offset-1 col-sm-6 col-sm-offset-3 col-lg-4 col-lg-offset-4">
                 <button class="btn btn-block btn-mg logbutton">Entrar</button>
               </div>
             </div>
-          </form>
+          <!-- </form> -->
         </form>
         <!-- LOGIN BODY -->
       </div>

@@ -3,37 +3,18 @@ session_start();
 
 require 'php/helpers.php'; // archivo de funciones
 
-// $descripcion [
-//   'intereses' => 'arte'
-//
-//
-// ];
-//
-
-$lectura = 10;
-$escritura = 0;
-$sabiduria = 5;
-
-$nivel = [
-  'lectura' => $lectura,
-  'escritura' => $escritura,
-  'sabiduria' => $sabiduria,
-];
-
- $_SESSION['nivel'] = $nivel;
-
+var_dump($usuario); exit;
 ?>
 
-  <!DOCTYPE html>
-  <html lang="en">
-
+<!DOCTYPE html>
+<html lang="en">
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Perfil de usuario</title>
 
-    <link rel="stylesheet" href="css/css-registr.css">
+    <link rel="stylesheet" href="css/usuario-dashboard.css">
     <link rel="stylesheet" href="css/navbar.css">
 
     <!-- Bootstrap -->
@@ -47,38 +28,25 @@ $nivel = [
       <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
   </head>
-
   <body>
     <?php  include 'php/sistema-nav-login.php'; ?>
 
 
-    <div class="container usuario">
+    <div class="container">
       <div class="row">
-        <br><br><br>
-        <div class="col-md-4 col-md-offset-2">
 
-          <!-- como hacemos que si no subio foto se agregue una por defatul? -->
-          <img src="uploaded/<?php echo $usuario['avatar'] ?>" alt="Foto de <?php echo $usuario['name'] ?>">
-
+        <div class="col-md-4">
+          <img src="uploaded/<?php echo $usuario['avatar'] ?>" alt="">
+        		<!-- <img src="images/<?php echo $usuario['avatar'] ?>"> -->
         </div>
 
-        <div class="col-md-4 ">
+        <div class="col-md-6">
           <h1>Perfil de usuario</h1>
 
-          <h3>Nombre: <?php echo $usuario['name'] ?></h3>
-          <h3>Email: <?php echo $usuario['email'] ?></h3>
-          <br>
-          <p>
-            A medida que realices actividades, explores la página, respondas las trivias y guardes tus propios cuentos interactivos, tu nivel de usuario se va a incrementar.
-            <br><br> Actualmente tienes:
-            <br> <br>Lectura:
-            <span class="puntos"><?php echo '+ ' . $nivel['lectura'] ?></span>
-            <br> Escritura:
-            <span class="puntos"><?php echo '+ ' . $nivel['escritura'] ?></span>
-            <br> Sabiduría:
-            <span class="puntos"><?php echo '+ ' . $nivel['sabiduria'] ?></span>
-
-          </p>
+          <h2><?php echo $usuario['name'] ?></h2>
+        	<p><?php echo $usuario['email'] ?></p>
+        	<p>
+        		<!-- <img src="images/<?php echo $usuario['avatar'] ?>"> -->
         </div>
       </div>
     </div>
@@ -88,5 +56,4 @@ $nivel = [
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
   </body>
-
-  </html>
+</html>

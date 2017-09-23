@@ -27,6 +27,8 @@
           <li role="separator" class="divider"></li>
 
           <li><a href="#">Cuentos Interactivos</a></li>
+          <li><a href="http://www.philome.la/marioguzzman/infinitud-discreta/play">Infinitud Discreta</a></li>
+          <li><a href="http://www.philome.la/marioguzzman/tringulo-de-las-bermudas/play">El triángulo de las Bermudas</a></li>
 
         </ul>
       </li>

@@ -17,8 +17,6 @@ $errores = []; //incio array de errores
 
 //*********** FUNCION DE VALIDACION ***********
 
-//*********** DUDAS
-//Por algún motivo, aunque agregue esta función en los helpers, me tira un error el php ***********
 
 function data_clean($data)
 {
@@ -102,6 +100,10 @@ function data_clean($data)
       $usuarios = [];
   }
 
+// *********** CREAR IMAGEN ***********
+$imageName = uniqid();
+$nombreCompleto = guardarImagen('avatar', $imageName, '../uploaded/');
+
 
 // *********** CREAR USUARIO ***********
 
@@ -113,14 +115,9 @@ $usuario = [
     'email' => $email,
     // 'password' => $password,
     'hash' => password_hash($password, PASSWORD_DEFAULT),
-    // 'avatar' => $nombreCompleto,
+    'avatar' => $nombreCompleto,
     // 'preferencias' => ['arte', 'literatura', 'cine'],
 ];
-
-// *********** CREAR IMAGEN ***********
-// $imageName = uniqid();
-// $imageName = uniqid();
-// $nombreCompleto = guardarImagen('avatar', $imageName, '../images/');
 
 
 //*********** GUARDAR USUARIO ***********
@@ -131,12 +128,20 @@ $json = json_encode($usuarios); //da formato json a $usuarios
 file_put_contents(DB_PATH, $json . PHP_EOL, FILE_APPEND); //escribilo en el archivo json y agrega un enter al final
 }
 
+
 // *********** GUARDAR IMAGEN ***********
 
-//guardarImagen($inputName, $imageName, $path);
-//$nombre = uniqid();
-// guardarImagen('avatar', $nombre, '../images/');
-
+function guardarImagen($inputName, $imageName, $path)
+{
+	if ($_FILES[$inputName]['error'] == UPLOAD_ERR_OK) {
+		$ext = pathinfo($_FILES[$inputName]['name'], PATHINFO_EXTENSION);
+		move_uploaded_file(
+			$_FILES[$inputName]['tmp_name'],
+			$path.$imageName.'.'.$ext
+		);
+		return $imageName.'.'.$ext;
+	}
+}
 
 
 
@@ -158,6 +163,8 @@ file_put_contents(DB_PATH, $json . PHP_EOL, FILE_APPEND); //escribilo en el arch
      //si todos los campos son completados corectamente nos dirige a confirmación y el array de errores y restoreInputValues vuelve a cero
      $_SESSION['errores'] = "";
      $_SESSION['restoreInputValues'] = "";
-     $_SESSION['registroExito'] = $_POST;
+    //  $_SESSION['registroExito'] = $_POST;
+     $_SESSION['usuario'] = $usuario; // envio la variable usuario al resto de la pagina
+
      header('Location: confirmacion.php');
  }

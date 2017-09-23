@@ -35,8 +35,8 @@ if($email && password_verify($_POST['password'], $hash)) {
 
 // *********** SESSION ***********
 
-  $_SESSION['login'] = true;
-	$_SESSION['usuario'] = $_POST;
+  $_SESSION['login'] = true; //seteo la sesion como verdadera
+	$_SESSION['usuario'] = $usuario; // envio la variable usuario al resto de la pagina
   header('Location: ../index.php');
 	//revisar si esta COOKIE
 } else {
