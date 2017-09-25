@@ -1,0 +1,4880 @@
+{
+"AAInfo": "This is a CodeKit 3 project config file. MODIFYING THE CONTENTS OF THIS FILE IS A POOR LIFE DECISION. Doing so will cause CodeKit to crash and\/or corrupt your project. I know it looks like JSON, but it is *not*. Many numbers in this file are 64-bit long long bitFlags, which JSON does not support. These numbers *cannot* be treated as discrete values and if you attempt to parse this file as standard JSON with any public JSON parser, these values will be corrupted. This file is not backwards-compatible with CodeKit 1 or 2. For more information, see https:\/\/codekitapp.com\/",
+"buildSteps": [
+	{
+		"name": "Process All Remaining Files and Folders",
+		"stepType": 1,
+		"uuidString": "96D7BEFC-8C1E-4BD7-B192-31184FE3A6E1"
+		}
+	],
+"creatorBuild": "25900",
+"files": {
+	"\/bootstrap-3.3.7-dist\/css\/bootstrap-theme.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/bootstrap-3.3.7-dist\/css\/bootstrap-theme-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"\/bootstrap-3.3.7-dist\/css\/bootstrap-theme.css.map": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/bootstrap-3.3.7-dist\/css\/bootstrap-theme.css.map",
+		"oF": 0
+		},
+	"\/bootstrap-3.3.7-dist\/css\/bootstrap-theme.min.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/bootstrap-3.3.7-dist\/css\/bootstrap-theme.min-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"\/bootstrap-3.3.7-dist\/css\/bootstrap-theme.min.css.map": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/bootstrap-3.3.7-dist\/css\/bootstrap-theme.min.css.map",
+		"oF": 0
+		},
+	"\/bootstrap-3.3.7-dist\/css\/bootstrap.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/bootstrap-3.3.7-dist\/css\/bootstrap-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"\/bootstrap-3.3.7-dist\/css\/bootstrap.css.map": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/bootstrap-3.3.7-dist\/css\/bootstrap.css.map",
+		"oF": 0
+		},
+	"\/bootstrap-3.3.7-dist\/css\/bootstrap.min.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/bootstrap-3.3.7-dist\/css\/bootstrap.min-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"\/bootstrap-3.3.7-dist\/css\/bootstrap.min.css.map": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/bootstrap-3.3.7-dist\/css\/bootstrap.min.css.map",
+		"oF": 0
+		},
+	"\/bootstrap-3.3.7-dist\/css\/Icon\r": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/bootstrap-3.3.7-dist\/css\/Icon\r",
+		"oF": 0
+		},
+	"\/bootstrap-3.3.7-dist\/fonts\/glyphicons-halflings-regular.eot": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/bootstrap-3.3.7-dist\/fonts\/glyphicons-halflings-regular.eot",
+		"oF": 0
+		},
+	"\/bootstrap-3.3.7-dist\/fonts\/glyphicons-halflings-regular.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/bootstrap-3.3.7-dist\/fonts\/glyphicons-halflings-regular.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/bootstrap-3.3.7-dist\/fonts\/glyphicons-halflings-regular.ttf": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/bootstrap-3.3.7-dist\/fonts\/glyphicons-halflings-regular.ttf",
+		"oF": 0
+		},
+	"\/bootstrap-3.3.7-dist\/fonts\/glyphicons-halflings-regular.woff": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/bootstrap-3.3.7-dist\/fonts\/glyphicons-halflings-regular.woff",
+		"oF": 0
+		},
+	"\/bootstrap-3.3.7-dist\/fonts\/glyphicons-halflings-regular.woff2": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/bootstrap-3.3.7-dist\/fonts\/glyphicons-halflings-regular.woff2",
+		"oF": 0
+		},
+	"\/bootstrap-3.3.7-dist\/fonts\/Icon\r": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/bootstrap-3.3.7-dist\/fonts\/Icon\r",
+		"oF": 0
+		},
+	"\/bootstrap-3.3.7-dist\/Icon\r": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/bootstrap-3.3.7-dist\/Icon\r",
+		"oF": 0
+		},
+	"\/bootstrap-3.3.7-dist\/js\/bootstrap.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/bootstrap-3.3.7-dist\/js\/min\/bootstrap-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/bootstrap-3.3.7-dist\/js\/bootstrap.min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/bootstrap-3.3.7-dist\/js\/min\/bootstrap.min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/bootstrap-3.3.7-dist\/js\/Icon\r": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/bootstrap-3.3.7-dist\/js\/Icon\r",
+		"oF": 0
+		},
+	"\/bootstrap-3.3.7-dist\/js\/jquery-3.2.1.min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/bootstrap-3.3.7-dist\/js\/min\/jquery-3.2.1.min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/bootstrap-3.3.7-dist\/js\/npm.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/bootstrap-3.3.7-dist\/js\/min\/npm-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/bootstrap-cheatsheet": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/bootstrap-cheatsheet",
+		"oF": 0
+		},
+	"\/castillo.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/castillo.php",
+		"oF": 0
+		},
+	"\/colores-referencia\/Icon\r": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/colores-referencia\/Icon\r",
+		"oF": 0
+		},
+	"\/colores-referencia\/Screen Shot 2017-08-20 at 17.37.10.png": {
+		"ft": 32768,
+		"iS": 76477,
+		"oA": 0,
+		"oAP": "\/colores-referencia\/Screen Shot 2017-08-20 at 17.37.10.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/colores-referencia\/Screen Shot 2017-08-20 at 17.37.55.png": {
+		"ft": 32768,
+		"iS": 89381,
+		"oA": 0,
+		"oAP": "\/colores-referencia\/Screen Shot 2017-08-20 at 17.37.55.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/colores-referencia\/Screen Shot 2017-08-20 at 17.38.04.png": {
+		"ft": 32768,
+		"iS": 166683,
+		"oA": 0,
+		"oAP": "\/colores-referencia\/Screen Shot 2017-08-20 at 17.38.04.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/colores-referencia\/Screen Shot 2017-08-20 at 17.41.46.png": {
+		"ft": 32768,
+		"iS": 110997,
+		"oA": 0,
+		"oAP": "\/colores-referencia\/Screen Shot 2017-08-20 at 17.41.46.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/colores-referencia\/Screen Shot 2017-08-20 at 18.09.23.png": {
+		"ft": 32768,
+		"iS": 189930,
+		"oA": 0,
+		"oAP": "\/colores-referencia\/Screen Shot 2017-08-20 at 18.09.23.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/colores-referencia\/Screen Shot 2017-08-20 at 18.09.35.png": {
+		"ft": 32768,
+		"iS": 31519,
+		"oA": 0,
+		"oAP": "\/colores-referencia\/Screen Shot 2017-08-20 at 18.09.35.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/css\/castillo_css.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/css\/castillo_css-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"\/css\/css-registr.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/css\/css-registr-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"\/css\/Icon\r": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/css\/Icon\r",
+		"oF": 0
+		},
+	"\/css\/main2.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/css\/main2-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"\/css\/navbar.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/css\/navbar-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"\/css\/trivias-menu.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/css\/trivias-menu-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"\/db\/off.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/db\/off-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/db\/trivias-db.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/db\/trivias-db.php",
+		"oF": 0
+		},
+	"\/db\/usuarios.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/db\/usuarios-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/documentacion_master_biblio\/Bibliomovil interactivo web.pdf": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/documentacion_master_biblio\/Bibliomovil interactivo web.pdf",
+		"oF": 0
+		},
+	"\/documentacion_master_biblio\/diagrama-web-bibliomovil.graffle": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/documentacion_master_biblio\/diagrama-web-bibliomovil.graffle",
+		"oF": 0
+		},
+	"\/documentacion_master_biblio\/diagrama-web-bibliomovil.png": {
+		"ft": 32768,
+		"iS": 212157,
+		"oA": 0,
+		"oAP": "\/documentacion_master_biblio\/diagrama-web-bibliomovil.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/documentacion_master_biblio\/diagrama-web-mapa.png": {
+		"ft": 32768,
+		"iS": 671997,
+		"oA": 0,
+		"oAP": "\/documentacion_master_biblio\/diagrama-web-mapa.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/documentacion_master_biblio\/escritura.png": {
+		"ft": 32768,
+		"iS": 1605080,
+		"oA": 0,
+		"oAP": "\/documentacion_master_biblio\/escritura.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/documentacion_master_biblio\/Icon\r": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/documentacion_master_biblio\/Icon\r",
+		"oF": 0
+		},
+	"\/documentacion_master_biblio\/imgenes_refernecia_biblio\/Icon\r": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/documentacion_master_biblio\/imgenes_refernecia_biblio\/Icon\r",
+		"oF": 0
+		},
+	"\/documentacion_master_biblio\/imgenes_refernecia_biblio\/Screen Shot 2017-08-24 at 23.27.18.png": {
+		"ft": 32768,
+		"iS": 994645,
+		"oA": 0,
+		"oAP": "\/documentacion_master_biblio\/imgenes_refernecia_biblio\/Screen Shot 2017-08-24 at 23.27.18.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/documentacion_master_biblio\/imgenes_refernecia_biblio\/Screen Shot 2017-08-24 at 23.31.19.png": {
+		"ft": 32768,
+		"iS": 176376,
+		"oA": 0,
+		"oAP": "\/documentacion_master_biblio\/imgenes_refernecia_biblio\/Screen Shot 2017-08-24 at 23.31.19.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/documentacion_master_biblio\/infantil.png": {
+		"ft": 32768,
+		"iS": 592792,
+		"oA": 0,
+		"oAP": "\/documentacion_master_biblio\/infantil.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/documentacion_master_biblio\/Proyecto bibliomovil digital.pages": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/documentacion_master_biblio\/Proyecto bibliomovil digital.pages",
+		"oF": 0
+		},
+	"\/documentacion_master_biblio\/trivias.png": {
+		"ft": 32768,
+		"iS": 1338270,
+		"oA": 0,
+		"oAP": "\/documentacion_master_biblio\/trivias.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/html\/Icon\r": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/html\/Icon\r",
+		"oF": 0
+		},
+	"\/html\/preguntas_index.html": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/html\/preguntas_index.html",
+		"oF": 0
+		},
+	"\/Icon\r": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/Icon\r",
+		"oF": 0
+		},
+	"\/img\/Bibliomovil_logo_COLOR_1000x500.png": {
+		"ft": 32768,
+		"iS": 84212,
+		"oA": 0,
+		"oAP": "\/img\/Bibliomovil_logo_COLOR_1000x500.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/img\/Bibliomovil_logo_WHT.png": {
+		"ft": 32768,
+		"iS": 374170,
+		"oA": 0,
+		"oAP": "\/img\/Bibliomovil_logo_WHT.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/img\/castillo.jpg": {
+		"ft": 16384,
+		"iS": 332709,
+		"oA": 0,
+		"oAP": "\/img\/castillo.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img\/fondoninios.jpg": {
+		"ft": 16384,
+		"iS": 1041050,
+		"oA": 0,
+		"oAP": "\/img\/fondoninios.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img\/fondoninios_original.jpg": {
+		"ft": 16384,
+		"iS": 870731,
+		"oA": 0,
+		"oAP": "\/img\/fondoninios_original.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img\/Icon\r": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/img\/Icon\r",
+		"oF": 0
+		},
+	"\/img\/intro.jpg": {
+		"ft": 16384,
+		"iS": 136550,
+		"oA": 0,
+		"oAP": "\/img\/intro.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img\/logo-bcn-bicentenario-400x400.jpg": {
+		"ft": 16384,
+		"iS": 23143,
+		"oA": 0,
+		"oAP": "\/img\/logo-bcn-bicentenario-400x400.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img\/logo_home_1000x1000.png": {
+		"ft": 32768,
+		"iS": 34970,
+		"oA": 0,
+		"oAP": "\/img\/logo_home_1000x1000.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/img\/logobcnmobile.png": {
+		"ft": 32768,
+		"iS": 4471,
+		"oA": 0,
+		"oAP": "\/img\/logobcnmobile.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/img\/mapa_ARG-1000x1000.png": {
+		"ft": 32768,
+		"iS": 779171,
+		"oA": 0,
+		"oAP": "\/img\/mapa_ARG-1000x1000.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/img\/mapa_ARG-colors.png": {
+		"ft": 32768,
+		"iS": 598593,
+		"oA": 0,
+		"oAP": "\/img\/mapa_ARG-colors.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/img\/piedra en el estanque.jpg": {
+		"ft": 16384,
+		"iS": 62631,
+		"oA": 0,
+		"oAP": "\/img\/piedra en el estanque.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img\/pond.jpg": {
+		"ft": 16384,
+		"iS": 62631,
+		"oA": 0,
+		"oAP": "\/img\/pond.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img\/profesor.png": {
+		"ft": 32768,
+		"iS": 23565,
+		"oA": 0,
+		"oAP": "\/img\/profesor.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/img\/resources-dimensions\/3D\/office.blend": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/img\/resources-dimensions\/3D\/office.blend",
+		"oF": 0
+		},
+	"\/img\/resources-dimensions\/3D\/room.blend": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/img\/resources-dimensions\/3D\/room.blend",
+		"oF": 0
+		},
+	"\/img\/resources-dimensions\/3D\/Storge.blend": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/img\/resources-dimensions\/3D\/Storge.blend",
+		"oF": 0
+		},
+	"\/img\/resources-dimensions\/ai\/buisenss.ai": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/img\/resources-dimensions\/ai\/buisenss.ai",
+		"oF": 0
+		},
+	"\/img\/resources-dimensions\/ai\/home furniture.ai": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/img\/resources-dimensions\/ai\/home furniture.ai",
+		"oF": 0
+		},
+	"\/img\/resources-dimensions\/ai\/hospital.ai": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/img\/resources-dimensions\/ai\/hospital.ai",
+		"oF": 0
+		},
+	"\/img\/resources-dimensions\/ai\/idustrial.ai": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/img\/resources-dimensions\/ai\/idustrial.ai",
+		"oF": 0
+		},
+	"\/img\/resources-dimensions\/ai\/spa.ai": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/img\/resources-dimensions\/ai\/spa.ai",
+		"oF": 0
+		},
+	"\/img\/resources-dimensions\/ai\/spaces.ai": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/img\/resources-dimensions\/ai\/spaces.ai",
+		"oF": 0
+		},
+	"\/img\/resources-dimensions\/ai\/study.ai": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/img\/resources-dimensions\/ai\/study.ai",
+		"oF": 0
+		},
+	"\/img\/resources-dimensions\/images\/buisenss-01.jpg": {
+		"ft": 16384,
+		"iS": 305260,
+		"oA": 0,
+		"oAP": "\/img\/resources-dimensions\/images\/buisenss-01.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img\/resources-dimensions\/images\/buisenss-02.jpg": {
+		"ft": 16384,
+		"iS": 291101,
+		"oA": 0,
+		"oAP": "\/img\/resources-dimensions\/images\/buisenss-02.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img\/resources-dimensions\/images\/buisenss-03.jpg": {
+		"ft": 16384,
+		"iS": 279827,
+		"oA": 0,
+		"oAP": "\/img\/resources-dimensions\/images\/buisenss-03.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img\/resources-dimensions\/images\/buisenss-04.jpg": {
+		"ft": 16384,
+		"iS": 225236,
+		"oA": 0,
+		"oAP": "\/img\/resources-dimensions\/images\/buisenss-04.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img\/resources-dimensions\/images\/buisenss-05.jpg": {
+		"ft": 16384,
+		"iS": 219682,
+		"oA": 0,
+		"oAP": "\/img\/resources-dimensions\/images\/buisenss-05.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img\/resources-dimensions\/images\/buisenss-06.jpg": {
+		"ft": 16384,
+		"iS": 187442,
+		"oA": 0,
+		"oAP": "\/img\/resources-dimensions\/images\/buisenss-06.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img\/resources-dimensions\/images\/home furniture-01.jpg": {
+		"ft": 16384,
+		"iS": 230217,
+		"oA": 0,
+		"oAP": "\/img\/resources-dimensions\/images\/home furniture-01.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img\/resources-dimensions\/images\/home furniture-02.jpg": {
+		"ft": 16384,
+		"iS": 254749,
+		"oA": 0,
+		"oAP": "\/img\/resources-dimensions\/images\/home furniture-02.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img\/resources-dimensions\/images\/home furniture-03.jpg": {
+		"ft": 16384,
+		"iS": 232106,
+		"oA": 0,
+		"oAP": "\/img\/resources-dimensions\/images\/home furniture-03.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img\/resources-dimensions\/images\/home furniture-04.jpg": {
+		"ft": 16384,
+		"iS": 186682,
+		"oA": 0,
+		"oAP": "\/img\/resources-dimensions\/images\/home furniture-04.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img\/resources-dimensions\/images\/home furniture-05.jpg": {
+		"ft": 16384,
+		"iS": 202350,
+		"oA": 0,
+		"oAP": "\/img\/resources-dimensions\/images\/home furniture-05.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img\/resources-dimensions\/images\/home furniture-06.jpg": {
+		"ft": 16384,
+		"iS": 184568,
+		"oA": 0,
+		"oAP": "\/img\/resources-dimensions\/images\/home furniture-06.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img\/resources-dimensions\/images\/hospital-01.jpg": {
+		"ft": 16384,
+		"iS": 215400,
+		"oA": 0,
+		"oAP": "\/img\/resources-dimensions\/images\/hospital-01.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img\/resources-dimensions\/images\/hospital-02.jpg": {
+		"ft": 16384,
+		"iS": 238252,
+		"oA": 0,
+		"oAP": "\/img\/resources-dimensions\/images\/hospital-02.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img\/resources-dimensions\/images\/hospital-03.jpg": {
+		"ft": 16384,
+		"iS": 278400,
+		"oA": 0,
+		"oAP": "\/img\/resources-dimensions\/images\/hospital-03.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img\/resources-dimensions\/images\/hospital-04.jpg": {
+		"ft": 16384,
+		"iS": 238441,
+		"oA": 0,
+		"oAP": "\/img\/resources-dimensions\/images\/hospital-04.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img\/resources-dimensions\/images\/hospital-05.jpg": {
+		"ft": 16384,
+		"iS": 239619,
+		"oA": 0,
+		"oAP": "\/img\/resources-dimensions\/images\/hospital-05.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img\/resources-dimensions\/images\/hospital-06.jpg": {
+		"ft": 16384,
+		"iS": 223571,
+		"oA": 0,
+		"oAP": "\/img\/resources-dimensions\/images\/hospital-06.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img\/resources-dimensions\/images\/idustrial-01.jpg": {
+		"ft": 16384,
+		"iS": 277046,
+		"oA": 0,
+		"oAP": "\/img\/resources-dimensions\/images\/idustrial-01.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img\/resources-dimensions\/images\/idustrial-02.jpg": {
+		"ft": 16384,
+		"iS": 234186,
+		"oA": 0,
+		"oAP": "\/img\/resources-dimensions\/images\/idustrial-02.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img\/resources-dimensions\/images\/idustrial-03.jpg": {
+		"ft": 16384,
+		"iS": 260041,
+		"oA": 0,
+		"oAP": "\/img\/resources-dimensions\/images\/idustrial-03.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img\/resources-dimensions\/images\/idustrial-04.jpg": {
+		"ft": 16384,
+		"iS": 168488,
+		"oA": 0,
+		"oAP": "\/img\/resources-dimensions\/images\/idustrial-04.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img\/resources-dimensions\/images\/idustrial-05.jpg": {
+		"ft": 16384,
+		"iS": 210990,
+		"oA": 0,
+		"oAP": "\/img\/resources-dimensions\/images\/idustrial-05.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img\/resources-dimensions\/images\/idustrial-06.jpg": {
+		"ft": 16384,
+		"iS": 240820,
+		"oA": 0,
+		"oAP": "\/img\/resources-dimensions\/images\/idustrial-06.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img\/resources-dimensions\/images\/spa-01.jpg": {
+		"ft": 16384,
+		"iS": 220007,
+		"oA": 0,
+		"oAP": "\/img\/resources-dimensions\/images\/spa-01.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img\/resources-dimensions\/images\/spa-02.jpg": {
+		"ft": 16384,
+		"iS": 223633,
+		"oA": 0,
+		"oAP": "\/img\/resources-dimensions\/images\/spa-02.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img\/resources-dimensions\/images\/spa-03.jpg": {
+		"ft": 16384,
+		"iS": 214450,
+		"oA": 0,
+		"oAP": "\/img\/resources-dimensions\/images\/spa-03.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img\/resources-dimensions\/images\/spa-04.jpg": {
+		"ft": 16384,
+		"iS": 263103,
+		"oA": 0,
+		"oAP": "\/img\/resources-dimensions\/images\/spa-04.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img\/resources-dimensions\/images\/spa-05.jpg": {
+		"ft": 16384,
+		"iS": 176455,
+		"oA": 0,
+		"oAP": "\/img\/resources-dimensions\/images\/spa-05.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img\/resources-dimensions\/images\/spa-06.jpg": {
+		"ft": 16384,
+		"iS": 231767,
+		"oA": 0,
+		"oAP": "\/img\/resources-dimensions\/images\/spa-06.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img\/resources-dimensions\/images\/spaces-01.jpg": {
+		"ft": 16384,
+		"iS": 256942,
+		"oA": 0,
+		"oAP": "\/img\/resources-dimensions\/images\/spaces-01.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img\/resources-dimensions\/images\/spaces-02.jpg": {
+		"ft": 16384,
+		"iS": 156128,
+		"oA": 0,
+		"oAP": "\/img\/resources-dimensions\/images\/spaces-02.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img\/resources-dimensions\/images\/spaces-03.jpg": {
+		"ft": 16384,
+		"iS": 157487,
+		"oA": 0,
+		"oAP": "\/img\/resources-dimensions\/images\/spaces-03.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img\/resources-dimensions\/images\/spaces-04.jpg": {
+		"ft": 16384,
+		"iS": 158945,
+		"oA": 0,
+		"oAP": "\/img\/resources-dimensions\/images\/spaces-04.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img\/resources-dimensions\/images\/spaces-05.jpg": {
+		"ft": 16384,
+		"iS": 220681,
+		"oA": 0,
+		"oAP": "\/img\/resources-dimensions\/images\/spaces-05.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img\/resources-dimensions\/images\/spaces-06.jpg": {
+		"ft": 16384,
+		"iS": 183858,
+		"oA": 0,
+		"oAP": "\/img\/resources-dimensions\/images\/spaces-06.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img\/resources-dimensions\/images\/study-01.jpg": {
+		"ft": 16384,
+		"iS": 241667,
+		"oA": 0,
+		"oAP": "\/img\/resources-dimensions\/images\/study-01.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img\/resources-dimensions\/images\/study-02.jpg": {
+		"ft": 16384,
+		"iS": 272722,
+		"oA": 0,
+		"oAP": "\/img\/resources-dimensions\/images\/study-02.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img\/resources-dimensions\/images\/study-03.jpg": {
+		"ft": 16384,
+		"iS": 278144,
+		"oA": 0,
+		"oAP": "\/img\/resources-dimensions\/images\/study-03.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img\/resources-dimensions\/images\/study-04.jpg": {
+		"ft": 16384,
+		"iS": 282347,
+		"oA": 0,
+		"oAP": "\/img\/resources-dimensions\/images\/study-04.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img\/resources-dimensions\/images\/study-05.jpg": {
+		"ft": 16384,
+		"iS": 216502,
+		"oA": 0,
+		"oAP": "\/img\/resources-dimensions\/images\/study-05.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img\/resources-dimensions\/images\/study-06.jpg": {
+		"ft": 16384,
+		"iS": 239707,
+		"oA": 0,
+		"oAP": "\/img\/resources-dimensions\/images\/study-06.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img\/resources-dimensions\/Read Me.txt": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/img\/resources-dimensions\/Read Me.txt",
+		"oF": 0
+		},
+	"\/img\/Screen Shot 2017-08-24 at 21.35.02.png": {
+		"ft": 32768,
+		"iS": 8458,
+		"oA": 0,
+		"oAP": "\/img\/Screen Shot 2017-08-24 at 21.35.02.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/img\/Screen Shot 2017-08-24 at 21.52.47.png": {
+		"ft": 32768,
+		"iS": 15517,
+		"oA": 0,
+		"oAP": "\/img\/Screen Shot 2017-08-24 at 21.52.47.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/img\/trivias\/bcn.png": {
+		"ft": 32768,
+		"iS": 8391,
+		"oA": 0,
+		"oAP": "\/img\/trivias\/bcn.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/img\/trivias\/constitucion.png": {
+		"ft": 32768,
+		"iS": 9997,
+		"oA": 0,
+		"oAP": "\/img\/trivias\/constitucion.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/img\/trivias\/juvenil.png": {
+		"ft": 32768,
+		"iS": 7499,
+		"oA": 0,
+		"oAP": "\/img\/trivias\/juvenil.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/img\/trivias\/libro.png": {
+		"ft": 32768,
+		"iS": 7085,
+		"oA": 0,
+		"oAP": "\/img\/trivias\/libro.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/img\/trivias\/libro.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/img\/trivias\/libro.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/img\/trivias\/musica.png": {
+		"ft": 32768,
+		"iS": 7942,
+		"oA": 0,
+		"oAP": "\/img\/trivias\/musica.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/index.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/index.php",
+		"oF": 0
+		},
+	"\/login.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/login.php",
+		"oF": 0
+		},
+	"\/navbar-login.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/navbar-login.php",
+		"oF": 0
+		},
+	"\/navbar.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/navbar.php",
+		"oF": 0
+		},
+	"\/php\/confirmacion.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/php\/confirmacion.php",
+		"oF": 0
+		},
+	"\/php\/confirmacion_castillo.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/php\/confirmacion_castillo.php",
+		"oF": 0
+		},
+	"\/php\/DB_PATH": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/php\/DB_PATH",
+		"oF": 0
+		},
+	"\/php\/helpers.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/php\/helpers.php",
+		"oF": 0
+		},
+	"\/php\/login.controller.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/php\/login.controller.php",
+		"oF": 0
+		},
+	"\/php\/logout.controller.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/php\/logout.controller.php",
+		"oF": 0
+		},
+	"\/php\/registro.controller.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/php\/registro.controller.php",
+		"oF": 0
+		},
+	"\/php\/sistema-nav-login.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/php\/sistema-nav-login.php",
+		"oF": 0
+		},
+	"\/php\/usuario-dashboard.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/php\/usuario-dashboard.php",
+		"oF": 0
+		},
+	"\/preguntas_menu.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/preguntas_menu.php",
+		"oF": 0
+		},
+	"\/processing_web\/Actividad texto oculto 1.zip": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/processing_web\/Actividad texto oculto 1.zip",
+		"oF": 0
+		},
+	"\/processing_web\/Actividad texto oculto 1\/Icon\r": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/processing_web\/Actividad texto oculto 1\/Icon\r",
+		"oF": 0
+		},
+	"\/processing_web\/Actividad texto oculto 1\/index.html": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/processing_web\/Actividad texto oculto 1\/index.html",
+		"oF": 0
+		},
+	"\/processing_web\/Actividad texto oculto 1\/libraries\/Icon\r": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/processing_web\/Actividad texto oculto 1\/libraries\/Icon\r",
+		"oF": 0
+		},
+	"\/processing_web\/Actividad texto oculto 1\/libraries\/p5.dom.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/processing_web\/Actividad texto oculto 1\/libraries\/min\/p5.dom-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/processing_web\/Actividad texto oculto 1\/libraries\/p5.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/processing_web\/Actividad texto oculto 1\/libraries\/min\/p5-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/processing_web\/Actividad texto oculto 1\/libraries\/p5.sound.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/processing_web\/Actividad texto oculto 1\/libraries\/min\/p5.sound-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/processing_web\/Actividad texto oculto 1\/sketch.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/processing_web\/Actividad texto oculto 1\/min\/sketch-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/processing_web\/Icon\r": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/processing_web\/Icon\r",
+		"oF": 0
+		},
+	"\/prueba.txt": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/prueba.txt",
+		"oF": 0
+		},
+	"\/pruebas\/estilo_home.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/pruebas\/estilo_home-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"\/pruebas\/main.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/pruebas\/main-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"\/pruebas\/navbar-azul.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/pruebas\/navbar-azul-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"\/pruebas\/preguntas_index_css 17.03.23.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/pruebas\/preguntas_index_css 17.03.23-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"\/pruebas\/preguntas_index_css.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/pruebas\/preguntas_index_css-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"\/QUIZ BIBLIO.txt": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/QUIZ BIBLIO.txt",
+		"oF": 0
+		},
+	"\/README.md": {
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"eLB": 0,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 0,
+		"oAP": "\/README.html",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/registro-completo.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/registro-completo.php",
+		"oF": 0
+		},
+	"\/registro.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/registro.php",
+		"oF": 0
+		},
+	"\/templates-ejemplos": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/templates-ejemplos",
+		"oF": 0
+		},
+	"\/trivias\/arte.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/trivias\/arte.php",
+		"oF": 0
+		},
+	"\/trivias\/img-arte\/1.jpg": {
+		"ft": 16384,
+		"iS": 237209,
+		"oA": 0,
+		"oAP": "\/trivias\/img-arte\/1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/trivias\/img-arte\/10.jpg": {
+		"ft": 16384,
+		"iS": 92765,
+		"oA": 0,
+		"oAP": "\/trivias\/img-arte\/10.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/trivias\/img-arte\/2.jpg": {
+		"ft": 16384,
+		"iS": 80164,
+		"oA": 0,
+		"oAP": "\/trivias\/img-arte\/2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/trivias\/img-arte\/3.jpg": {
+		"ft": 16384,
+		"iS": 79243,
+		"oA": 0,
+		"oAP": "\/trivias\/img-arte\/3.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/trivias\/img-arte\/4.jpg": {
+		"ft": 16384,
+		"iS": 2127180,
+		"oA": 0,
+		"oAP": "\/trivias\/img-arte\/4.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/trivias\/img-arte\/5.jpg": {
+		"ft": 16384,
+		"iS": 213775,
+		"oA": 0,
+		"oAP": "\/trivias\/img-arte\/5.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/trivias\/img-arte\/6.jpg": {
+		"ft": 16384,
+		"iS": 117335,
+		"oA": 0,
+		"oAP": "\/trivias\/img-arte\/6.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/trivias\/img-arte\/7.jpg": {
+		"ft": 16384,
+		"iS": 901392,
+		"oA": 0,
+		"oAP": "\/trivias\/img-arte\/7.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/trivias\/img-arte\/8.jpg": {
+		"ft": 16384,
+		"iS": 232760,
+		"oA": 0,
+		"oAP": "\/trivias\/img-arte\/8.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/trivias\/img-arte\/9.jpg": {
+		"ft": 16384,
+		"iS": 317211,
+		"oA": 0,
+		"oAP": "\/trivias\/img-arte\/9.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/trivias\/img-bcn\/01.jpg": {
+		"ft": 16384,
+		"iS": 43197,
+		"oA": 0,
+		"oAP": "\/trivias\/img-bcn\/01.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/trivias\/img-bcn\/010.jpg": {
+		"ft": 16384,
+		"iS": 172267,
+		"oA": 0,
+		"oAP": "\/trivias\/img-bcn\/010.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/trivias\/img-bcn\/02.jpg": {
+		"ft": 16384,
+		"iS": 72805,
+		"oA": 0,
+		"oAP": "\/trivias\/img-bcn\/02.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/trivias\/img-bcn\/03.JPG": {
+		"ft": 16384,
+		"iS": 325750,
+		"oA": 0,
+		"oAP": "\/trivias\/img-bcn\/03.JPG",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/trivias\/img-bcn\/04.jpg": {
+		"ft": 16384,
+		"iS": 986124,
+		"oA": 0,
+		"oAP": "\/trivias\/img-bcn\/04.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/trivias\/img-bcn\/05.jpg": {
+		"ft": 16384,
+		"iS": 84518,
+		"oA": 0,
+		"oAP": "\/trivias\/img-bcn\/05.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/trivias\/img-bcn\/06.jpg": {
+		"ft": 16384,
+		"iS": 81548,
+		"oA": 0,
+		"oAP": "\/trivias\/img-bcn\/06.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/trivias\/img-bcn\/07.jpg": {
+		"ft": 16384,
+		"iS": 31906,
+		"oA": 0,
+		"oAP": "\/trivias\/img-bcn\/07.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/trivias\/img-bcn\/08.jpg": {
+		"ft": 16384,
+		"iS": 148833,
+		"oA": 0,
+		"oAP": "\/trivias\/img-bcn\/08.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/trivias\/img-bcn\/09.jpg": {
+		"ft": 16384,
+		"iS": 227585,
+		"oA": 0,
+		"oAP": "\/trivias\/img-bcn\/09.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/trivias\/img-bcn\/1111.jpg": {
+		"ft": 16384,
+		"iS": 89962,
+		"oA": 0,
+		"oAP": "\/trivias\/img-bcn\/1111.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/trivias\/img-bcn\/Biblioteca-del-Congreso-de-la-Nacixn.jpg": {
+		"ft": 16384,
+		"iS": 37595,
+		"oA": 0,
+		"oAP": "\/trivias\/img-bcn\/Biblioteca-del-Congreso-de-la-Nacixn.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/trivias\/img-bcn\/intro2.jpg": {
+		"ft": 16384,
+		"iS": 432172,
+		"oA": 0,
+		"oAP": "\/trivias\/img-bcn\/intro2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/trivias\/img-bcn\/timthumb (1).jpeg": {
+		"ft": 16384,
+		"iS": 113311,
+		"oA": 0,
+		"oAP": "\/trivias\/img-bcn\/timthumb (1).jpeg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/trivias\/img-bcn\/timthumb.jpeg": {
+		"ft": 16384,
+		"iS": 46907,
+		"oA": 0,
+		"oAP": "\/trivias\/img-bcn\/timthumb.jpeg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/trivias\/img-constitucion\/1.jpg": {
+		"ft": 16384,
+		"iS": 314849,
+		"oA": 0,
+		"oAP": "\/trivias\/img-constitucion\/1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/trivias\/img-constitucion\/10.jpg": {
+		"ft": 16384,
+		"iS": 343996,
+		"oA": 0,
+		"oAP": "\/trivias\/img-constitucion\/10.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/trivias\/img-constitucion\/2.jpg": {
+		"ft": 16384,
+		"iS": 269032,
+		"oA": 0,
+		"oAP": "\/trivias\/img-constitucion\/2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/trivias\/img-constitucion\/3.jpg": {
+		"ft": 16384,
+		"iS": 84568,
+		"oA": 0,
+		"oAP": "\/trivias\/img-constitucion\/3.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/trivias\/img-constitucion\/4.jpg": {
+		"ft": 16384,
+		"iS": 480712,
+		"oA": 0,
+		"oAP": "\/trivias\/img-constitucion\/4.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/trivias\/img-constitucion\/5.jpg": {
+		"ft": 16384,
+		"iS": 225663,
+		"oA": 0,
+		"oAP": "\/trivias\/img-constitucion\/5.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/trivias\/img-constitucion\/6.jpg": {
+		"ft": 16384,
+		"iS": 139264,
+		"oA": 0,
+		"oAP": "\/trivias\/img-constitucion\/6.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/trivias\/img-constitucion\/7.jpg": {
+		"ft": 16384,
+		"iS": 919794,
+		"oA": 0,
+		"oAP": "\/trivias\/img-constitucion\/7.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/trivias\/img-constitucion\/8.jpg": {
+		"ft": 16384,
+		"iS": 162179,
+		"oA": 0,
+		"oAP": "\/trivias\/img-constitucion\/8.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/trivias\/img-constitucion\/9.jpg": {
+		"ft": 16384,
+		"iS": 26522,
+		"oA": 0,
+		"oAP": "\/trivias\/img-constitucion\/9.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/trivias\/img-constitucion\/Icon\r": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/trivias\/img-constitucion\/Icon\r",
+		"oF": 0
+		},
+	"\/trivias\/img-infantil\/01.jpg": {
+		"ft": 16384,
+		"iS": 321332,
+		"oA": 0,
+		"oAP": "\/trivias\/img-infantil\/01.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/trivias\/img-infantil\/010.jpg": {
+		"ft": 16384,
+		"iS": 171536,
+		"oA": 0,
+		"oAP": "\/trivias\/img-infantil\/010.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/trivias\/img-infantil\/2.jpg": {
+		"ft": 16384,
+		"iS": 1083140,
+		"oA": 0,
+		"oAP": "\/trivias\/img-infantil\/2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/trivias\/img-infantil\/3.jpg": {
+		"ft": 16384,
+		"iS": 719897,
+		"oA": 0,
+		"oAP": "\/trivias\/img-infantil\/3.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/trivias\/img-infantil\/4.jpg": {
+		"ft": 16384,
+		"iS": 584839,
+		"oA": 0,
+		"oAP": "\/trivias\/img-infantil\/4.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/trivias\/img-infantil\/5.jpg": {
+		"ft": 16384,
+		"iS": 280400,
+		"oA": 0,
+		"oAP": "\/trivias\/img-infantil\/5.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/trivias\/img-infantil\/6.jpg": {
+		"ft": 16384,
+		"iS": 18369,
+		"oA": 0,
+		"oAP": "\/trivias\/img-infantil\/6.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/trivias\/img-infantil\/7.jpg": {
+		"ft": 16384,
+		"iS": 91599,
+		"oA": 0,
+		"oAP": "\/trivias\/img-infantil\/7.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/trivias\/img-infantil\/8.jpg": {
+		"ft": 16384,
+		"iS": 319532,
+		"oA": 0,
+		"oAP": "\/trivias\/img-infantil\/8.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/trivias\/img-infantil\/9.jpg": {
+		"ft": 16384,
+		"iS": 204085,
+		"oA": 0,
+		"oAP": "\/trivias\/img-infantil\/9.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/trivias\/img-infantil\/CaperucitaRoja_page4.jpg": {
+		"ft": 16384,
+		"iS": 369426,
+		"oA": 0,
+		"oAP": "\/trivias\/img-infantil\/CaperucitaRoja_page4.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/trivias\/img-infantil\/flautista escaleras (10).JPG": {
+		"ft": 16384,
+		"iS": 380921,
+		"oA": 0,
+		"oAP": "\/trivias\/img-infantil\/flautista escaleras (10).JPG",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/trivias\/img-infantil\/Icon\r": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/trivias\/img-infantil\/Icon\r",
+		"oF": 0
+		},
+	"\/trivias\/img-infantil\/Trivia Literatura Infantil.doc": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/trivias\/img-infantil\/Trivia Literatura Infantil.doc",
+		"oF": 0
+		},
+	"\/trivias\/img-juvenil\/01.jpg": {
+		"ft": 16384,
+		"iS": 118026,
+		"oA": 0,
+		"oAP": "\/trivias\/img-juvenil\/01.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/trivias\/img-juvenil\/010.JPG": {
+		"ft": 16384,
+		"iS": 38942,
+		"oA": 0,
+		"oAP": "\/trivias\/img-juvenil\/010.JPG",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/trivias\/img-juvenil\/2.jpg": {
+		"ft": 16384,
+		"iS": 477205,
+		"oA": 0,
+		"oAP": "\/trivias\/img-juvenil\/2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/trivias\/img-juvenil\/3.jpg": {
+		"ft": 16384,
+		"iS": 196742,
+		"oA": 0,
+		"oAP": "\/trivias\/img-juvenil\/3.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/trivias\/img-juvenil\/4.jpg": {
+		"ft": 16384,
+		"iS": 132712,
+		"oA": 0,
+		"oAP": "\/trivias\/img-juvenil\/4.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/trivias\/img-juvenil\/5.jpg": {
+		"ft": 16384,
+		"iS": 303551,
+		"oA": 0,
+		"oAP": "\/trivias\/img-juvenil\/5.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/trivias\/img-juvenil\/6.jpg": {
+		"ft": 16384,
+		"iS": 207325,
+		"oA": 0,
+		"oAP": "\/trivias\/img-juvenil\/6.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/trivias\/img-juvenil\/7.jpg": {
+		"ft": 16384,
+		"iS": 301595,
+		"oA": 0,
+		"oAP": "\/trivias\/img-juvenil\/7.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/trivias\/img-juvenil\/8.jpg": {
+		"ft": 16384,
+		"iS": 751934,
+		"oA": 0,
+		"oAP": "\/trivias\/img-juvenil\/8.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/trivias\/img-juvenil\/9.jpg": {
+		"ft": 16384,
+		"iS": 2798010,
+		"oA": 0,
+		"oAP": "\/trivias\/img-juvenil\/9.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/trivias\/img-juvenil\/Icon\r": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/trivias\/img-juvenil\/Icon\r",
+		"oF": 0
+		},
+	"\/trivias\/img-juvenil\/ROMEO Y JULIETA blog.jpg": {
+		"ft": 16384,
+		"iS": 57957,
+		"oA": 0,
+		"oAP": "\/trivias\/img-juvenil\/ROMEO Y JULIETA blog.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/trivias\/img-juvenil\/Trivia literatura adolescente.doc": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/trivias\/img-juvenil\/Trivia literatura adolescente.doc",
+		"oF": 0
+		},
+	"\/trivias\/img-literatura\/arlt.jpg": {
+		"ft": 16384,
+		"iS": 24959,
+		"oA": 0,
+		"oAP": "\/trivias\/img-literatura\/arlt.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/trivias\/img-literatura\/chuang tzu.jpg": {
+		"ft": 16384,
+		"iS": 40066,
+		"oA": 0,
+		"oAP": "\/trivias\/img-literatura\/chuang tzu.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/trivias\/img-literatura\/cortazar.jpg": {
+		"ft": 16384,
+		"iS": 108112,
+		"oA": 0,
+		"oAP": "\/trivias\/img-literatura\/cortazar.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/trivias\/img-literatura\/eternauta.jpg": {
+		"ft": 16384,
+		"iS": 38400,
+		"oA": 0,
+		"oAP": "\/trivias\/img-literatura\/eternauta.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/trivias\/img-literatura\/galeano.jpg": {
+		"ft": 16384,
+		"iS": 15733,
+		"oA": 0,
+		"oAP": "\/trivias\/img-literatura\/galeano.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/trivias\/img-literatura\/Icon\r": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/trivias\/img-literatura\/Icon\r",
+		"oF": 0
+		},
+	"\/trivias\/img-literatura\/intro.jpg": {
+		"ft": 16384,
+		"iS": 136550,
+		"oA": 0,
+		"oAP": "\/trivias\/img-literatura\/intro.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/trivias\/img-literatura\/juanele.jpg": {
+		"ft": 16384,
+		"iS": 56583,
+		"oA": 0,
+		"oAP": "\/trivias\/img-literatura\/juanele.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/trivias\/img-literatura\/lilianabodoc.png": {
+		"ft": 32768,
+		"iS": 308788,
+		"oA": 0,
+		"oAP": "\/trivias\/img-literatura\/lilianabodoc.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/trivias\/img-literatura\/pizarnik.jpg": {
+		"ft": 16384,
+		"iS": 391118,
+		"oA": 0,
+		"oAP": "\/trivias\/img-literatura\/pizarnik.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/trivias\/img-literatura\/puig.jpg": {
+		"ft": 16384,
+		"iS": 6849,
+		"oA": 0,
+		"oAP": "\/trivias\/img-literatura\/puig.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/trivias\/img-literatura\/quiroga.jpg": {
+		"ft": 16384,
+		"iS": 45828,
+		"oA": 0,
+		"oAP": "\/trivias\/img-literatura\/quiroga.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/trivias\/img-literatura\/segundosombra.jpg": {
+		"ft": 16384,
+		"iS": 43779,
+		"oA": 0,
+		"oAP": "\/trivias\/img-literatura\/segundosombra.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/trivias\/img-literatura\/trivia lit.docx": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/trivias\/img-literatura\/trivia lit.docx",
+		"oF": 0
+		},
+	"\/trivias\/img-literatura\/yolirico.jpg": {
+		"ft": 16384,
+		"iS": 59409,
+		"oA": 0,
+		"oAP": "\/trivias\/img-literatura\/yolirico.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/trivias\/img-respuestas\/0 18.30.50.jpg": {
+		"ft": 16384,
+		"iS": 121587,
+		"oA": 0,
+		"oAP": "\/trivias\/img-respuestas\/0 18.30.50.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/trivias\/img-respuestas\/100 18.30.50.jpg": {
+		"ft": 16384,
+		"iS": 59073,
+		"oA": 0,
+		"oAP": "\/trivias\/img-respuestas\/100 18.30.50.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/trivias\/img-respuestas\/30 18.30.50.jpg": {
+		"ft": 16384,
+		"iS": 93785,
+		"oA": 0,
+		"oAP": "\/trivias\/img-respuestas\/30 18.30.50.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/trivias\/img-respuestas\/50 18.30.50.jpg": {
+		"ft": 16384,
+		"iS": 245746,
+		"oA": 0,
+		"oAP": "\/trivias\/img-respuestas\/50 18.30.50.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/trivias\/img-respuestas\/70 18.30.50.jpg": {
+		"ft": 16384,
+		"iS": 86269,
+		"oA": 0,
+		"oAP": "\/trivias\/img-respuestas\/70 18.30.50.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/trivias\/img_preguntas\/arte.png": {
+		"ft": 32768,
+		"iS": 3229,
+		"oA": 0,
+		"oAP": "\/trivias\/img_preguntas\/arte.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/trivias\/img_preguntas\/bcn.png": {
+		"ft": 32768,
+		"iS": 1617,
+		"oA": 0,
+		"oAP": "\/trivias\/img_preguntas\/bcn.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/trivias\/img_preguntas\/constitucion.png": {
+		"ft": 32768,
+		"iS": 3895,
+		"oA": 0,
+		"oAP": "\/trivias\/img_preguntas\/constitucion.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/trivias\/img_preguntas\/Icon\r": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/trivias\/img_preguntas\/Icon\r",
+		"oF": 0
+		},
+	"\/trivias\/img_preguntas\/infantil.png": {
+		"ft": 32768,
+		"iS": 5039,
+		"oA": 0,
+		"oAP": "\/trivias\/img_preguntas\/infantil.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/trivias\/img_preguntas\/intro.jpg": {
+		"ft": 16384,
+		"iS": 136550,
+		"oA": 0,
+		"oAP": "\/trivias\/img_preguntas\/intro.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/trivias\/img_preguntas\/juvenil.png": {
+		"ft": 32768,
+		"iS": 454,
+		"oA": 0,
+		"oAP": "\/trivias\/img_preguntas\/juvenil.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/trivias\/img_preguntas\/literatura.png": {
+		"ft": 32768,
+		"iS": 4063,
+		"oA": 0,
+		"oAP": "\/trivias\/img_preguntas\/literatura.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/trivias\/img_preguntas\/musica.png": {
+		"ft": 32768,
+		"iS": 3635,
+		"oA": 0,
+		"oAP": "\/trivias\/img_preguntas\/musica.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/trivias\/media-musica\/010.mp3": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/trivias\/media-musica\/010.mp3",
+		"oF": 0
+		},
+	"\/trivias\/media-musica\/1 astor piazzolla.gif": {
+		"ft": 4194304,
+		"iS": 50541,
+		"oA": 0,
+		"oAP": "\/trivias\/media-musica\/1 astor piazzolla.gif",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/trivias\/media-musica\/1.mp3": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/trivias\/media-musica\/1.mp3",
+		"oF": 0
+		},
+	"\/trivias\/media-musica\/10 miranda.jpg": {
+		"ft": 16384,
+		"iS": 160066,
+		"oA": 0,
+		"oAP": "\/trivias\/media-musica\/10 miranda.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/trivias\/media-musica\/2 carlos gardel.jpg": {
+		"ft": 16384,
+		"iS": 19807,
+		"oA": 0,
+		"oAP": "\/trivias\/media-musica\/2 carlos gardel.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/trivias\/media-musica\/2.mp3": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/trivias\/media-musica\/2.mp3",
+		"oF": 0
+		},
+	"\/trivias\/media-musica\/3 los abuelos de la nada.jpg": {
+		"ft": 16384,
+		"iS": 40718,
+		"oA": 0,
+		"oAP": "\/trivias\/media-musica\/3 los abuelos de la nada.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/trivias\/media-musica\/3.mp3": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/trivias\/media-musica\/3.mp3",
+		"oF": 0
+		},
+	"\/trivias\/media-musica\/4 leon gieco.jpg": {
+		"ft": 16384,
+		"iS": 62359,
+		"oA": 0,
+		"oAP": "\/trivias\/media-musica\/4 leon gieco.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/trivias\/media-musica\/4.mp3": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/trivias\/media-musica\/4.mp3",
+		"oF": 0
+		},
+	"\/trivias\/media-musica\/5 horacio guarani.jpg": {
+		"ft": 16384,
+		"iS": 36113,
+		"oA": 0,
+		"oAP": "\/trivias\/media-musica\/5 horacio guarani.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/trivias\/media-musica\/5.mp3": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/trivias\/media-musica\/5.mp3",
+		"oF": 0
+		},
+	"\/trivias\/media-musica\/6 los manseros.jpg": {
+		"ft": 16384,
+		"iS": 94645,
+		"oA": 0,
+		"oAP": "\/trivias\/media-musica\/6 los manseros.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/trivias\/media-musica\/6.mp3": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/trivias\/media-musica\/6.mp3",
+		"oF": 0
+		},
+	"\/trivias\/media-musica\/7 rodrigo.jpg": {
+		"ft": 16384,
+		"iS": 51084,
+		"oA": 0,
+		"oAP": "\/trivias\/media-musica\/7 rodrigo.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/trivias\/media-musica\/7.mp3": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/trivias\/media-musica\/7.mp3",
+		"oF": 0
+		},
+	"\/trivias\/media-musica\/8 gilda.jpg": {
+		"ft": 16384,
+		"iS": 76923,
+		"oA": 0,
+		"oAP": "\/trivias\/media-musica\/8 gilda.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/trivias\/media-musica\/8.mp3": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/trivias\/media-musica\/8.mp3",
+		"oF": 0
+		},
+	"\/trivias\/media-musica\/9 tan bionica.jpg": {
+		"ft": 16384,
+		"iS": 47759,
+		"oA": 0,
+		"oAP": "\/trivias\/media-musica\/9 tan bionica.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/trivias\/media-musica\/9.mp3": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/trivias\/media-musica\/9.mp3",
+		"oF": 0
+		},
+	"\/trivias\/media-musica\/Icon\r": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/trivias\/media-musica\/Icon\r",
+		"oF": 0
+		},
+	"\/trivias\/media-musica\/intro.jpg": {
+		"ft": 16384,
+		"iS": 136550,
+		"oA": 0,
+		"oAP": "\/trivias\/media-musica\/intro.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/trivias\/media-musica\/TRIVIA MUSICAL.docx": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/trivias\/media-musica\/TRIVIA MUSICAL.docx",
+		"oF": 0
+		},
+	"\/trivias\/trivias-css\/arte.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/trivias\/trivias-css\/arte-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"\/trivias\/trivias-css\/bcn.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/trivias\/trivias-css\/bcn-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"\/trivias\/trivias-css\/infantil.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/trivias\/trivias-css\/infantil-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"\/trivias\/trivias-css\/juvenil.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/trivias\/trivias-css\/juvenil-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"\/trivias\/trivias-css\/literatura.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/trivias\/trivias-css\/literatura-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"\/trivias\/trivias-css\/musica.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/trivias\/trivias-css\/musica-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"\/trivias\/trivias-css\/musica2.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/trivias\/trivias-css\/musica2-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"\/trivias\/trivias-index\/arte-original.html": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/trivias\/trivias-index\/arte-original.html",
+		"oF": 0
+		},
+	"\/trivias\/trivias-index\/arte.html": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/trivias\/trivias-index\/arte.html",
+		"oF": 0
+		},
+	"\/trivias\/trivias-index\/bcn.html": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/trivias\/trivias-index\/bcn.html",
+		"oF": 0
+		},
+	"\/trivias\/trivias-index\/BIBLIO TRIVIA LITERATURA.html": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/trivias\/trivias-index\/BIBLIO TRIVIA LITERATURA.html",
+		"oF": 0
+		},
+	"\/trivias\/trivias-index\/constitucion.html": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/trivias\/trivias-index\/constitucion.html",
+		"oF": 0
+		},
+	"\/trivias\/trivias-index\/infantil.html": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/trivias\/trivias-index\/infantil.html",
+		"oF": 0
+		},
+	"\/trivias\/trivias-index\/juvenil.html": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/trivias\/trivias-index\/juvenil.html",
+		"oF": 0
+		},
+	"\/trivias\/trivias-index\/literatura.html": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/trivias\/trivias-index\/literatura.html",
+		"oF": 0
+		},
+	"\/trivias\/trivias-index\/musica.html": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/trivias\/trivias-index\/musica.html",
+		"oF": 0
+		},
+	"\/trivias\/trivias-main-css.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/trivias\/trivias-main-css-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"\/uploaded\/59c4fcdc17454.png": {
+		"ft": 32768,
+		"iS": 23565,
+		"oA": 0,
+		"oAP": "\/uploaded\/59c4fcdc17454.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/uploaded\/59c4fcec28c81.png": {
+		"ft": 32768,
+		"iS": 23565,
+		"oA": 0,
+		"oAP": "\/uploaded\/59c4fcec28c81.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/uploaded\/59c4fdd77c499.png": {
+		"ft": 32768,
+		"iS": 15517,
+		"oA": 0,
+		"oAP": "\/uploaded\/59c4fdd77c499.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/uploaded\/59c54e52a858a.png": {
+		"ft": 32768,
+		"iS": 15517,
+		"oA": 0,
+		"oAP": "\/uploaded\/59c54e52a858a.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/uploaded\/59c576a75ab1b.png": {
+		"ft": 32768,
+		"iS": 258743,
+		"oA": 0,
+		"oAP": "\/uploaded\/59c576a75ab1b.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/uploaded\/59c577108c882.png": {
+		"ft": 32768,
+		"iS": 258743,
+		"oA": 0,
+		"oAP": "\/uploaded\/59c577108c882.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/usuario-dashboard.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/usuario-dashboard.php",
+		"oF": 0
+		}
+	},
+"hooks": [
+	],
+"manualImportLinks": {
+	},
+"projectAttributes": {
+	"creationDate": 527900609,
+	"displayValue": "bibliomovil_web",
+	"displayValueWasSetByUser": 0,
+	"iconImageName": "meme-punDog"
+	},
+"projectSettings": {
+	"abortBuildOnError": 1,
+	"alwaysUseExternalServer": 1,
+	"animateCSSInjections": 1,
+	"autoBuildNewItems": 1,
+	"autoprefixerBrowserString": "> 1%, last 2 versions, Firefox ESR, Opera 12.1",
+	"babelAuxiliaryCommentAfter": "",
+	"babelAuxiliaryCommentBefore": "",
+	"babelConfigFileHandlingType": 0,
+	"babelCustomPluginsList": "",
+	"babelCustomPresetsList": "",
+	"babelInsertModuleIDs": 0,
+	"babelModuleID": "",
+	"babelNoComments": 0,
+	"babelPlugins": {
+		"async-generator-functions": {
+			"active": 0
+			},
+		"async-to-generator": {
+			"active": 0
+			},
+		"async-to-module-method": {
+			"active": 0
+			},
+		"class-properties": {
+			"active": 0
+			},
+		"decorators": {
+			"active": 0
+			},
+		"decorators-legacy": {
+			"active": 0
+			},
+		"do-expressions": {
+			"active": 0
+			},
+		"es2015-arrow-functions": {
+			"active": 0
+			},
+		"es2015-block-scoped-functions": {
+			"active": 0
+			},
+		"es2015-block-scoping": {
+			"active": 0
+			},
+		"es2015-classes": {
+			"active": 0
+			},
+		"es2015-computed-properties": {
+			"active": 0
+			},
+		"es2015-constants": {
+			"active": 0
+			},
+		"es2015-destructuring": {
+			"active": 0
+			},
+		"es2015-duplicate-keys": {
+			"active": 0
+			},
+		"es2015-for-of": {
+			"active": 0
+			},
+		"es2015-function-name": {
+			"active": 0
+			},
+		"es2015-literals": {
+			"active": 0
+			},
+		"es2015-modules-amd": {
+			"active": 0
+			},
+		"es2015-modules-commonjs": {
+			"active": 0
+			},
+		"es2015-modules-systemjs": {
+			"active": 0
+			},
+		"es2015-modules-umd": {
+			"active": 0
+			},
+		"es2015-object-super": {
+			"active": 0
+			},
+		"es2015-parameters": {
+			"active": 0
+			},
+		"es2015-shorthand-properties": {
+			"active": 0
+			},
+		"es2015-spread": {
+			"active": 0
+			},
+		"es2015-sticky-regex": {
+			"active": 0
+			},
+		"es2015-template-literals": {
+			"active": 0
+			},
+		"es2015-typeof-symbol": {
+			"active": 0
+			},
+		"es2015-unicode-regex": {
+			"active": 0
+			},
+		"es3-member-expression-literals": {
+			"active": 0
+			},
+		"es3-property-literals": {
+			"active": 0
+			},
+		"es5-property-mutators": {
+			"active": 0
+			},
+		"eval": {
+			"active": 0
+			},
+		"exponentiation-operator": {
+			"active": 0
+			},
+		"export-extensions": {
+			"active": 0
+			},
+		"external-helpers": {
+			"active": 0
+			},
+		"flow-comments": {
+			"active": 0
+			},
+		"flow-strip-types": {
+			"active": 0
+			},
+		"function-bind": {
+			"active": 0
+			},
+		"inline-environment-variables": {
+			"active": 0
+			},
+		"jscript": {
+			"active": 0
+			},
+		"member-expression-literals": {
+			"active": 0
+			},
+		"merge-sibling-variables": {
+			"active": 0
+			},
+		"minify-booleans": {
+			"active": 0
+			},
+		"node-env-inline": {
+			"active": 0
+			},
+		"object-assign": {
+			"active": 0
+			},
+		"object-rest-spread": {
+			"active": 0
+			},
+		"object-set-prototype-of-to-assign": {
+			"active": 0
+			},
+		"property-literals": {
+			"active": 0
+			},
+		"proto-to-assign": {
+			"active": 0
+			},
+		"react-constant-elements": {
+			"active": 0
+			},
+		"react-display-name": {
+			"active": 0
+			},
+		"react-inline-elements": {
+			"active": 0
+			},
+		"react-jsx": {
+			"active": 0
+			},
+		"react-jsx-compat": {
+			"active": 0
+			},
+		"react-jsx-self": {
+			"active": 0
+			},
+		"react-jsx-source": {
+			"active": 0
+			},
+		"regenerator": {
+			"active": 0
+			},
+		"remove-console": {
+			"active": 0
+			},
+		"remove-debugger": {
+			"active": 0
+			},
+		"runtime": {
+			"active": 0
+			},
+		"simplify-comparison-operators": {
+			"active": 0
+			},
+		"strict-mode": {
+			"active": 0
+			},
+		"syntax-async-generators": {
+			"active": 0
+			},
+		"syntax-class-properties": {
+			"active": 0
+			},
+		"syntax-decorators": {
+			"active": 0
+			},
+		"syntax-do-expressions": {
+			"active": 0
+			},
+		"syntax-export-extensions": {
+			"active": 0
+			},
+		"syntax-flow": {
+			"active": 0
+			},
+		"syntax-function-bind": {
+			"active": 0
+			},
+		"syntax-function-sent": {
+			"active": 0
+			},
+		"syntax-jsx": {
+			"active": 0
+			},
+		"syntax-object-rest-spread": {
+			"active": 0
+			},
+		"undeclared-variables-check": {
+			"active": 0
+			},
+		"undefined-to-void": {
+			"active": 0
+			}
+		},
+	"babelPresetType": 193,
+	"babelRetainLines": 0,
+	"bowerAbbreviatedPath": "bower_components",
+	"bowerAutoCreateInfoFile": 1,
+	"bowerInstallDevDependencies": 0,
+	"bowerSaveDependencies": 1,
+	"bowerSaveDevDependencies": 0,
+	"bowerUseExactVersion": 0,
+	"browserRefreshDelay": 0,
+	"buildFolderActive": 0,
+	"buildFolderName": "build",
+	"cleanBuild": 1,
+	"coffeeLintFlags2": {
+		"arrow_spacing": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"camel_case_classes": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"colon_assignment_spacing": {
+			"active": 0,
+			"flagValue": 1
+			},
+		"cyclomatic_complexity": {
+			"active": 0,
+			"flagValue": 10
+			},
+		"duplicate_key": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"empty_constructor_needs_parens": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"ensure_comprehensions": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"indentation": {
+			"active": 1,
+			"flagValue": 2
+			},
+		"line_endings": {
+			"active": 0,
+			"flagValue": 0
+			},
+		"max_line_length": {
+			"active": 0,
+			"flagValue": 150
+			},
+		"missing_fat_arrows": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"newlines_after_classes": {
+			"active": 0,
+			"flagValue": 3
+			},
+		"no_backticks": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"no_debugger": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"no_empty_functions": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"no_empty_param_list": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"no_implicit_braces": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"no_implicit_parens": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"no_interpolation_in_single_quotes": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"no_nested_string_interpolation": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"no_plusplus": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"no_private_function_fat_arrows": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"no_stand_alone_at": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"no_tabs": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"no_this": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"no_throwing_strings": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"no_trailing_semicolons": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"no_trailing_whitespace": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"no_unnecessary_double_quotes": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"no_unnecessary_fat_arrows": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"non_empty_constructor_needs_parens": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"prefer_english_operator": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"space_operators": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"spacing_after_comma": {
+			"active": 1,
+			"flagValue": -1
+			}
+		},
+	"esLintConfigFileHandlingType": 0,
+	"esLintECMAVersion": 7,
+	"esLintEnvironmentsMask": 1,
+	"esLintRules": {
+		"accessor-pairs": {
+			"active": 0,
+			"optionString": "{'setWithoutGet': true, 'getWithoutSet': false}"
+			},
+		"array-bracket-newline": {
+			"active": 0,
+			"optionString": "{'multiline': true, 'minItems': null}"
+			},
+		"array-bracket-spacing": {
+			"active": 0,
+			"optionString": "'never', {'singleValue': false, 'objectsInArrays': false, 'arraysInArrays': false}"
+			},
+		"array-callback-return": {
+			"active": 0,
+			"optionString": ""
+			},
+		"array-element-newline": {
+			"active": 0,
+			"optionString": "'always'"
+			},
+		"arrow-body-style": {
+			"active": 0,
+			"optionString": "'as-needed', {'requireReturnForObjectLiteral': false}"
+			},
+		"arrow-parens": {
+			"active": 0,
+			"optionString": "'always'"
+			},
+		"arrow-spacing": {
+			"active": 0,
+			"optionString": "{'before': true, 'after': true}"
+			},
+		"block-scoped-var": {
+			"active": 0,
+			"optionString": ""
+			},
+		"block-spacing": {
+			"active": 0,
+			"optionString": "'always'"
+			},
+		"brace-style": {
+			"active": 0,
+			"optionString": "'1tbs', {'allowSingleLine': true}"
+			},
+		"callback-return": {
+			"active": 0,
+			"optionString": "['callback', 'cb', 'next']"
+			},
+		"camelcase": {
+			"active": 0,
+			"optionString": "{'properties': 'always'}"
+			},
+		"capitalized-comments": {
+			"active": 0,
+			"optionString": "'always', {'ignoreInlineComments': false, 'ignoreConsecutiveComments': false}"
+			},
+		"class-methods-use-this": {
+			"active": 0,
+			"optionString": "{'exceptMethods': []}"
+			},
+		"comma-dangle": {
+			"active": 1,
+			"optionString": "'never'"
+			},
+		"comma-spacing": {
+			"active": 0,
+			"optionString": "{'before': false, 'after': true}"
+			},
+		"comma-style": {
+			"active": 0,
+			"optionString": "'last'"
+			},
+		"complexity": {
+			"active": 0,
+			"optionString": "20"
+			},
+		"computed-property-spacing": {
+			"active": 0,
+			"optionString": "'never'"
+			},
+		"consistent-return": {
+			"active": 0,
+			"optionString": "{'treatUndefinedAsUnspecified': false}"
+			},
+		"consistent-this": {
+			"active": 0,
+			"optionString": "'that'"
+			},
+		"constructor-super": {
+			"active": 1,
+			"optionString": ""
+			},
+		"curly": {
+			"active": 0,
+			"optionString": "'all'"
+			},
+		"default-case": {
+			"active": 0,
+			"optionString": ""
+			},
+		"dot-location": {
+			"active": 0,
+			"optionString": "'object'"
+			},
+		"dot-notation": {
+			"active": 0,
+			"optionString": "{'allowKeywords': false}"
+			},
+		"eol-last": {
+			"active": 0,
+			"optionString": "'always'"
+			},
+		"eqeqeq": {
+			"active": 0,
+			"optionString": "'always', {'null': 'always'}"
+			},
+		"for-direction": {
+			"active": 0,
+			"optionString": ""
+			},
+		"func-call-spacing": {
+			"active": 0,
+			"optionString": "'never'"
+			},
+		"func-name-matching": {
+			"active": 0,
+			"optionString": "'always', {'includeCommonJSModuleExports': false}"
+			},
+		"func-names": {
+			"active": 0,
+			"optionString": "'always'"
+			},
+		"func-style": {
+			"active": 0,
+			"optionString": "'expression'"
+			},
+		"generator-star-spacing": {
+			"active": 0,
+			"optionString": "{'before': true, 'after': false}"
+			},
+		"getter-return": {
+			"active": 0,
+			"optionString": "{'allowImplicit': false}"
+			},
+		"global-require": {
+			"active": 0,
+			"optionString": ""
+			},
+		"guard-for-in": {
+			"active": 0,
+			"optionString": ""
+			},
+		"handle-callback-err": {
+			"active": 0,
+			"optionString": "'err'"
+			},
+		"id-blacklist": {
+			"active": 0,
+			"optionString": "'data', 'err', 'e', 'cb', 'callback'"
+			},
+		"id-length": {
+			"active": 0,
+			"optionString": "{'min': 2, 'max': 1000, 'properties': 'always', 'exceptions': ['x', 'i', 'y']}"
+			},
+		"id-match": {
+			"active": 0,
+			"optionString": "'^[a-z]+([A-Z][a-z]+)*$', {'properties': false, 'onlyDeclarations': true}"
+			},
+		"indent": {
+			"active": 0,
+			"optionString": "4, {'SwitchCase': 0, 'VariableDeclarator': 1, 'outerIIFEBody': 1, }"
+			},
+		"init-declarations": {
+			"active": 0,
+			"optionString": "'always',  {'ignoreForLoopInit': true}"
+			},
+		"jsx-quotes": {
+			"active": 0,
+			"optionString": "'prefer-double'"
+			},
+		"key-spacing": {
+			"active": 0,
+			"optionString": "{'singleLine': {'beforeColon': false, 'afterColon': true, 'mode':'strict'}, 'multiLine': {'beforeColon': false, 'afterColon': true, 'align': 'value', 'mode':'minimum'}}"
+			},
+		"keyword-spacing": {
+			"active": 0,
+			"optionString": "{'before': true, 'after': true, 'overrides': {}}"
+			},
+		"line-comment-position": {
+			"active": 0,
+			"optionString": "{'position': 'above'}"
+			},
+		"linebreak-style": {
+			"active": 0,
+			"optionString": "'unix'"
+			},
+		"lines-around-comment": {
+			"active": 0,
+			"optionString": "{'beforeBlockComment': true}"
+			},
+		"lines-around-directive": {
+			"active": 0,
+			"optionString": "{'before': 'always', 'after': 'always'}"
+			},
+		"max-depth": {
+			"active": 0,
+			"optionString": "{'max': 4}"
+			},
+		"max-len": {
+			"active": 0,
+			"optionString": "{'code': 80, 'comments': 80, 'tabWidth': 4, 'ignoreUrls': true, 'ignoreStrings': true, 'ignoreTemplateLiterals': true, 'ignoreRegExpLiterals': true}"
+			},
+		"max-lines": {
+			"active": 0,
+			"optionString": "{'max': 300, 'skipBlankLines': true, 'skipComments': true}"
+			},
+		"max-nested-callbacks": {
+			"active": 0,
+			"optionString": "{'max': 10}"
+			},
+		"max-params": {
+			"active": 0,
+			"optionString": "{'max': 4}"
+			},
+		"max-statements": {
+			"active": 0,
+			"optionString": "{'max': 10}, {'ignoreTopLevelFunctions': true}"
+			},
+		"max-statements-per-line": {
+			"active": 0,
+			"optionString": "{'max': 1}"
+			},
+		"multiline-ternary": {
+			"active": 0,
+			"optionString": "'always'"
+			},
+		"new-cap": {
+			"active": 0,
+			"optionString": "{'newIsCap': true, 'capIsNew': true, 'newIsCapExceptions': [], 'capIsNewExceptions': ['Array', 'Boolean', 'Date', 'Error', 'Function', 'Number', 'Object', 'RegExp', 'String', 'Symbol'], 'properties': true}"
+			},
+		"new-parens": {
+			"active": 0,
+			"optionString": ""
+			},
+		"newline-after-var": {
+			"active": 0,
+			"optionString": "'always'"
+			},
+		"newline-before-return": {
+			"active": 0,
+			"optionString": ""
+			},
+		"newline-per-chained-call": {
+			"active": 0,
+			"optionString": "{'ignoreChainWithDepth': 2}"
+			},
+		"no-alert": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-array-constructor": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-await-in-loop": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-bitwise": {
+			"active": 0,
+			"optionString": "{'allow': ['~'], 'int32Hint': true}"
+			},
+		"no-buffer-constructor": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-caller": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-case-declarations": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-catch-shadow": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-class-assign": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-compare-neg-zero": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-cond-assign": {
+			"active": 1,
+			"optionString": "'except-parens'"
+			},
+		"no-confusing-arrow": {
+			"active": 0,
+			"optionString": "{'allowParens': false}"
+			},
+		"no-console": {
+			"active": 1,
+			"optionString": "{'allow': ['warn', 'error']}"
+			},
+		"no-const-assign": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-constant-condition": {
+			"active": 1,
+			"optionString": "{'checkLoops': true}"
+			},
+		"no-continue": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-control-regex": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-debugger": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-delete-var": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-div-regex": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-dupe-args": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-dupe-class-members": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-dupe-keys": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-duplicate-imports": {
+			"active": 0,
+			"optionString": "{'includeExports': false}"
+			},
+		"no-else-return": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-empty": {
+			"active": 1,
+			"optionString": "{'allowEmptyCatch': false}"
+			},
+		"no-empty-character-class": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-empty-function": {
+			"active": 0,
+			"optionString": "{'allow': []}"
+			},
+		"no-empty-pattern": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-eq-null": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-eval": {
+			"active": 0,
+			"optionString": "{'allowIndirect': false}"
+			},
+		"no-ex-assign": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-extend-native": {
+			"active": 0,
+			"optionString": "{'exceptions': []}"
+			},
+		"no-extra-bind": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-extra-boolean-cast": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-extra-labels": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-extra-parens": {
+			"active": 0,
+			"optionString": "'all', {'conditionalAssign': false, 'returnAssign': false, 'nestedBinaryExpressions': false, 'ignoreJSX': 'none', 'enforceForArrowConditionals': false}"
+			},
+		"no-extra-semi": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-fallthrough": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-floating-decimal": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-func-assign": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-global-assign": {
+			"active": 1,
+			"optionString": "{'exceptions': []}"
+			},
+		"no-implicit-coercion": {
+			"active": 0,
+			"optionString": "{'boolean': true, 'number': true, 'string': true, 'allow': []}"
+			},
+		"no-implicit-globals": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-implied-eval": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-inline-comments": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-inner-declarations": {
+			"active": 1,
+			"optionString": "'functions'"
+			},
+		"no-invalid-regexp": {
+			"active": 1,
+			"optionString": "{'allowConstructorFlags': ['u', 'y']}"
+			},
+		"no-invalid-this": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-irregular-whitespace": {
+			"active": 1,
+			"optionString": "{'skipStrings': true, 'skipComments': false, 'skipRegExps': true, 'skipTemplates': true}"
+			},
+		"no-iterator": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-label-var": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-labels": {
+			"active": 0,
+			"optionString": "{'allowLoop': false, 'allowSwitch': false}"
+			},
+		"no-lone-blocks": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-lonely-if": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-loop-func": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-magic-numbers": {
+			"active": 0,
+			"optionString": "{'ignore': [], 'ignoreArrayIndexes': true, 'enforceConst': false, 'detectObjects': false}"
+			},
+		"no-mixed-operators": {
+			"active": 0,
+			"optionString": "{'groups': [['+', '-', '*', '\/', '%', '**'], ['&', '|', '^', '~', '<<', '>>', '>>>'], ['==', '!=', '===', '!==', '>', '>=', '<', '<='], ['&&', '||'], ['in', 'instanceof']], 'allowSamePrecedence': true}"
+			},
+		"no-mixed-requires": {
+			"active": 0,
+			"optionString": "{'grouping': false, 'allowCall': false }"
+			},
+		"no-mixed-spaces-and-tabs": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-multi-assign": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-multi-spaces": {
+			"active": 0,
+			"optionString": "{'exceptions': {'Property': true, 'BinaryExpression': false, 'VariableDeclarator': false, 'ImportDeclaration': false}}"
+			},
+		"no-multi-str": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-multiple-empty-lines": {
+			"active": 0,
+			"optionString": "{'max': 2, 'maxBOF': 2, 'maxEOF': 2}"
+			},
+		"no-negated-condition": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-nested-ternary": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-new": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-new-func": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-new-object": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-new-require": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-new-symbol": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-new-wrappers": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-obj-calls": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-octal": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-octal-escape": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-param-reassign": {
+			"active": 0,
+			"optionString": "{'props': false}"
+			},
+		"no-path-concat": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-plusplus": {
+			"active": 0,
+			"optionString": "{'allowForLoopAfterthoughts': false}"
+			},
+		"no-process-env": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-process-exit": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-proto": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-prototype-builtins": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-redeclare": {
+			"active": 1,
+			"optionString": "{'builtinGlobals': false}"
+			},
+		"no-regex-spaces": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-restricted-globals": {
+			"active": 0,
+			"optionString": "'event', 'fdescribe'"
+			},
+		"no-restricted-imports": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-restricted-modules": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-restricted-properties": {
+			"active": 0,
+			"optionString": "[{'object': 'disallowedObjectName', 'property': 'disallowedPropertyName'}, {'object': 'disallowedObjectName', 'property': 'anotherDisallowedPropertyName', 'message': 'Please use allowedObjectName.allowedPropertyName.'}]"
+			},
+		"no-restricted-syntax": {
+			"active": 0,
+			"optionString": "'FunctionExpression', 'WithStatement'"
+			},
+		"no-return-assign": {
+			"active": 0,
+			"optionString": "'except-parens'"
+			},
+		"no-return-await": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-script-url": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-self-assign": {
+			"active": 1,
+			"optionString": "{'props': false}"
+			},
+		"no-self-compare": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-sequences": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-shadow": {
+			"active": 0,
+			"optionString": "{'builtinGlobals': false, 'hoist': 'functions', 'allow': []}"
+			},
+		"no-shadow-restricted-names": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-sparse-arrays": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-sync": {
+			"active": 0,
+			"optionString": "{'allowAtRootLevel': false}"
+			},
+		"no-tabs": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-template-curly-in-string": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-ternary": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-this-before-super": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-throw-literal": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-trailing-spaces": {
+			"active": 0,
+			"optionString": "{'skipBlankLines': false, 'ignoreComments': false}"
+			},
+		"no-undef": {
+			"active": 1,
+			"optionString": "{'typeof': false}"
+			},
+		"no-undef-init": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-undefined": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-underscore-dangle": {
+			"active": 0,
+			"optionString": "{'allow': [], 'allowAfterThis': false, 'allowAfterSuper': false, 'enforceInMethodNames': false}"
+			},
+		"no-unexpected-multiline": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-unmodified-loop-condition": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-unneeded-ternary": {
+			"active": 0,
+			"optionString": "{'defaultAssignment': true}"
+			},
+		"no-unreachable": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-unsafe-finally": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-unsafe-negation": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-unused-expressions": {
+			"active": 0,
+			"optionString": "{'allowShortCircuit': false, 'allowTernary': false, 'allowTaggedTemplates': false}"
+			},
+		"no-unused-labels": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-unused-vars": {
+			"active": 1,
+			"optionString": "{'vars': 'all', 'args': 'after-used', 'caughtErrors': 'none', 'ignoreRestSiblings': false}"
+			},
+		"no-use-before-define": {
+			"active": 0,
+			"optionString": "{'functions': true, 'classes': true, 'variables': true}"
+			},
+		"no-useless-call": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-useless-computed-key": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-useless-concat": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-useless-constructor": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-useless-escape": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-useless-rename": {
+			"active": 0,
+			"optionString": "{'ignoreDestructuring': false, 'ignoreImport': false, 'ignoreExport': false}"
+			},
+		"no-useless-return": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-var": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-void": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-warning-comments": {
+			"active": 0,
+			"optionString": "{'terms': ['todo', 'fixme', 'xxx'], 'location': 'start'}"
+			},
+		"no-whitespace-before-property": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-with": {
+			"active": 0,
+			"optionString": ""
+			},
+		"nonblock-statement-body-position": {
+			"active": 0,
+			"optionString": "'beside'"
+			},
+		"object-curly-newline": {
+			"active": 0,
+			"optionString": "{'ObjectExpression': {'multiline': true}, 'ObjectPattern': {'multiline': true}}"
+			},
+		"object-curly-spacing": {
+			"active": 0,
+			"optionString": "'never'"
+			},
+		"object-property-newline": {
+			"active": 0,
+			"optionString": "{'allowMultiplePropertiesPerLine': true}"
+			},
+		"object-shorthand": {
+			"active": 0,
+			"optionString": "'always', {'avoidQuotes': false, 'ignoreConstructors': false}"
+			},
+		"one-var": {
+			"active": 0,
+			"optionString": "'always'"
+			},
+		"one-var-declaration-per-line": {
+			"active": 0,
+			"optionString": "'always'"
+			},
+		"operator-assignment": {
+			"active": 0,
+			"optionString": "'always'"
+			},
+		"operator-linebreak": {
+			"active": 0,
+			"optionString": "'after', {'overrides': {'?': 'after', '+=': 'none'}}"
+			},
+		"padded-blocks": {
+			"active": 0,
+			"optionString": "{'blocks': 'always', 'switches': 'always', 'classes': 'always'}"
+			},
+		"padding-line-between-statements": {
+			"active": 0,
+			"optionString": "{blankLine: 'always', prev:'*', next:'return'}"
+			},
+		"prefer-arrow-callback": {
+			"active": 0,
+			"optionString": ""
+			},
+		"prefer-const": {
+			"active": 0,
+			"optionString": "{'destructuring': 'any', 'ignoreReadBeforeAssign': false}"
+			},
+		"prefer-destructuring": {
+			"active": 0,
+			"optionString": "{'array': true, 'object': true}, {'enforceForRenamedProperties': false}"
+			},
+		"prefer-numeric-literals": {
+			"active": 0,
+			"optionString": ""
+			},
+		"prefer-promise-reject-errors": {
+			"active": 0,
+			"optionString": "{'allowEmptyReject': false}"
+			},
+		"prefer-rest-params": {
+			"active": 0,
+			"optionString": ""
+			},
+		"prefer-spread": {
+			"active": 0,
+			"optionString": ""
+			},
+		"prefer-template": {
+			"active": 0,
+			"optionString": ""
+			},
+		"quote-props": {
+			"active": 0,
+			"optionString": "'always'"
+			},
+		"quotes": {
+			"active": 0,
+			"optionString": "'double', {'avoidEscape': true, 'allowTemplateLiterals': true}"
+			},
+		"radix": {
+			"active": 0,
+			"optionString": "'always'"
+			},
+		"require-await": {
+			"active": 0,
+			"optionString": ""
+			},
+		"require-jsdoc": {
+			"active": 0,
+			"optionString": "{'require': {'FunctionDeclaration': true, 'MethodDefinition': false, 'ClassDeclaration': false, 'ArrowFunctionExpression': false}}"
+			},
+		"require-yield": {
+			"active": 1,
+			"optionString": ""
+			},
+		"rest-spread-spacing": {
+			"active": 0,
+			"optionString": "'never'"
+			},
+		"semi": {
+			"active": 0,
+			"optionString": "'always', {'omitLastInOneLineBlock': false}"
+			},
+		"semi-spacing": {
+			"active": 0,
+			"optionString": "{'before': false, 'after': true}"
+			},
+		"semi-style": {
+			"active": 0,
+			"optionString": "'last'"
+			},
+		"sort-imports": {
+			"active": 0,
+			"optionString": "{'ignoreCase': false, 'ignoreMemberSort': true, 'memberSyntaxSortOrder': ['none', 'all', 'multiple', 'single']}"
+			},
+		"sort-keys": {
+			"active": 0,
+			"optionString": "'asc', {'caseSensitive': true, 'natural': false}"
+			},
+		"sort-vars": {
+			"active": 0,
+			"optionString": "{'ignoreCase': false}"
+			},
+		"space-before-blocks": {
+			"active": 0,
+			"optionString": "{'functions': 'always', 'keywords': 'always', 'classes': 'always'}"
+			},
+		"space-before-function-paren": {
+			"active": 0,
+			"optionString": "{'anonymous': 'always', 'named': 'never'}"
+			},
+		"space-in-parens": {
+			"active": 0,
+			"optionString": "'never', {'exceptions': []}"
+			},
+		"space-infix-ops": {
+			"active": 0,
+			"optionString": "{'int32Hint': false}"
+			},
+		"space-unary-ops": {
+			"active": 0,
+			"optionString": "{'words': true, 'nonwords': false, 'overrides': {}}"
+			},
+		"spaced-comment": {
+			"active": 0,
+			"optionString": "'always', {'line': {'markers': ['\/'], 'exceptions': ['-', '+']}, 'block': {'markers': ['!'], 'exceptions': ['*'], 'balanced': false}}"
+			},
+		"strict": {
+			"active": 0,
+			"optionString": "'safe'"
+			},
+		"switch-colon-spacing": {
+			"active": 0,
+			"optionString": "{'after': true, 'before': false}"
+			},
+		"symbol-description": {
+			"active": 0,
+			"optionString": ""
+			},
+		"template-curly-spacing": {
+			"active": 0,
+			"optionString": "'never'"
+			},
+		"template-tag-spacing": {
+			"active": 0,
+			"optionString": "'never'"
+			},
+		"unicode-bom": {
+			"active": 0,
+			"optionString": "'never'"
+			},
+		"use-isnan": {
+			"active": 1,
+			"optionString": ""
+			},
+		"valid-jsdoc": {
+			"active": 0,
+			"optionString": "{'prefer': {'return': 'returns'}, 'requireReturn': true, 'requireReturnDescription': true, 'requireReturnType': true, 'requireParamDescription': true}"
+			},
+		"valid-typeof": {
+			"active": 1,
+			"optionString": "{'requireStringLiterals': true}"
+			},
+		"vars-on-top": {
+			"active": 0,
+			"optionString": ""
+			},
+		"wrap-iife": {
+			"active": 0,
+			"optionString": "'outside'"
+			},
+		"wrap-regex": {
+			"active": 0,
+			"optionString": ""
+			},
+		"yield-star-spacing": {
+			"active": 0,
+			"optionString": "{'before': false, 'after': true}"
+			},
+		"yoda": {
+			"active": 0,
+			"optionString": "'never', {'exceptRange': false, 'onlyEquality': false}"
+			}
+		},
+	"esLintSourceType": 0,
+	"externalServerAddress": "http:\/\/localhost:8888",
+	"gitIgnoreBuildFolder": 1,
+	"hideConfigFile": 0,
+	"jsCheckerReservedNamesString": "",
+	"jsHintFlags2": {
+		"asi": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"bitwise": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"boss": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"browser": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"browserify": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"camelcase": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"couch": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"curly": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"debug": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"devel": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"dojo": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"elision": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"eqeqeq": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"eqnull": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"es3": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"esnext": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"evil": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"expr": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"forin": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"freeze": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"funcscope": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"futurehostile": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"globalstrict": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"immed": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"indent": {
+			"active": 0,
+			"flagValue": 4
+			},
+		"iterator": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"jasmine": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"jquery": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"lastsemic": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"latedef": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"laxbreak": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"laxcomma": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"loopfunc": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"maxcomplexity": {
+			"active": 0,
+			"flagValue": 10
+			},
+		"maxdepth": {
+			"active": 0,
+			"flagValue": 3
+			},
+		"maxlen": {
+			"active": 0,
+			"flagValue": 150
+			},
+		"maxparams": {
+			"active": 0,
+			"flagValue": 3
+			},
+		"maxstatements": {
+			"active": 0,
+			"flagValue": 4
+			},
+		"mocha": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"mootools": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"moz": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"multistr": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"newcap": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"noarg": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"nocomma": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"node": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"noempty": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"nonbsp": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"nonew": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"nonstandard": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"notypeof": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"noyield": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"onecase": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"phantom": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"plusplus": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"proto": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"prototypejs": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"qunit": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"regexp": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"rhino": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"scripturl": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"shadow": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"shelljs": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"singleGroups": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"strict": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"sub": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"supernew": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"typed": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"undef": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"unused": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"varstmt": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"withstmt": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"worker": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"wsh": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"yui": {
+			"active": 0,
+			"flagValue": -1
+			}
+		},
+	"jsLintFlags2": {
+		"bitwise": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"browser": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"couch": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"devel": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"es6": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"eval": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"for": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"maxlen": {
+			"active": 0,
+			"flagValue": 150
+			},
+		"node": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"this": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"white": {
+			"active": 0,
+			"flagValue": -1
+			}
+		},
+	"languageDefaultsCOFFEE": {
+		"autoOutputAction": 0,
+		"autoOutputPathFilenamePattern": "*.js",
+		"autoOutputPathRelativePath": "",
+		"autoOutputPathReplace1": "",
+		"autoOutputPathReplace2": "",
+		"autoOutputPathStyle": 0,
+		"createSourceMap": 0,
+		"minifyOutput": 1,
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 1
+		},
+	"languageDefaultsCSS": {
+		"autoOutputAction": 0,
+		"autoOutputPathFilenamePattern": "*-min.css",
+		"autoOutputPathRelativePath": "",
+		"autoOutputPathReplace1": "",
+		"autoOutputPathReplace2": "",
+		"autoOutputPathStyle": 0,
+		"createSourceMap": 0,
+		"outputStyle": 3,
+		"shouldRunAutoprefixer": 1,
+		"shouldRunBless": 0
+		},
+	"languageDefaultsGIF": {
+		"autoOutputAction": 0,
+		"autoOutputPathFilenamePattern": "*.gif",
+		"autoOutputPathRelativePath": "",
+		"autoOutputPathReplace1": "",
+		"autoOutputPathReplace2": "",
+		"autoOutputPathStyle": 0
+		},
+	"languageDefaultsHAML": {
+		"autoOutputAction": 0,
+		"autoOutputPathFilenamePattern": "*.html",
+		"autoOutputPathRelativePath": "",
+		"autoOutputPathReplace1": "",
+		"autoOutputPathReplace2": "",
+		"autoOutputPathStyle": 0,
+		"escapeHTMLCharacters": 0,
+		"noEscapeInAttributes": 0,
+		"outputFormat": 2,
+		"outputStyle": 0,
+		"useCDATA": 0,
+		"useDoubleQuotes": 0,
+		"useUnixNewlines": 0
+		},
+	"languageDefaultsJPG": {
+		"autoOutputAction": 0,
+		"autoOutputPathFilenamePattern": "*.jpg",
+		"autoOutputPathRelativePath": "",
+		"autoOutputPathReplace1": "",
+		"autoOutputPathReplace2": "",
+		"autoOutputPathStyle": 0,
+		"quality": 100
+		},
+	"languageDefaultsJS": {
+		"autoOutputAction": 0,
+		"autoOutputPathFilenamePattern": "*-min.js",
+		"autoOutputPathRelativePath": "\/min",
+		"autoOutputPathReplace1": "",
+		"autoOutputPathReplace2": "",
+		"autoOutputPathStyle": 2,
+		"createSourceMap": 0,
+		"minifyOutput": 1,
+		"syntaxCheckerStyle": 1,
+		"transpilerStyle": 0
+		},
+	"languageDefaultsJSON": {
+		"autoOutputAction": 1,
+		"autoOutputPathFilenamePattern": "*-min.json",
+		"autoOutputPathRelativePath": "",
+		"autoOutputPathReplace1": "",
+		"autoOutputPathReplace2": "",
+		"autoOutputPathStyle": 0,
+		"orderOutput": 0,
+		"outputStyle": 1
+		},
+	"languageDefaultsKIT": {
+		"autoOutputAction": 0,
+		"autoOutputPathFilenamePattern": "*.html",
+		"autoOutputPathRelativePath": "",
+		"autoOutputPathReplace1": "",
+		"autoOutputPathReplace2": "",
+		"autoOutputPathStyle": 0
+		},
+	"languageDefaultsLESS": {
+		"allowInsecureImports": 0,
+		"autoOutputAction": 0,
+		"autoOutputPathFilenamePattern": "*.css",
+		"autoOutputPathRelativePath": "..\/css",
+		"autoOutputPathReplace1": "less",
+		"autoOutputPathReplace2": "css",
+		"autoOutputPathStyle": 2,
+		"createSourceMap": 0,
+		"disableJavascript": 0,
+		"ieCompatibility": 1,
+		"outputStyle": 0,
+		"relativeURLS": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"strictImports": 0,
+		"strictMath": 0,
+		"strictUnits": 0
+		},
+	"languageDefaultsMARKDOWN": {
+		"autoOutputAction": 0,
+		"autoOutputPathFilenamePattern": "*.html",
+		"autoOutputPathRelativePath": "",
+		"autoOutputPathReplace1": "",
+		"autoOutputPathReplace2": "",
+		"autoOutputPathStyle": 0,
+		"criticStyle": 0,
+		"enableFootnotes": 1,
+		"enableLabels": 1,
+		"enableSmartQuotes": 1,
+		"escapeLineBreaks": 0,
+		"maskEmailAddresses": 1,
+		"outputFormat": 0,
+		"outputStyle": 0,
+		"parseMetadata": 1,
+		"processHTML": 0,
+		"randomFootnoteNumbers": 0,
+		"useCompatibilityMode": 0
+		},
+	"languageDefaultsOTHER": {
+		"autoOutputAction": 2,
+		"autoOutputPathFilenamePattern": "*.*",
+		"autoOutputPathRelativePath": "",
+		"autoOutputPathReplace1": "",
+		"autoOutputPathReplace2": "",
+		"autoOutputPathStyle": 0
+		},
+	"languageDefaultsPNG": {
+		"autoOutputAction": 0,
+		"autoOutputPathFilenamePattern": "*.png",
+		"autoOutputPathRelativePath": "",
+		"autoOutputPathReplace1": "",
+		"autoOutputPathReplace2": "",
+		"autoOutputPathStyle": 0,
+		"optimizerType": 1,
+		"quality": 100
+		},
+	"languageDefaultsPUG": {
+		"autoOutputAction": 0,
+		"autoOutputPathFilenamePattern": "*.html",
+		"autoOutputPathRelativePath": "",
+		"autoOutputPathReplace1": "",
+		"autoOutputPathReplace2": "",
+		"autoOutputPathStyle": 0,
+		"compileDebug": 1,
+		"outputStyle": 0
+		},
+	"languageDefaultsSASS": {
+		"autoOutputAction": 0,
+		"autoOutputPathFilenamePattern": "*.css",
+		"autoOutputPathRelativePath": "..\/css",
+		"autoOutputPathReplace1": "sass",
+		"autoOutputPathReplace2": "css",
+		"autoOutputPathStyle": 2,
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 1
+		},
+	"languageDefaultsSLIM": {
+		"autoOutputAction": 0,
+		"autoOutputPathFilenamePattern": "*.html",
+		"autoOutputPathRelativePath": "",
+		"autoOutputPathReplace1": "",
+		"autoOutputPathReplace2": "",
+		"autoOutputPathStyle": 0,
+		"compileOnly": 0,
+		"logicless": 0,
+		"outputFormat": 0,
+		"outputStyle": 1,
+		"railsCompatible": 0
+		},
+	"languageDefaultsSTYLUS": {
+		"autoOutputAction": 0,
+		"autoOutputPathFilenamePattern": "*.css",
+		"autoOutputPathRelativePath": "..\/css",
+		"autoOutputPathReplace1": "stylus",
+		"autoOutputPathReplace2": "css",
+		"autoOutputPathStyle": 2,
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"importCSS": 0,
+		"outputStyle": 0,
+		"resolveRelativeURLS": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0
+		},
+	"languageDefaultsSVG": {
+		"autoOutputAction": 2,
+		"autoOutputPathFilenamePattern": "*.svg",
+		"autoOutputPathRelativePath": "",
+		"autoOutputPathReplace1": "",
+		"autoOutputPathReplace2": "",
+		"autoOutputPathStyle": 0,
+		"pluginMask": 3758088159
+		},
+	"languageDefaultsTS": {
+		"autoOutputAction": 0,
+		"autoOutputPathFilenamePattern": "*.js",
+		"autoOutputPathRelativePath": "\/js",
+		"autoOutputPathReplace1": "",
+		"autoOutputPathReplace2": "",
+		"autoOutputPathStyle": 2,
+		"createDeclarationFile": 0,
+		"createSourceMap": 0,
+		"jsxMode": 0,
+		"minifyOutput": 0,
+		"moduleResolutionType": 0,
+		"moduleType": 2,
+		"noImplicitAny": 0,
+		"preserveConstEnums": 0,
+		"removeComments": 0,
+		"suppressImplicitAnyIndexErrors": 0,
+		"targetECMAVersion": 0
+		},
+	"languageDefaultsUserDefined": [
+		],
+	"overrideExternalServerCSS": 0,
+	"previewPathAddition": "",
+	"skippedFoldersString": "log, _logs, logs, _cache, cache, \/storage\/framework\/sessions, node_modules",
+	"sourceFolderName": "source",
+	"susyVersion": 3,
+	"uglifyDefinesString": "",
+	"uglifyFlags2": {
+		"ascii-only": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"bare-returns": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"booleans": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"bracketize": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"cascade": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"comments": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"comparisons": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"compress": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"conditionals": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"dead_code": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"drop_console": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"drop_debugger": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"eval": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"evaluate": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"hoist_funs": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"hoist_vars": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"if_return": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"indent-level": {
+			"active": 0,
+			"flagValue": 4
+			},
+		"indent-start": {
+			"active": 0,
+			"flagValue": 0
+			},
+		"inline-script": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"join_vars": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"keep_fargs": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"keep_fnames": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"loops": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"mangle": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"max-line-len": {
+			"active": 1,
+			"flagValue": 32000
+			},
+		"negate_iife": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"properties": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"pure_getters": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"quote-keys": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"screw-ie8": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"semicolons": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"sequences": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"sort": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"space-colon": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"support-ie8": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"toplevel": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"unsafe": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"unused": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"warnings": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"width": {
+			"active": 1,
+			"flagValue": 80
+			}
+		},
+	"uglifyReservedNamesString": "$",
+	"websiteRelativeRoot": ""
+	},
+"settingsFileVersion": "3"
+}
