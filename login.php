@@ -1,21 +1,25 @@
 <?php
 session_start();
 
-if(!isset($_COOKIE[$cookie_login])) {
-  $cookie_login = "";
-} else {
-    $cookie_login = $_COOKIE[$cookie_login];
-}
+// var_dump($_COOKIE);
 
-echo $cookie_login['email'];
-echo $cookie_login['hash'];
-exit;
+// if(!isset($_COOKIE)) {
+//  // $email =  "";
+//  // $cookie_hash =  "";
+//   // echo 'no essta';
+//   $_SESSION['login'] = true;
+// } else {
+//   $email =  $_COOKIE[$cookie_email];
+//   $cookie_hash =  $_COOKIE[$cookie_hash];
+//     // echo 'essta';
+// }
+
+
+
+// echo $cookie_login['email'];
+// echo $cookie_login['hash'];
+// exit;
 ?>
-
-
-<!-- <?php echo $cookie_login['email'] ?>
-<?php echo $cookie_login['hash'] ?> -->
-
 
 
 <!-- falta agregar los mensajes de errore que vienen de POST -->
@@ -77,7 +81,8 @@ exit;
           <div class="row">
             <div class="col-xs-10 col-xs-offset-1 col-sm-6 col-sm-offset-3 col-lg-4 col-lg-offset-4 form-group">
               <label class="sr-only" for="email">E-mail</label>
-              <input name="email" value="<?php echo $cookie_login['email'] ?>" class="form-control" type="email" placeholder="E-mail">
+              <input name="email" value="" class="form-control" type="email" placeholder="E-mail">
+              <!-- <input name="email" value="<?php echo $email ?>" class="form-control" type="email" placeholder="E-mail"> -->
               <span class="glyphicon glyphicon-envelope form-control-feedback">
               </span>
             </div>
@@ -86,7 +91,8 @@ exit;
           <div class="row">
             <div class="col-xs-10 col-xs-offset-1 col-sm-6 col-sm-offset-3 col-lg-4 col-lg-offset-4">
               <label class="sr-only" for="password">Password</label>
-              <input name="password" value="<?php echo $cookie_login['hash'] ?>" class="form-control" type="password" placeholder="Password">
+              <input name="password" value="" class="form-control" type="password" placeholder="Password">
+              <!-- <input name="password" value="<?php echo $cookie_login['hash'] ?>" class="form-control" type="password" placeholder="Password"> -->
               <span class="glyphicon glyphicon-lock form-control-feedback">
               </span>
             </div>
@@ -108,7 +114,7 @@ exit;
           <!-- <form class="form-inline" action="login.controller.php" method="POST"> -->
             <div class="row form-group">
               <div class="col-xs-10 col-xs-offset-1 col-sm-6 col-sm-offset-3 col-lg-4 col-lg-offset-4">
-                <button class="btn btn-block btn-mg logbutton" name="login" value="Login">Entrar</button>
+                <button class="btn btn-block btn-mg logbutton" name="login" value="login">Entrar</button>
               </div>
             </div>
           <!-- </form> -->
