@@ -1,7 +1,21 @@
 <?php
 session_start();
 
+if(!isset($_COOKIE[$cookie_login])) {
+  $cookie_login = "";
+} else {
+    $cookie_login = $_COOKIE[$cookie_login];
+}
+
+echo $cookie_login['email'];
+echo $cookie_login['hash'];
+exit;
 ?>
+
+
+<!-- <?php echo $cookie_login['email'] ?>
+<?php echo $cookie_login['hash'] ?> -->
+
 
 
 <!-- falta agregar los mensajes de errore que vienen de POST -->
@@ -56,31 +70,14 @@ session_start();
         <!-- LOGIN HEADER -->
       </div>
 
-      <!-- RECUPERACION DE ARRAY DE ERRORES DESDE SESSION -->
-      <!-- si hay data en array de errores, entonces crear row con impresion de los mensajes dentro del array -->
-          <!-- <?php if (!empty($_SESSION['errores'])): ?>
-              <div class="row">
-                  <div class="col-xs-10 col-xs-offset-1 col-sm-6 col-sm-offset-3 col-lg-4 col-lg-offset-4">
-                      <div class="alert alert-danger">
-                          <?php foreach ($_SESSION['errores'] as $mensajesError): ?>
-                              <p><?php echo $mensajesError; ?></p>
-                          <?php endforeach ?>
-                      </div>
-                  </div>
-              </div>
-            <!-- <?php else: ?>
-            <?php $name = $email = $pasword = $password_confirm = ""; ?> -->
-        <!--  <?php endif ?> -->
-      <!-- RECUPERACION DE ARRAY DE ERRORES DESDE SESSION -->
-
-      <div class="container login-body">
+        <div class="container login-body">
         <!-- LOGIN BODY -->
 
         <form action="php/login.controller.php" method="POST" class="register-form">
           <div class="row">
             <div class="col-xs-10 col-xs-offset-1 col-sm-6 col-sm-offset-3 col-lg-4 col-lg-offset-4 form-group">
               <label class="sr-only" for="email">E-mail</label>
-              <input name="email" value="" class="form-control" type="email" placeholder="E-mail">
+              <input name="email" value="<?php echo $cookie_login['email'] ?>" class="form-control" type="email" placeholder="E-mail">
               <span class="glyphicon glyphicon-envelope form-control-feedback">
               </span>
             </div>
@@ -89,7 +86,7 @@ session_start();
           <div class="row">
             <div class="col-xs-10 col-xs-offset-1 col-sm-6 col-sm-offset-3 col-lg-4 col-lg-offset-4">
               <label class="sr-only" for="password">Password</label>
-              <input name="password" value="" class="form-control" type="password" placeholder="Password">
+              <input name="password" value="<?php echo $cookie_login['hash'] ?>" class="form-control" type="password" placeholder="Password">
               <span class="glyphicon glyphicon-lock form-control-feedback">
               </span>
             </div>

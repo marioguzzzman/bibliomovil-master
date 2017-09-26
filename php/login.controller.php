@@ -10,8 +10,7 @@ $usuario = getUserByEmail ($_POST['email'], '../db/usuarios.json'); //funcion de
 $name = $usuario['name'];
 $email = $usuario['email'];
 $hash = $usuario['hash'];
-$cookie_usuario_logueado = "cookie-usuario-logueado";
-$valor_cookie = "cookie-usuario-logueado";
+
 
 
 // *********** DEBUG ***********
@@ -36,8 +35,8 @@ if($email && password_verify($_POST['password'], $hash)) {
 
   $_SESSION['login'] = true; //seteo la sesion como verdadera
 	$_SESSION['usuario'] = $usuario; // envio la variable usuario al resto de la pagina
-
-// setcookie($cookie_usuario_logueado,$usuario, time() + (86400 * 30), "/");
+$cookie_login;
+setcookie($cookie_login,$usuario, time() + (86400 * 30), "/");
 
   header('Location: ../index.php');
 	//revisar si esta COOKIE
