@@ -201,6 +201,12 @@ USER-DASHBOARD
 
 }
 
+.usuario {
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0 auto;
+}
+
 .puntos {
   color: yellow;
   font-size: 18px;

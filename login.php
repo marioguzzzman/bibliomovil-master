@@ -104,14 +104,14 @@ session_start();
 
           <div class="form-check col-xs-10 col-xs-offset-1 col-sm-6 col-sm-offset-3 col-lg-4 col-lg-offset-4 form-group">
             <label class="form-check-label">
-               <input class="form-check-input" type="checkbox"> Recuerdame
+               <input class="form-check-input" type="checkbox" name="recuerdame" id="recuerdame"> Recuerdame
              </label>
           </div>
 
           <!-- <form class="form-inline" action="login.controller.php" method="POST"> -->
             <div class="row form-group">
               <div class="col-xs-10 col-xs-offset-1 col-sm-6 col-sm-offset-3 col-lg-4 col-lg-offset-4">
-                <button class="btn btn-block btn-mg logbutton">Entrar</button>
+                <button class="btn btn-block btn-mg logbutton" name="login" value="Login">Entrar</button>
               </div>
             </div>
           <!-- </form> -->
