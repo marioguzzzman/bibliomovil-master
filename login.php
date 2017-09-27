@@ -1,18 +1,42 @@
 <?php
 session_start();
 
+$email = "";
+$cookie_hash ="";
+// *********** FUNCIONES ***********
+require 'php/helpers.php'; // archivo de funciones
+
+
+// *********** VALIDACION COOKIE ***********
+
 // var_dump($_COOKIE);
 
-// if(!isset($_COOKIE)) {
-//  // $email =  "";
-//  // $cookie_hash =  "";
-//   // echo 'no essta';
-//   $_SESSION['login'] = true;
-// } else {
-//   $email =  $_COOKIE[$cookie_email];
-//   $cookie_hash =  $_COOKIE[$cookie_hash];
-//     // echo 'essta';
-// }
+if(!isset($_COOKIE['cookie_email'])) {
+ 
+  // echo 'no esta la cookie';
+
+} else {
+
+  $email =  $_COOKIE['cookie_email'];
+  $cookie_hash =  $_COOKIE['cookie_hash'];
+
+
+  $usuario = getUserByEmail ($email, 'db/usuarios.json'); //funcion de recuperacion de usuario por email
+
+  if($email && $usuario['hash'] == $cookie_hash) {
+  //si la comparación entre ambos passwords es verdadera entonces redirecciona a index y setea la SESSION como verdadera. Cuando la SESSION es true, se obtienen nuevas opciones en la navbar
+
+
+
+  // *********** SESSION ***********
+
+    $_SESSION['login'] = true; //seteo la sesion como verdadera
+  	$_SESSION['usuario'] = $usuario; // envio la variable usuario al resto de la pagina
+
+    header('Location: index.php');
+  	//revisar si esta COOKIE
+  }
+}
 
 
 

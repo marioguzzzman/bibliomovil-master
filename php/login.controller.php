@@ -11,8 +11,6 @@ $name = $usuario['name'];
 $email = $usuario['email'];
 $hash = $usuario['hash'];
 
-$_COOKIE;
-
 
 // *********** DEBUG ***********
 
@@ -20,16 +18,17 @@ $_COOKIE;
 //
 
 // *********** COOKIE  ***********
-
+$_COOKIE;
 
 // var_dump($value);
 
-if ($_POST['login']) {
+if ($_POST['recuerdame']) {
     $cookie_email = $usuario['email'];
     $cookie_hash = $usuario['hash'];
 
-    setcookie("cookie_email", $cookie_email, time()+3600);  /* expire in 1 hour */
-    setcookie("cookie_hash", $cookie_email, time()+3600);  /* expire in 1 hour */
+    setcookie("cookie_email", $cookie_email, time()+3600, "/");  /* expire in 1 hour */
+    setcookie("cookie_hash",  $cookie_hash, time()+3600, "/");  /* expire in 1 hour //recordar ponerle el path
+
 
     // var_dump($_COOKIE);
 }
