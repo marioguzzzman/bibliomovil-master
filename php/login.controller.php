@@ -15,6 +15,23 @@ $hash = $usuario['hash'];
 // *********** DEBUG ***********
 
 // var_dump($email, $hash); exit;
+//
+
+// *********** COOKIE  ***********
+$_COOKIE;
+
+// var_dump($value);
+
+if ($_POST['recuerdame']) {
+    $cookie_email = $usuario['email'];
+    $cookie_hash = $usuario['hash'];
+
+    setcookie("cookie_email", $cookie_email, time()+3600, "/");  /* expire in 1 hour */
+    setcookie("cookie_hash",  $cookie_hash, time()+3600, "/");  /* expire in 1 hour //recordar ponerle el path
+
+
+    // var_dump($_COOKIE);
+}
 
 // *********** VALIDACION  ***********
 
@@ -23,20 +40,15 @@ $hash = $usuario['hash'];
 //2) PASSWORD sea correcto
 //lo ue hay que hacer es hashear el password que entra y compararlo con el password hasheado en la base
 
-
-
-// $passwordLogin = password_hash($_POST['password'], PASSWORD_DEFAULT);
-
 if($email && password_verify($_POST['password'], $hash)) {
 //si la comparación entre ambos passwords es verdadera entonces redirecciona a index y setea la SESSION como verdadera. Cuando la SESSION es true, se obtienen nuevas opciones en la navbar
-
-//este funciona pero no compara passwords hasheados
-// if($usuario && $usuario['password']== $_POST['password']) {
 
 // *********** SESSION ***********
 
   $_SESSION['login'] = true; //seteo la sesion como verdadera
 	$_SESSION['usuario'] = $usuario; // envio la variable usuario al resto de la pagina
+  setcookie("cookie_hash", $cookie_email, time()+3600);
+
   header('Location: ../index.php');
 	//revisar si esta COOKIE
 } else {

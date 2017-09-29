@@ -1,6 +1,48 @@
 <?php
 session_start();
 
+$email = "";
+$cookie_hash ="";
+// *********** FUNCIONES ***********
+require 'php/helpers.php'; // archivo de funciones
+
+
+// *********** VALIDACION COOKIE ***********
+
+// var_dump($_COOKIE);
+
+if(!isset($_COOKIE['cookie_email'])) {
+ 
+  // echo 'no esta la cookie';
+
+} else {
+
+  $email =  $_COOKIE['cookie_email'];
+  $cookie_hash =  $_COOKIE['cookie_hash'];
+
+
+  $usuario = getUserByEmail ($email, 'db/usuarios.json'); //funcion de recuperacion de usuario por email
+
+  if($email && $usuario['hash'] == $cookie_hash) {
+  //si la comparación entre ambos passwords es verdadera entonces redirecciona a index y setea la SESSION como verdadera. Cuando la SESSION es true, se obtienen nuevas opciones en la navbar
+
+
+
+  // *********** SESSION ***********
+
+    $_SESSION['login'] = true; //seteo la sesion como verdadera
+  	$_SESSION['usuario'] = $usuario; // envio la variable usuario al resto de la pagina
+
+    header('Location: index.php');
+  	//revisar si esta COOKIE
+  }
+}
+
+
+
+// echo $cookie_login['email'];
+// echo $cookie_login['hash'];
+// exit;
 ?>
 
 
@@ -56,24 +98,7 @@ session_start();
         <!-- LOGIN HEADER -->
       </div>
 
-      <!-- RECUPERACION DE ARRAY DE ERRORES DESDE SESSION -->
-      <!-- si hay data en array de errores, entonces crear row con impresion de los mensajes dentro del array -->
-          <!-- <?php if (!empty($_SESSION['errores'])): ?>
-              <div class="row">
-                  <div class="col-xs-10 col-xs-offset-1 col-sm-6 col-sm-offset-3 col-lg-4 col-lg-offset-4">
-                      <div class="alert alert-danger">
-                          <?php foreach ($_SESSION['errores'] as $mensajesError): ?>
-                              <p><?php echo $mensajesError; ?></p>
-                          <?php endforeach ?>
-                      </div>
-                  </div>
-              </div>
-            <!-- <?php else: ?>
-            <?php $name = $email = $pasword = $password_confirm = ""; ?> -->
-        <!--  <?php endif ?> -->
-      <!-- RECUPERACION DE ARRAY DE ERRORES DESDE SESSION -->
-
-      <div class="container login-body">
+        <div class="container login-body">
         <!-- LOGIN BODY -->
 
         <form action="php/login.controller.php" method="POST" class="register-form">
@@ -81,6 +106,7 @@ session_start();
             <div class="col-xs-10 col-xs-offset-1 col-sm-6 col-sm-offset-3 col-lg-4 col-lg-offset-4 form-group">
               <label class="sr-only" for="email">E-mail</label>
               <input name="email" value="" class="form-control" type="email" placeholder="E-mail">
+              <!-- <input name="email" value="<?php echo $email ?>" class="form-control" type="email" placeholder="E-mail"> -->
               <span class="glyphicon glyphicon-envelope form-control-feedback">
               </span>
             </div>
@@ -90,6 +116,7 @@ session_start();
             <div class="col-xs-10 col-xs-offset-1 col-sm-6 col-sm-offset-3 col-lg-4 col-lg-offset-4">
               <label class="sr-only" for="password">Password</label>
               <input name="password" value="" class="form-control" type="password" placeholder="Password">
+              <!-- <input name="password" value="<?php echo $cookie_login['hash'] ?>" class="form-control" type="password" placeholder="Password"> -->
               <span class="glyphicon glyphicon-lock form-control-feedback">
               </span>
             </div>
@@ -104,14 +131,14 @@ session_start();
 
           <div class="form-check col-xs-10 col-xs-offset-1 col-sm-6 col-sm-offset-3 col-lg-4 col-lg-offset-4 form-group">
             <label class="form-check-label">
-               <input class="form-check-input" type="checkbox"> Recuerdame
+               <input class="form-check-input" type="checkbox" name="recuerdame" id="recuerdame"> Recuerdame
              </label>
           </div>
 
           <!-- <form class="form-inline" action="login.controller.php" method="POST"> -->
             <div class="row form-group">
               <div class="col-xs-10 col-xs-offset-1 col-sm-6 col-sm-offset-3 col-lg-4 col-lg-offset-4">
-                <button class="btn btn-block btn-mg logbutton">Entrar</button>
+                <button class="btn btn-block btn-mg logbutton" name="login" value="login">Entrar</button>
               </div>
             </div>
           <!-- </form> -->

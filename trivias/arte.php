@@ -30,6 +30,7 @@ $calificación = ['0','0','10',];
 
 		<link rel="stylesheet" href="trivias-main-css.css">
 
+
 		<!-- Bootstrap -->
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
@@ -56,7 +57,7 @@ $calificación = ['0','0','10',];
 			<form action=" "  class="register-form" id="form1">
 
 				<!-- FOR QUE REPITE TODO EL FORMULARIO -->
-				<?php for ($i=1; $i < 11; $i++):?>
+				<?php for ($i=1; $i < 3; $i++):?>
 
 					<!-- <section class="arte"> -->
 				<section class="<?php echo $nombreCarpetaImagen ?>">
@@ -76,6 +77,9 @@ $calificación = ['0','0','10',];
 								<img src="img-<?php echo $nombreCarpetaImagen ?>/<?php echo $i; ?>.jpg" alt="Mountain View">
 
 								<br>
+
+								<!-- EMPIEZAN BULLETS -->
+
 								<div class="col-md-10 col-md-offset-2 bullet">
 									<!-- <input type="radio" class="form-check-input" name="uno?>" value="0"/> -->
 									<input type="radio" class="form-check-input" name="<?php echo $bulletName[$i]; ?>" value="0"/>
@@ -101,6 +105,8 @@ $calificación = ['0','0','10',];
 
 									<br>
 								</div>
+
+								<!-- /TERMINAN BULLETS -->
 
 								<p>
 									<!-- <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#saber1" aria-expanded="false" aria-controls="collapseExample">Para saber más</button> -->
@@ -132,8 +138,8 @@ $calificación = ['0','0','10',];
 
 			</section>
 			<!-- CONTAINER PRINCIPAL -->
-			<!-- FOR QUE REPITE TODO EL FORMULARIO -->
 
+<!-- FOR QUE REPITE TODO EL FORMULARIO -->
 			<?php endfor; ?>
 
 			<br><br>
@@ -146,6 +152,7 @@ $calificación = ['0','0','10',];
 			<p>Tu resultado es: <span id="grade">__</span></p>
 			<p id="grade2"></p>
 
+<?php echo $errores; ?>
 						<!-- COL -->
 						</div>
 						<!-- ROW -->
@@ -166,26 +173,53 @@ $calificación = ['0','0','10',];
 			document.getElementById("form1").onsubmit = function() {
 				uno = parseInt(document.querySelector('input[name = "uno"]:checked').value);
 				dos = parseInt(document.querySelector('input[name = "dos"]:checked').value);
-				tres = parseInt(document.querySelector('input[name = "tres"]:checked').value);
-				cuatro = parseInt(document.querySelector('input[name = "cuatro"]:checked').value);
-				cinco = parseInt(document.querySelector('input[name = "cinco"]:checked').value);
-				seis = parseInt(document.querySelector('input[name = "seis"]:checked').value);
-				siete = parseInt(document.querySelector('input[name = "siete"]:checked').value);
-				ocho = parseInt(document.querySelector('input[name = "ocho"]:checked').value);
-				nueve = parseInt(document.querySelector('input[name = "nueve"]:checked').value);
-				diez = parseInt(document.querySelector('input[name = "diez"]:checked').value);
 
-				result =  //aca vemos el resultado
+			// document.getElementById("form1").onsubmit = function() {
+			// 	uno = parseInt(document.querySelector('input[name = "uno"]:checked').value);
+			// 	dos = parseInt(document.querySelector('input[name = "dos"]:checked').value);
+			// 	tres = parseInt(document.querySelector('input[name = "tres"]:checked').value);
+			// 	cuatro = parseInt(document.querySelector('input[name = "cuatro"]:checked').value);
+			// 	cinco = parseInt(document.querySelector('input[name = "cinco"]:checked').value);
+			// 	seis = parseInt(document.querySelector('input[name = "seis"]:checked').value);
+			// 	siete = parseInt(document.querySelector('input[name = "siete"]:checked').value);
+			// 	ocho = parseInt(document.querySelector('input[name = "ocho"]:checked').value);
+			// 	nueve = parseInt(document.querySelector('input[name = "nueve"]:checked').value);
+			// 	diez = parseInt(document.querySelector('input[name = "diez"]:checked').value);
+
+errores = ['un problema'];
+//
+// result =
+// if (uno = 0) {
+// 	<?php echo 'hay un problema con la oregunta 1'; ?>
+// } else {
+// 	uno = 10;
+// } +
+// dos;
+// tres
+
+				result =
 				uno +
-				dos +
-				tres +
-				cuatro +
-				cinco +
-				seis +
-				siete +
-				ocho +
-				nueve +
-				diez;
+				dos;
+				// tres +
+				// cuatro +
+				// cinco +
+				// seis +
+				// siete +
+				// ocho +
+				// nueve +
+				// diez;
+
+				// result =  //aca vemos el resultado
+				// uno +
+				// dos +
+				// tres +
+				// cuatro +
+				// cinco +
+				// seis +
+				// siete +
+				// ocho +
+				// nueve +
+				// diez;
 
 				document.getElementById("grade").innerHTML = result;
 

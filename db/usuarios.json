@@ -19,5 +19,10 @@
 {"name":"max","email":"max@gmail.com","hash":"$2y$10$h.zC4jkYkN44vzqOTVdwa.CyllA.o\/H.ZSDKSOAbMkL2fx9HXvmxW","avatar":"59c54e52a858a.png"}
 {"name":"jose","email":"jose@gmail.com","hash":"$2y$10$izhjflUQEHcr4w5aomvGL.Dzr7PwQ2h4vYsMtZkaGN2otmQtdH1f.","avatar":"59c576a75ab1b.png"}
 {"name":"pepito","email":"pepito@gmail.com","hash":"$2y$10$qEUql.32YhZDjeeT.qkJoOMlkHRVYTJUQ.RN33wAKdhCdBWiHaUQe","avatar":"59c577108c882.png"}
+<<<<<<< HEAD
 {"name":"Christian","email":"christian.romero.a@gmail.om","hash":"$2y$10$lWJ8aDTvEAYa9u0d7.LkiuJDeKQeu2dA7xn63vF\/vR93s5uiKKdmi","avatar":"59cc0bec7f132.png"}
 {"name":"Christian","email":"christian.romero.a@gmail.om","hash":"$2y$10$hhawmd1d8O9CF0B9DDyiM.r227lplvDZJdwGA0IR2LEDEzVvBZ9RK","avatar":"59cc0c35f232b.png"}
+=======
+{"name":"cristian","email":"hola@mail.com","hash":"$2y$10$tAkOUAdgLYt7D6mMtnBFKe7z5trExqnnciO4MdzczVcV7wHm7a3im","avatar":"59ca7b514c009.jpg"}
+{"name":"mario","email":"mario.cerdio@gmail.com","hash":"$2y$10$JxrIZkQMdrmPdWhbe4on2uLagauiaeEVwo2IYqqM8jKdI8QlZQaI6","avatar":"59caa964c8a97.png"}
+>>>>>>> ebc76b78e54631512902648c0e8b7ebe5d63bff3
