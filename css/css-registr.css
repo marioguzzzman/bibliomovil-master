@@ -11,7 +11,7 @@ body, html {
   background-color: rgb(1, 45, 65);
   font-family: 'Open Sans Condensed', sans-serif;*/
   font-size: 14px;
-  background: linear-gradient(to top, rgb(0, 109, 222) 0%, #00BCD4 100%);
+  background: url("http://www.powerpointhintergrund.com/uploads/kids-background-17.jpg");
 
 }
 
@@ -187,32 +187,40 @@ USER-DASHBOARD
 --------------------------------*/
 
 .usuario img {
-  min-width: 200px;
-  max-width: 320px;
+  min-width: 300px;
+  max-width: 300px;
   display: block;
   margin: 0 auto;
   margin-top: 30px;
+  border-radius: 100%;
+  box-shadow: 10px 10px 32px -14px rgba(0,0,0,0.75);
+  margin-right: 25px;
+  margin-left: 25px;
+  background-size: cover;
+  background-position: center;
+  background: linear-gradient(to bottom, #fff 0%, rgba(214, 214, 214, 0.62) 100%);
+
 }
 
 .usuario h1{
-  color: white !important;
+  color: #0481a7 !important;
   margin-bottom: 30px !important;
   margin-top: 35px !important;
 
 }
 
 .puntos {
-  color: yellow;
+  color: #37e43f;
   font-size: 18px;
 }
 
 .usuario h3{
-  color: white !important;
+  color: #0193bf !important;
   text-align: left;
 }
 
 .usuario p {
-  color: white;
+  color: #0193bf !important;
   text-align: justify;
   font-size: 18px;
 }
