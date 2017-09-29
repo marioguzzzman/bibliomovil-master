@@ -12,6 +12,10 @@ body, html {
   font-family: 'Open Sans Condensed', sans-serif;*/
   font-size: 14px;
   background: url("http://www.powerpointhintergrund.com/uploads/kids-background-17.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: -webkit-fill-available;
 
 }
 
@@ -20,6 +24,7 @@ body, html {
   background-color: rgb(164, 164, 164);
   /*padding-top: 75px;*/
   background: linear-gradient(to bottom, rgb(0, 109, 222) 0%, #00BCD4 100%);
+  height: -webkit-fill-available;;
 }
 
 
@@ -36,6 +41,7 @@ LOGIN
 
 .login-logo {
   padding: 30px;
+  margin-top: 50px;
 }
 
 .login-logo img {

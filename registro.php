@@ -42,14 +42,10 @@ $errores = [ ];
 <body>
   <?php  include 'php/sistema-nav-login.php'; ?>
 
-
-  <br><br><br><br>
-
-
-    <div class="row">
+    <div class="">
       <div class="col-xs-10 col-xs-offset-1 col-sm-6 col-sm-offset-3 col-lg-4 col-lg-offset-4">
         <header>
-        <legend><h2>Registro</h2></legend>
+        <legend><h2 style=margin-top:150px>Registro</h2></legend>
         </header>
       </div>
     </div>
