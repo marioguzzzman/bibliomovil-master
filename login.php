@@ -1,3 +1,5 @@
+
+
 <?php
 session_start();
 
@@ -12,7 +14,7 @@ require 'php/helpers.php'; // archivo de funciones
 // var_dump($_COOKIE);
 
 if(!isset($_COOKIE['cookie_email'])) {
- 
+
   // echo 'no esta la cookie';
 
 } else {
