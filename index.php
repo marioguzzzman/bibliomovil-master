@@ -33,50 +33,67 @@ require 'php/helpers.php'; // archivo de funciones
 
 <body>
 
+
 <?php  include 'php/sistema-nav-login.php'; ?>
 
 
   <div class="container-fluid">
-    <!-- CONTAINER GENERAL!-->
-
-    <section class="animacion">
-      <!--BIBLIO EN MOVIMIENTO CONTAINER/!-->
-      <div class="row animacion">
-        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-
-          <!--BIBLIO EN MOVIMIENTO/!-->
-
-          <!-- <svg viewBox="-400 -400 1160 900"> -->
-          <svg viewBox="0 0 960 800">
-
-            <symbol id="s-text">
-              <text text-anchor="middle" x="50%" y="50%">BIBLIOMOVIL </text>
-              <!-- <text text-anchor="middle" x="50%" y="50%">interactivo </text> -->
-            </symbol>
-
-            <g class = "g-ants">
-              <use xlink:href="#s-text" class="text-copy"></use>
-              <use xlink:href="#s-text" class="text-copy"></use>
-              <use xlink:href="#s-text" class="text-copy"></use>
-              <use xlink:href="#s-text" class="text-copy"></use>
-              <use xlink:href="#s-text" class="text-copy"></use>
-            </g>
-
-            </svg>
-        </div>
-      </div>
-      <!--/BIBLIO EN MOVIMIENTO/!-->
-    </section>
 
     <!-- /CONTAINER GENERAL!-->
   </div>
+
+
+  <div class="carousel fade-carousel slide" data-ride="carousel" data-interval="4000" id="bs-carousel">
+    <!-- Overlay -->
+    <div class="overlay"></div>
+
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#bs-carousel" data-slide-to="0" class="active"></li>
+      <li data-target="#bs-carousel" data-slide-to="1"></li>
+      <li data-target="#bs-carousel" data-slide-to="2"></li>
+    </ol>
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner">
+      <div class="item slides active">
+        <div class="slide-1"></div>
+        <div class="hero">
+              <img src="img/Bibliomovil_logo_COLOR_1000x500.png" alt="Bibliomovil" width=350px padding-bottom=50px>
+              <h4>Un proyecto de la biblioteca del congreso</h4>
+          <button class="btn btn-hero btn-lg" role="button">Adelante</button>
+        </div>
+      </div>
+      <div class="item slides">
+        <div class="slide-2"></div>
+        <div class="hero">
+          <hgroup>
+              <img src="img/Bibliomovil_logo_COLOR_1000x500.png" alt="Bibliomovil" width=350px padding-bottom=50px z-index=300>
+              <h4>Un proyecto de la biblioteca del congreso</h4>
+          </hgroup>
+          <button class="btn btn-hero btn-lg" role="button">Adelante</button>
+        </div>
+      </div>
+      <div class="item slides">
+        <div class="slide-3"></div>
+        <div class="hero">
+          <hgroup>
+              <img src="img/Bibliomovil_logo_COLOR_1000x500.png" alt="Bibliomovil" width=350px padding-bottom=50px>
+              <h4>Un proyecto de la biblioteca del congreso</h4>
+          </hgroup>
+          <button class="btn btn-hero btn-lg" role="button">Adelante</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
 
   <!-- <div class="row linea">
         <div class="col-xs-8 col-xs-offset-2">
           <hr>
         </div>
         </div> -->
-
 
   <div class="container">
     <section id="info">

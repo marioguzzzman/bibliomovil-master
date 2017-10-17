@@ -67,7 +67,7 @@ $errores = [ ];
     <?php endif ?>
 <!-- RECUPERACION DE ARRAY DE ERRORES DESDE SESSION -->
 
-    <div class="container-fluid registro-body">
+    <div class="container-fluid-registro registro-body">
 
     <form action="php/registro.controller.php" method="POST" class="register-form"  enctype="multipart/form-data">
 

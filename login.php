@@ -12,7 +12,7 @@ require 'php/helpers.php'; // archivo de funciones
 // var_dump($_COOKIE);
 
 if(!isset($_COOKIE['cookie_email'])) {
- 
+
   // echo 'no esta la cookie';
 
 } else {
@@ -78,7 +78,7 @@ if(!isset($_COOKIE['cookie_email'])) {
 
 
 
-  <div class="container-fluid">
+  <div class="container-fluid-login">
 
 
     <!-- La cabecera no hace lo que deberia, le faltan el colore de fondo -->
@@ -92,7 +92,7 @@ if(!isset($_COOKIE['cookie_email'])) {
 
         <div class="row">
           <div class="col-xs-10 col-xs-offset-1 col-sm-6 col-sm-offset-3 col-lg-4 col-lg-offset-4">
-            <img class="" src="img/Bibliomovil_logo_WHT.png" alt="Biblioteca del Congreso">
+            <img class="" src="img/Bibliomovil_logo_COLOR_1000x500.png" alt="Biblioteca del Congreso">
           </div>
         </div>
         <!-- LOGIN HEADER -->
