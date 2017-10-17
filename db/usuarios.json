@@ -25,10 +25,12 @@
 =======
 {"name":"cristian","email":"hola@mail.com","hash":"$2y$10$tAkOUAdgLYt7D6mMtnBFKe7z5trExqnnciO4MdzczVcV7wHm7a3im","avatar":"59ca7b514c009.jpg"}
 {"name":"mario","email":"mario.cerdio@gmail.com","hash":"$2y$10$JxrIZkQMdrmPdWhbe4on2uLagauiaeEVwo2IYqqM8jKdI8QlZQaI6","avatar":"59caa964c8a97.png"}
+<<<<<<< Updated upstream
 >>>>>>> ebc76b78e54631512902648c0e8b7ebe5d63bff3
 {"name":"christian","email":"christian_r@etercor.com.ar","hash":"$2y$10$50ABgbzSeFxilVKv\/\/fgG.skJD2izbSS7s7.BywI9IxeXWeZM5bCW","avatar":null}
 {"name":"Christian","email":"christian.romero.a@gmail.om","hash":"$2y$10$ucD1XzYSGi1IzKmM12m13eczsjh1BcYEKjZITwshoOtOg3jnRw7ka","avatar":null}
 {"name":"Christian","email":"christian.romero.a@gmail.om","hash":"$2y$10$xQyZRqP1KH.6yynHmYUyvuGL1id9yYpQTUw1NFH8faMSUp\/UID6u2","avatar":"59ce4fdb31aef.png"}
+<<<<<<< HEAD
 {"name":"Christian","email":"christian.romero.a@gmail.om","hash":"$2y$10$.E3q957vkK76NhFPnn9lIuSPaM8kE4mC.Pcrl\/1RKTVZGxNpaxbLe","avatar":"59ce5e924db87.png"}
 {"name":"christian","email":"christian.romero.a@gmail.com","hash":"$2y$10$\/1R2un2FelfxCFlMOqBDl.N8RtZMs8hqGHo3S5DZinU4mCRbluLim","avatar":"59ced551d5119.png"}
 {"name":"Christian","email":"christian.romero.a@gmail.om","hash":"$2y$10$.F\/fmIxp73yFE9f\/hMwhseLK4.YoUhThSiPWvUddq6OBMbHrPtFum","avatar":"59ced591202f1.jpg"}
@@ -40,3 +42,13 @@
 {"name":"Christian","email":"christian.romero.a@gmail.om","hash":"$2y$10$T0Da4a.XqCgpyeVaB79IPO0RL7tmHWLwkjF\/1GoaJ504jBVGjniW2","avatar":null}
 {"name":"Christian","email":"christian.romero.a@gmail.om","hash":"$2y$10$iLKN8yG7a140FZztfPKEP.gllfrZ55BecUqJ7d4GnPqRfn0PtYCre","avatar":null}
 {"name":"Christian","email":"christian.romero.a@gmail.om","hash":"$2y$10$socRoUjM9wEpDQ4h5F1.vub6vO\/gBq6jax8bPUQY3cNNZewZWClD6","avatar":"59e615b0c1447.png"}
+=======
+=======
+{"name":"gerardo","email":"geraardo@estonoescontenido.com","hash":"$2y$10$ws.ldGh3ANgA.rpP7VueGeQ9ambVGF0npAeVvESM4DDqDxI2AHSPW","avatar":"59cdae271ab74.png"}
+>>>>>>> Stashed changes
+{"name":"andre","email":"andre@gmail.com","hash":"$2y$10$WuFlQIDbAchc3Hq\/oS3WKerqFZPy06gRuvq1YZGHhl5XXwRCVXVv6","avatar":"59d25b8d342f8.png"}
+{"name":"marie","email":"marie@gmail.com","hash":"$2y$10$EQZGexB4PDBkXk\/Lg\/UXCOgECRNEP7vbUaLtNxZLdfpR0kCahKopK","avatar":"59e63c4572bbc.jpeg"}
+{"name":"mario","email":"marioguzzzman@gmail.com","hash":"$2y$10$Hs7KTk4EAvWXcSylTl.MweTmDeGX07uF1phzvSMTFqZDxB2dPBjtW","avatar":null}
+>>>>>>> 2d8a576ebda3604373821f76695fadf59f494cc0
+{"name":"Christian","email":"christian.romero.a@gmail.om","hash":"$2y$10$Kh67YbmozuRG35EEVRfVNeGL5zJkEAG3kDZ74tBKR5z6kov37mAU.","avatar":"59e67ae2749a7.png"}
+{"name":"Christian","email":"christian.romero.a@gmail.om","hash":"$2y$10$BH7hyvLf0LLr6FDNccnx1u.3j.2LbLuX8hf88M83y4Fh4ZlmbMvUO","avatar":"59e67af2df88a.png"}
