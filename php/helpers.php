@@ -1,5 +1,3 @@
-
-
 <?php
 
 function getUsers ($pathDB)
