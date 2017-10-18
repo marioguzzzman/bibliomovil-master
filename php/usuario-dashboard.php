@@ -1,9 +1,10 @@
 <?php
+ob_start();
 session_start();
 
 require 'php/helpers.php'; // archivo de funciones
 
-var_dump($usuario); exit;
+// var_dump($usuario); exit;
 ?>
 
 <!DOCTYPE html>
