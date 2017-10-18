@@ -61,7 +61,7 @@ require 'php/helpers.php'; // archivo de funciones
         <div class="hero">
               <img src="img/Bibliomovil_logo_COLOR_1000x500.png" alt="Bibliomovil" width=350px padding-bottom=50px>
               <h4>Un proyecto de la biblioteca del congreso</h4>
-          <button class="btn btn-hero btn-lg" role="button">Adelante</button>
+          <a href="#home"><button class="btn btn-hero btn-lg" role="button">Adelante</button></a>
         </div>
       </div>
       <div class="item slides">
@@ -71,7 +71,7 @@ require 'php/helpers.php'; // archivo de funciones
               <img src="img/Bibliomovil_logo_COLOR_1000x500.png" alt="Bibliomovil" width=350px padding-bottom=50px z-index=300>
               <h4>Un proyecto de la biblioteca del congreso</h4>
           </hgroup>
-          <button class="btn btn-hero btn-lg" role="button">Adelante</button>
+          <a href="#home"><button class="btn btn-hero btn-lg" role="button">Adelante</button></a>
         </div>
       </div>
       <div class="item slides">
@@ -81,7 +81,7 @@ require 'php/helpers.php'; // archivo de funciones
               <img src="img/Bibliomovil_logo_COLOR_1000x500.png" alt="Bibliomovil" width=350px padding-bottom=50px>
               <h4>Un proyecto de la biblioteca del congreso</h4>
           </hgroup>
-          <button class="btn btn-hero btn-lg" role="button">Adelante</button>
+          <a href="#home"><button class="btn btn-hero btn-lg" role="button">Adelante</button></a>
         </div>
       </div>
     </div>
@@ -95,7 +95,7 @@ require 'php/helpers.php'; // archivo de funciones
         </div>
         </div> -->
 
-  <div class="container">
+  <div class="container"><a name="home"></a>
     <section id="info">
       <!-- INFORMACIÓN GENERAL!-->
       <div class="row info main">
