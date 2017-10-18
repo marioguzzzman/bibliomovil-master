@@ -320,9 +320,11 @@ SERVICIOS
 
 .glyphicon-large {
   /*color: rgb(20, 20, 20);*/
-  color: #87d4fc;
+  color: #91f1fd;
   font-size: 50px;
   text-align: center;
+  box-shadow: 10px 10px 26px -6px rgba(0,0,0,0.58);
+
 }
 
 article {
@@ -371,8 +373,9 @@ PREGUNTAS FRECUENTES
 
 .panel-default>.panel-heading {
     color: #fff !important;
-    background-color: #74a5f6 !important;
+    background: linear-gradient(90deg, #0fb8ad 0%, #1fc8db 51%, #2cb5e8 75%) !important;
     border-color: #74a5f6 !important;
+    box-shadow: 10px 10px 26px -6px rgba(0,0,0,0.58);
 }
 
 
@@ -574,6 +577,9 @@ TIMELINE
    text-align: center;
    margin-top: 40px;
    margin-bottom: 100px;
+   background: linear-gradient(90deg, #0fb8ad 0%, #1fc8db 51%, #2cb5e8 75%) !important;
+   border-radius: 100px;
+   box-shadow: 10px 10px 26px -6px rgba(0,0,0,0.58);
  }
 
 /* footer social icons */
