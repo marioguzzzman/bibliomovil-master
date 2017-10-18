@@ -27,7 +27,7 @@ if ($_POST['recuerdame']) {
     $cookie_hash = $usuario['hash'];
 
     setcookie("cookie_email", $cookie_email, time()+3600, "/");  /* expire in 1 hour */
-    setcookie("cookie_hash",  $cookie_hash, time()+3600, "/");  /* expire in 1 hour //recordar ponerle el path
+    setcookie("cookie_hash",  $cookie_hash, time()+3600, "/");  /* expire in 1 hour //recordar ponerle el path*/
 
 
     // var_dump($_COOKIE);
