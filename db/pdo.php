@@ -6,7 +6,7 @@ $user ="root";
 $pass = "root";
 
 try {
-  $db = new PDO($dsn, $user, $pass);
+  $db = new PDO($dsn,$user,$pass);
 } catch (Exception $e) {
   echo "La conexion a la base de datos falló: " . $e->getMessage();
 }
