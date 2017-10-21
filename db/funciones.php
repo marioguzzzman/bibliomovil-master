@@ -1,6 +1,6 @@
 <?php
 	session_start();
-	require_once("pdo.php");
+	require_once("conexion.php");
 
 	if (!isset($_SESSION["logueado"]) && isset($_COOKIE["logueado"])) {
 		$_SESSION["logueado"] = $_COOKIE["logueado"];
