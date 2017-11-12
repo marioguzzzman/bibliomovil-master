@@ -1,32 +1,41 @@
 <?php //no debe quedar ningun espacio por encima, porque modifica al header
 
 require_once 'clases/Usuario.php';
+require_once 'clases/Model.php';
 require_once '../soporte.php';
-
 // //DARO
-// if ($auth->estaLogueado()) {
-// 		header("Location:inicio.php");exit;
-// 	}
+if ($auth->estaLogueado()) {
+		header("Location:index.php");exit;
+	}
 
-//*********** CAMPOS FORMULARIO DEFAULT *********** // inicio las variables vacias
-$emailDefault = "";
-$nameDefault = "";
+//*********** CAMPOS FORMULARIO DEFAULT ***********
+// inicio las variables vacias
+// $emailDefault = "";
+// $nameDefault = "";
 
 //*********** VALIDACION ***********
-$errores = []; //incio array de errores
+// $errores = []; //incio array de errores
 
 if ($_POST) {
 
-		$errores = $validador->validarInformacion($_POST, $db);
+  	$errores = $validador->validarInformacion($_POST, $db);
 
     if (!isset($errores["name"])) {
-			$nameDefault = $_POST["name"];
+			$nameDefault = $_SESSION['restoreInputValues']["name"];
 		}
 
     if (!isset($errores["email"])) {
-			$emailDefault = $_POST["email"];
+			$emailDefault = $_SESSION['restoreInputValues']["email"];
 		}
 
+    $_SESSION['errores'] = $errores;
+    // var_dump($errores);exit;
+    $_SESSION['restoreInputValues'] = $_POST;
+
+    header("Location:../registro.php");exit;
+
+}
+else
 		if (count($errores) == 0) {
 			$usuario = new Usuario($_POST);
 			$archivo = $usuario->guardarImagen();
@@ -37,7 +46,7 @@ if ($_POST) {
 			header("Location:../index.php?mail=" . $usuario->email);exit;
 			// header("Location:../usuario-dashboard.php?mail=$mail");exit;
 		}
-	}
+	// }
 
 
   // *******************************************************************************************

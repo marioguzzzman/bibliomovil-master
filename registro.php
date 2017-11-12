@@ -1,19 +1,22 @@
 <?php
 // session_start();
 require_once 'soporte.php';
-require_once 'php/clases/Auth.php';
 require_once 'php/clases/Usuario.php';
+
+$emailDefault = "";
+$nameDefault = "";
+//cual es esta forma?, una comparación?
+$nameDefault = $_SESSION['restoreInputValues']['name'] ?? '';
+$emailDefault = $_SESSION['restoreInputValues']['email'] ?? '';
+
+$errores = $_SESSION['errores'];
 
 //DARO
 // if ($auth->estaLogueado()) {
 // 		header("Location:index.php");exit;
 // 	}
 
-
-//es necesario esto aca?
-$errores = [ ];
-
- ?>
+?>
 
 
 <!DOCTYPE html>
@@ -68,6 +71,23 @@ $errores = [ ];
       <?php else: ?>
       <?php $name = $email = $password = ""; ?>
     <?php endif ?> -->
+
+    <?php if ($errores): ?>
+        <div class="row">
+            <div class="col-xs-10 col-xs-offset-1 col-sm-6 col-sm-offset-3 col-lg-4 col-lg-offset-4">
+                <div class="alert alert-danger">
+                  <?php foreach ($errores as $error) : ?>
+              			<li>
+              				<?=$error?>
+              			</li>
+              		<?php endforeach; ?>
+                </div>
+            </div>
+        </div>
+        <?php else: ?>
+        <?php $emailDefault = $nameDefault = "";?>
+        <!-- $name = $email = $password = "";?> -->
+      <?php endif ?>
 <!-- RECUPERACION DE ARRAY DE ERRORES DESDE SESSION -->
 
     <div class="container-fluid-registro registro-body">
@@ -81,7 +101,7 @@ $errores = [ ];
           <label class="sr-only control-label" for="primer-nombre">Nombre</label>
           <!-- <input name="nombre" value="" class="form-control" type="text" id="nombre" placeholder="Nombre"> -->
 <!-- DATO RECUPERADO POR SESSION + POST + ERRORES -->
-            <input name="name" value="<?php echo $name ?>" class="form-control" type="text" placeholder="Nombre">
+            <input name="name" id="name" value="<?=$nameDefault?>" class="form-control" type="text" placeholder="Nombre">
 <!-- DATO RECUPERADO POR SESSION + POST + ERRORES -->
           <span class="glyphicon glyphicon-user form-control-feedback">
           </span>
@@ -92,7 +112,7 @@ $errores = [ ];
         <div class="col-xs-10 col-xs-offset-1 col-sm-6 col-sm-offset-3 col-lg-4 col-lg-offset-4 form-group">
           <label class="sr-only" for="email">E-mail</label>
 <!-- DATO RECUPERADO POR SESSION + POST + ERRORES -->
-          <input name="email" value="<?php echo $email ?>" class="form-control" type="email" placeholder="E-mail">
+          <input name="email" id="email" value="<?=$emailDefault?>" class="form-control" type="email" placeholder="E-mail">
 <!-- DATO RECUPERADO POR SESSION + POST + ERRORES -->
           <span class="glyphicon glyphicon-envelope form-control-feedback">
           </span>
@@ -138,7 +158,7 @@ $errores = [ ];
         <!-- BOTON -->
         <div class="row form-group">
           <div class="col-xs-10 col-xs-offset-1 col-sm-6 col-sm-offset-3 col-lg-4 col-lg-offset-4 form-group">
-            <button class="btn btn-mg btn-block regbutton">Registrate</button>
+            <button class="btn btn-mg btn-block regbutton" type="submit">Registrate</button>
           </div>
         </div>
         <!-- BOTON -->
