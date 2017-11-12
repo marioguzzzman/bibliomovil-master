@@ -1,11 +1,19 @@
 <?php
 // session_start();
 require_once 'soporte.php';
+require_once 'php/clases/Usuario.php';
 
-// if ($auth->estaLogueado()) {
-//     header("Location:index.php");
-//     exit;
-// }
+if ($auth->estaLogueado()) {
+		header("Location:index.php");exit;
+	}
+
+// $emailDefault = "";
+// $nameDefault = "";
+// //cual es esta forma?, una comparación?
+// // $nameDefault = $_SESSION['restoreInputValues']['name'];
+// $emailDefault = $_SESSION['restoreInputValues']['email'] ?? '';
+
+$errores = $_SESSION['erroresLogin'];
 ?>
 
 <!-- <?php
@@ -89,8 +97,24 @@ require_once 'soporte.php';
         <!-- LOGIN HEADER -->
       </div>
 
+
         <div class="container login-body">
         <!-- LOGIN BODY -->
+
+        <?php if ($errores): ?>
+            <div class="row">
+                <div class="col-xs-10 col-xs-offset-1 col-sm-6 col-sm-offset-3 col-lg-4 col-lg-offset-4">
+                    <div class="alert alert-danger">
+                      <?php foreach ($errores as $error) : ?>
+                        <li>
+                          <?=$error?>
+                        </li>
+                      <?php endforeach; ?>
+                    </div>
+                </div>
+            </div>
+          <?php endif ?>
+        <!-- RECUPERACION DE ARRAY DE ERRORES DESDE SESSION -->
 
         <form action="php/login.controller.php" method="POST" class="register-form">
           <div class="row">

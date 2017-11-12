@@ -10,6 +10,9 @@ if ($auth->estaLogueado()) {
 $errores = [];
 if ($_POST) {
   $errores = $validador->validarLogin($_POST, $db);
+$_SESSION['erroresLogin'] = $errores;
+  header("Location:../login.php");
+
   if (count($errores) == 0) {
     // LOGUEAR
     $auth->loguear($_POST["email"]);
@@ -20,7 +23,6 @@ if ($_POST) {
     header("Location:../index.php");
   }
 }
-
 // *********** FUNCIONES ***********
 // require 'helpers.php'; // archivo de funciones
 //

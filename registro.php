@@ -3,19 +3,23 @@
 require_once 'soporte.php';
 require_once 'php/clases/Usuario.php';
 
+if ($auth->estaLogueado()) {
+		header("Location:index.php");exit;
+	}
+
 $emailDefault = "";
 $nameDefault = "";
 //cual es esta forma?, una comparación?
-$nameDefault = $_SESSION['restoreInputValues']['name'] ?? '';
+$nameDefault = $_SESSION['restoreInputValues']['name'];
 $emailDefault = $_SESSION['restoreInputValues']['email'] ?? '';
 
 $errores = $_SESSION['errores'];
 
-//DARO
-// if ($auth->estaLogueado()) {
-// 		header("Location:index.php");exit;
-// 	}
-
+// if (isset($_SESSION["errores"])) {
+//    if (basename($_SERVER['PHP_SELF']) != $_SESSION["errores"]) {
+//         session_destroy();
+//    }
+// }
 ?>
 
 

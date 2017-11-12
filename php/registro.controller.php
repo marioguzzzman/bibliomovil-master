@@ -32,10 +32,8 @@ if ($_POST) {
     // var_dump($errores);exit;
     $_SESSION['restoreInputValues'] = $_POST;
 
-    header("Location:../registro.php");exit;
+    header("Location:../registro.php");
 
-}
-else
 		if (count($errores) == 0) {
 			$usuario = new Usuario($_POST);
 			$archivo = $usuario->guardarImagen();
@@ -46,7 +44,7 @@ else
 			header("Location:../index.php?mail=" . $usuario->email);exit;
 			// header("Location:../usuario-dashboard.php?mail=$mail");exit;
 		}
-	// }
+	}
 
 
   // *******************************************************************************************
