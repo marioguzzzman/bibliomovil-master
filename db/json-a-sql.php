@@ -22,7 +22,7 @@ foreach ($jsonSQL as $key => $value) {
 
     //insert into mysql table
     // set the PDO error mode to exception
-    $tabla = "INSERT INTO usuario(idusuario, nombre, email, password, imagen)
+    $tabla = "INSERT INTO usuarios(id, nombre, email, password, imagen)
     VALUES ('','$nombre', '$email', '$password','$imagen')";
     //INSERT INTO = columnas
 

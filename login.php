@@ -1,52 +1,49 @@
 <?php
-session_start();
+// session_start();
+require_once 'soporte.php';
 
-$email = "";
-$cookie_hash ="";
-// *********** FUNCIONES ***********
-require 'php/helpers.php'; // archivo de funciones
+// if ($auth->estaLogueado()) {
+//     header("Location:index.php");
+//     exit;
+// }
+?>
 
+<!-- <?php
 
 // *********** VALIDACION COOKIE ***********
+// $email = "";
+// $cookie_hash ="";
 
 // var_dump($_COOKIE);
 
-if(!isset($_COOKIE['cookie_email'])) {
+// if(!isset($_COOKIE['cookie_email'])) {
 
-  // echo 'no esta la cookie';
+// // echo 'no esta la cookie';
 
-} else {
+// } else {
 
-  $email =  $_COOKIE['cookie_email'];
-  $cookie_hash =  $_COOKIE['cookie_hash'];
+//   $email =  $_COOKIE['cookie_email'];
+//   $cookie_hash =  $_COOKIE['cookie_hash'];
+//
+//   $usuario = getUserByEmail ($email, 'db/usuarios.json'); //funcion de recuperacion de usuario por email
 
-
-  $usuario = getUserByEmail ($email, 'db/usuarios.json'); //funcion de recuperacion de usuario por email
-
-  if($email && $usuario['hash'] == $cookie_hash) {
+//   if($email && $usuario['hash'] == $cookie_hash) {
   //si la comparación entre ambos passwords es verdadera entonces redirecciona a index y setea la SESSION como verdadera. Cuando la SESSION es true, se obtienen nuevas opciones en la navbar
 
+// *********** SESSION ***********
 
-
-  // *********** SESSION ***********
-
-    $_SESSION['login'] = true; //seteo la sesion como verdadera
-  	$_SESSION['usuario'] = $usuario; // envio la variable usuario al resto de la pagina
-
-    header('Location: index.php');
-  	//revisar si esta COOKIE
-  }
-}
-
-
+//     $_SESSION['login'] = true; //seteo la sesion como verdadera
+//   	$_SESSION['usuario'] = $usuario; // envio la variable usuario al resto de la pagina
+//
+//     header('Location: index.php');
+//   	//revisar si esta COOKIE
+//   }
+// }
 
 // echo $cookie_login['email'];
 // echo $cookie_login['hash'];
 // exit;
-?>
-
-
-<!-- falta agregar los mensajes de errore que vienen de POST -->
+// ?>-->
 
 <!DOCTYPE html>
 <html lang="en">
@@ -76,17 +73,11 @@ if(!isset($_COOKIE['cookie_email'])) {
 <body>
   <?php  include 'php/sistema-nav-login.php'; ?>
 
-
-
   <div class="container-fluid-login">
-
-
-    <!-- La cabecera no hace lo que deberia, le faltan el colore de fondo -->
 
     <div class="container login-box">
 
       <!-- LOGIN BOX -->
-
       <div class="login-logo">
         <!-- LOGIN LOGO -->
 
@@ -131,7 +122,7 @@ if(!isset($_COOKIE['cookie_email'])) {
 
           <div class="form-check col-xs-10 col-xs-offset-1 col-sm-6 col-sm-offset-3 col-lg-4 col-lg-offset-4 form-group">
             <label class="form-check-label">
-               <input class="form-check-input" type="checkbox" name="recuerdame" id="recuerdame"> Recuerdame
+               <input class="form-check-input" type="checkbox" name="recordame" id="recordame"> Recuerdame
              </label>
           </div>
 

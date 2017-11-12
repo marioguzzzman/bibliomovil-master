@@ -21,12 +21,12 @@
       <li class="dropdown" id="escritura">
         <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Escritura Creativa <span class="caret"></span></a>
         <ul class="dropdown-menu">
-          <li><a href="castillo.php">Historias de terror</a></li>
+          <!-- <li><a href="castillo.php">Historias de terror</a></li>
           <li><a href="#">La piedra en el estanque</a></li>
           <li><a href="#">PILO</a></li>
           <li role="separator" class="divider"></li>
 
-          <li><a href="#">Cuentos Interactivos</a></li>
+          <li><a href="#">Cuentos Interactivos</a></li> -->
           <li><a href="http://www.philome.la/marioguzzman/infinitud-discreta/play">Infinitud Discreta</a></li>
           <li><a href="http://www.philome.la/marioguzzman/tringulo-de-las-bermudas/play">El triángulo de las Bermudas</a></li>
 
@@ -38,11 +38,11 @@
         <ul class="dropdown-menu">
           <li><a href="processing_web/Actividad%20texto%20oculto%201/index.html">
             Palabras escondidas</a></li>
-          <li><a href="#">Hombre canrejo</a></li>
+          <!-- <li><a href="#">Hombre canrejo</a></li>
           <li><a href="#">León acalorado</a></li>
           <li role="separator" class="divider"></li>
           <li><a href="#">Plumo</a></li>
-          <li><a href="#">Animal Planet</a></li>
+          <li><a href="#">Animal Planet</a></li> -->
         </ul>
       </li>
 
@@ -60,6 +60,7 @@
 
       <li><a href="registro.php">Registro</a></li>
       <li><a href="login.php">Login</a></li>
+
       </li>
     </ul>
   </div>

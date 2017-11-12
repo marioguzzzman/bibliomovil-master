@@ -1,8 +1,6 @@
 <?php
-session_start();
-
-require 'php/helpers.php'; // archivo de funciones
-
+// session_start();
+require_once 'soporte.php';
 ?>
 
 <!DOCTYPE html>
@@ -12,12 +10,11 @@ require 'php/helpers.php'; // archivo de funciones
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+
   <title>Inicio</title>
 
   <link rel="stylesheet" href="css/navbar.css">
   <link rel="stylesheet" href="css/main2.css">
-
-
 
   <!-- Bootstrap -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
@@ -28,11 +25,10 @@ require 'php/helpers.php'; // archivo de funciones
   <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.2/html5shiv.js"></script>
       <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
+    <![endif] -->
 </head>
 
 <body>
-
 
 <?php  include 'php/sistema-nav-login.php'; ?>
 
@@ -88,7 +84,6 @@ require 'php/helpers.php'; // archivo de funciones
   </div>
 
 
-
   <!-- <div class="row linea">
         <div class="col-xs-8 col-xs-offset-2">
           <hr>
@@ -106,18 +101,15 @@ require 'php/helpers.php'; // archivo de funciones
           <img class="img-responsive logo" src="img/logo_home_1000x1000.png" alt="Mapa de Argentina">
 
           <div class="col-xs-12 col-sm-4 col-md-4">
-            <!-- MAPA / con img-responsive, la imagen ocupa el espacio jsuto del  de la columna-->
-            <!-- <img class="img-responsive" src="http://www.ezilon.com/maps/images/southamerica/physical-map-of-Argentina.gif" alt="Mapa de Argentina"> -->
+<!-- MAPA / con img-responsive, la imagen ocupa el espacio jsuto del  de la columna-->
 
             <img class="img-responsive" src="img/mapa_ARG-colors.png" alt="Mapa de Argentina">
 
-            <!-- <img class="img-responsive" src="img/mapa_ARG-1000x1000.png" alt="Mapa de Argentina"> -->
-
-            <!-- /MAPA-->
+<!-- /MAPA-->
           </div>
 
           <div class="col-xs-12 col-sm-8 col-md-8">
-            <!-- INFORMACION BIBLIO-->
+<!-- INFORMACION BIBLIO-->
 
             <h2>¿Qué es el Bibliomóvil?</h2>
 
@@ -348,8 +340,6 @@ Más información</a>
               </div>
             </div>
 
-
-
           </div>
 
         </div>
@@ -358,30 +348,7 @@ Más información</a>
     </section>
   </div>
 
-  <div class="container footer">
-    <!-- FOOTER -->
-    <div class="row">
-      <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-
-        <footer>
-          <div class="col-md-12">
-            <ul class="social-network social-circle">
-              <li><a href="#" class="icoRss" title="Rss"><i class="fa fa-rss"></i></a></li>
-              <li><a href="#" class="icoFacebook" title="Facebook"><i class="fa fa-facebook"></i></a></li>
-              <li><a href="#" class="icoTwitter" title="Twitter"><i class="fa fa-twitter"></i></a></li>
-              <li><a href="#" class="icoGoogle" title="Google +"><i class="fa fa-google-plus"></i></a></li>
-              <li><a href="#" class="icoLinkedin" title="Linkedin"><i class="fa fa-linkedin"></i></a></li>
-            </ul>
-          </div>
-        </footer>
-
-      </div>
-
-    </div>
-    <!-- FOOTER -->
-  </div>
-
-
+<?php include 'footer.php' ?>
 
 
   <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->

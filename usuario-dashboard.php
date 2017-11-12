@@ -1,7 +1,14 @@
 <?php
-session_start();
+// session_start();
+require_once 'soporte.php';
+require_once 'php/clases/Usuario.php';
 
-require 'php/helpers.php'; // archivo de funciones
+$usuarioLogueado = $auth->usuarioLogueado($db);
+
+  $name = $usuarioLogueado->getName();
+    $email = $usuarioLogueado->getEmail();
+    // $imagen = $usuarioLogueado->getImagen();
+
 
 // $descripcion [
 //   'intereses' => 'arte'
@@ -65,8 +72,8 @@ $nivel = [
         <div class="col-md-4 ">
           <h1>Perfil de usuario</h1>
 
-          <h3>Nombre: <?php echo $usuario['name'] ?></h3>
-          <h3>Email: <?php echo $usuario['email'] ?></h3>
+          <h3>Nombre: <?php echo $name?></h3>
+          <h3>Email: <?php echo $email?></h3>
           <br>
           <p>
             A medida que realices actividades, explores la página, respondas las trivias y guardes tus propios cuentos interactivos, tu nivel de usuario se va a incrementar.

@@ -1,10 +1,13 @@
 <?php
-session_start();
+// session_start();
+require_once 'soporte.php';
+require_once 'php/clases/Auth.php';
+require_once 'php/clases/Usuario.php';
 
-//cual es esta forma?, una comparación?
-$name = $_SESSION['restoreInputValues']['name'] ?? '';
-$email = $_SESSION['restoreInputValues']['email'] ?? '';
-$password = $_SESSION['restoreInputValues']['hash'] ?? '';
+//DARO
+// if ($auth->estaLogueado()) {
+// 		header("Location:index.php");exit;
+// 	}
 
 
 //es necesario esto aca?
@@ -32,7 +35,7 @@ $errores = [ ];
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
 
   <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via :// -->
   <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.2/html5shiv.js"></script>
       <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
@@ -52,7 +55,7 @@ $errores = [ ];
 
 <!-- RECUPERACION DE ARRAY DE ERRORES DESDE SESSION -->
 <!-- si hay data en array de errores, entonces crear row con impresion de los mensajes dentro del array -->
-    <?php if (!empty($_SESSION['errores'])): ?>
+    <!-- <?php if (!empty($_SESSION['errores'])): ?>
         <div class="row">
             <div class="col-xs-10 col-xs-offset-1 col-sm-6 col-sm-offset-3 col-lg-4 col-lg-offset-4">
                 <div class="alert alert-danger">
@@ -64,7 +67,7 @@ $errores = [ ];
         </div>
       <?php else: ?>
       <?php $name = $email = $password = ""; ?>
-    <?php endif ?>
+    <?php endif ?> -->
 <!-- RECUPERACION DE ARRAY DE ERRORES DESDE SESSION -->
 
     <div class="container-fluid-registro registro-body">
@@ -88,7 +91,6 @@ $errores = [ ];
       <div class="row">
         <div class="col-xs-10 col-xs-offset-1 col-sm-6 col-sm-offset-3 col-lg-4 col-lg-offset-4 form-group">
           <label class="sr-only" for="email">E-mail</label>
-          <!-- <input name="email" value="" class="form-control" type="email" placeholder="E-mail"> -->
 <!-- DATO RECUPERADO POR SESSION + POST + ERRORES -->
           <input name="email" value="<?php echo $email ?>" class="form-control" type="email" placeholder="E-mail">
 <!-- DATO RECUPERADO POR SESSION + POST + ERRORES -->
@@ -100,7 +102,6 @@ $errores = [ ];
       <div class="row">
         <div class="col-xs-10 col-xs-offset-1 col-sm-6 col-sm-offset-3 col-lg-4 col-lg-offset-4 form-group">
           <label class="sr-only" for="password">Password</label>
-          <!-- <input name="password" value="" class="form-control" type="password" placeholder="Password"> -->
 <!-- DATO RECUPERADO POR SESSION + POST + ERRORES -->
           <input name="password" value="" class="form-control" type="password" placeholder="Password">
 <!-- DATO RECUPERADO POR SESSION + POST + ERRORES -->
@@ -110,27 +111,28 @@ $errores = [ ];
       </div>
 
       <div class="row">
-        <div class="col-xs-10 col-xs-offset-1 col-sm-6 col-sm-offset-3 col-lg-4 col-lg-offset-4">
-          <label class="sr-only" for="password">Password</label>
-          <!-- <input name="password_confirm" value="" class="form-control" type="password" placeholder="Confirma tu password"> -->
+        <div class="col-xs-10 col-xs-offset-1 col-sm-6 col-sm-offset-3 col-lg-4 col-lg-offset-4 form-group">
 <!-- DATO RECUPERADO POR SESSION + POST + ERRORES -->
-          <!-- <input name="password_confirm" value="<?php echo $password_confirm ?>" class="form-control" type="password" placeholder="Confirma tu password"> -->
+          <label class="sr-only" for="cpassword">Confirmar password</label>
+          <input id="cpassword" class="form-control" type="password" name="cpassword" placeholder="Confirmar Password">
 <!-- DATO RECUPERADO POR SESSION + POST + ERRORES -->
-          <!-- <span class="glyphicon glyphicon-lock form-control-feedback"> -->
+          <span class="glyphicon glyphicon-lock form-control-feedback">
           </span>
         </div>
       </div>
+
+
+
+
       <div class="row">
         <div class=" col-xs-10 col-xs-offset-1 col-sm-6 col-sm-offset-3 col-lg-4 col-lg-offset-4 ">
                 <label for="avatar">Elige una imagen de perfil</label>
-                <input type="file" class="form-control" name="avatar" id="avatar" value="" />
+                <input type="file" class="form-control" name="avatar" id="avatar" />
                 <span class="help-block"></span>
           </div>
        </div>
 
       <!-- /CAMPOS PRINCIPALES-->
-
-
 
 
         <!-- BOTON -->

@@ -1,7 +1,6 @@
 <?php
-session_start();
-
-require 'php/helpers.php'; // archivo de funciones
+// session_start();
+require_once 'soporte.php';
 
 ?>
 
@@ -136,10 +135,6 @@ Diseño de imagenes
             </div>
             <!-- TERCERA FILA -->
           </div>
-
-
-
-
           <!-- CONTENEDOR DE ICONOS DE TRIVIAS -->
         </div>
         <!-- CONTENEDOR DE ICONOS DE TRIVIAS -->

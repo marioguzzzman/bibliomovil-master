@@ -1,7 +1,13 @@
 <?php
-session_start();
+require_once '../soporte.php';
+$auth->logout();
+header("Location:../index.php");exit;
 
-if (isset ($_SESSION['login'])) {
-  session_destroy();
-  header('Location: ../index.php');
-}
+// session_start();
+//
+// if (isset ($_SESSION['login'])) {
+//   session_destroy();
+//   header('Location: ../index.php');
+// }
+
+?>
