@@ -3,6 +3,7 @@
 require_once 'soporte.php';
 require_once 'php/clases/Usuario.php';
 
+session_destroy();
 if ($auth->estaLogueado()) {
 		header("Location:index.php");exit;
 	}
@@ -10,10 +11,15 @@ if ($auth->estaLogueado()) {
 $emailDefault = "";
 $nameDefault = "";
 //cual es esta forma?, una comparación?
+
+if (isset($_SESSION['restoreInputValues'])) {
 $nameDefault = $_SESSION['restoreInputValues']['name'];
 $emailDefault = $_SESSION['restoreInputValues']['email'] ?? '';
+}
 
-$errores = $_SESSION['errores'];
+if (isset($_SESSION['errores'])) {
+	$errores = $_SESSION['errores'];
+}
 
 // if (isset($_SESSION["errores"])) {
 //    if (basename($_SERVER['PHP_SELF']) != $_SESSION["errores"]) {
@@ -76,7 +82,7 @@ $errores = $_SESSION['errores'];
       <?php $name = $email = $password = ""; ?>
     <?php endif ?> -->
 
-    <?php if ($errores): ?>
+    <?php if (isset($errores)): ?>
         <div class="row">
             <div class="col-xs-10 col-xs-offset-1 col-sm-6 col-sm-offset-3 col-lg-4 col-lg-offset-4">
                 <div class="alert alert-danger">

@@ -1,7 +1,6 @@
 <?php
 // session_start();
 require_once '../soporte.php';
-
 if ($auth->estaLogueado()) {
 		header("Location:../index.php");
 	}

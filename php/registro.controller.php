@@ -10,8 +10,8 @@ if ($auth->estaLogueado()) {
 
 //*********** CAMPOS FORMULARIO DEFAULT ***********
 // inicio las variables vacias
-// $emailDefault = "";
-// $nameDefault = "";
+$emailDefault = "";
+$nameDefault = "";
 
 //*********** VALIDACION ***********
 // $errores = []; //incio array de errores
